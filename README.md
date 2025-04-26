@@ -30,8 +30,9 @@ All commands are run from the root of the project, from a terminal:
 | :------------------------- | :-------------------------------------------------- |
 | `npm install`              | Installs dependencies                               |
 | `npx gqlmd graphql-to-doc` | Generate documentation from GraphQL schema          |
+| `npm run doc`              | Alias of `npx gqlmd graphql-to-doc`                 |
 | `npm run dev`              | Starts local dev server at `localhost:3000`         |
-| `npm run build`            | Build your production site to `./dist/`             |
+| `npm run build`            | Build your production site to `./docs/dist`         |
 
 ## 🏎️ Quick start
 
