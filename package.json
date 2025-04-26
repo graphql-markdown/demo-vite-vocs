@@ -8,8 +8,7 @@
     "build": "vocs build",
     "preview": "vocs preview",
     "doc": "gqlmd graphql-to-doc",
-    "gqlmd": "gqlmd",
-    "postinstall": "gqlmd graphql-to-doc"
+    "gqlmd": "gqlmd"
   },
   "dependencies": {
     "@emotion/react": "latest",
