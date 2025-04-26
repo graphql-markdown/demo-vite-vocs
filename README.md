@@ -16,7 +16,7 @@ Inside your GraphQL-Markdown + [Vite](https://https://vite.dev/)/[Vocs](https://
 ├── lib/
 │   ├── vocs-mdx.cjs
 │   └── sidebar.ts
-├── vocs.config.mjs
+├── vocs.config.ts
 ├── graphql.config.mjs
 ├── package.json
 └── tsconfig.json
