@@ -1,6 +1,6 @@
 {
     // These tasks will run in order when initializing your CodeSandbox project.
-    "setupTasks": ["npm install", "npm run doc"],
+    "setupTasks": ["rm -rf node_modules", "npm install", "npm run doc"],
   
     // These tasks can be run from CodeSandbox. Running one will open a log in the app.
     "tasks": {
