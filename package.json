@@ -1,0 +1,27 @@
+{
+  "name": "demo-vite-vocs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vocs dev",
+    "build": "vocs build",
+    "preview": "vocs preview",
+    "doc": "gqlmd graphql-to-doc",
+    "gqlmd": "gqlmd",
+    "postinstall": "gqlmd graphql-to-doc"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@graphql-markdown/cli": "^0.3.0",
+    "@mui/material": "^7.0.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "vocs": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "typescript": "latest"
+  }
+}
