@@ -17,10 +17,16 @@ function generateSidebarItems(dir: string, baseDir: string): any[] {
   )
 
   // Process .md(x) files (excluding index.mdx)
-  const mdxFiles = files.filter(file => 
-    [".md", ".mdx"].includes(path.extname(file)) &&
-    !file.startsWith("index.md")
-  )
+  const mdxFiles = files
+    .filter(file => 
+        [".md", ".mdx"].includes(path.extname(file)) &&
+        !file.startsWith("index.md")
+    )
+    .sort((a, b) => {
+        const nameA = path.parse(a).name.toLowerCase()
+        const nameB = path.parse(b).name.toLowerCase()
+        return nameA.localeCompare(nameB)
+    })
 
   // Add directories first (always include them)
   for (const directory of directories) {
