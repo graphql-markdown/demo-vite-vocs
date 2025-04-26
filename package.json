@@ -12,10 +12,10 @@
     "postinstall": "gqlmd graphql-to-doc"
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
-    "@graphql-markdown/cli": "^0.3.0",
-    "@mui/material": "^7.0.2",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@graphql-markdown/cli": "latest",
+    "@mui/material": "latest",
     "react": "latest",
     "react-dom": "latest",
     "vocs": "latest"
