@@ -23,7 +23,7 @@ export default {
             }
         },
         formatter: "@graphql-markdown/formatters/vocs",
-        homepage: `${__dirname}/assets/index.mdx`,
+        homepage: "./assets/index.mdx",
       },
     },
   };
