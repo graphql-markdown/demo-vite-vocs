@@ -22,7 +22,7 @@ export default {
                 }
             }
         },
-        mdxParser: `${__dirname}/lib/vocs-mdx.cjs`,
+        mdxParser: "@graphql-markdown/formatters/vocs",
         homepage: `${__dirname}/assets/index.mdx`,
       },
     },
