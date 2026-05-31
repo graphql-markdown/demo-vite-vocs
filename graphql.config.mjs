@@ -22,8 +22,8 @@ export default {
                 }
             }
         },
-        mdxParser: `${__dirname}/lib/vocs-mdx.cjs`,
-        homepage: `${__dirname}/assets/index.mdx`,
+        formatter: "@graphql-markdown/formatters/vocs",
+        homepage: "./assets/index.mdx",
       },
     },
   };
