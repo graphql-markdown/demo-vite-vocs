@@ -4,5 +4,6 @@ import path from 'node:path'
 
 export default defineConfig({
   title: 'Docs',
+  basePath: '/demo-vite-vocs',
   sidebar: generateSidebar(path.join(__dirname, 'docs/pages'))
 })

@@ -2,6 +2,8 @@
 
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/graphql-markdown/demo-vite-vocs/tree/main)
 
+**Live demo:** [graphql-markdown.dev/demo-vite-vocs](https://graphql-markdown.dev/demo-vite-vocs/)
+
 ## 🚀 Project Structure
 
 Inside your GraphQL-Markdown + [Vite](https://https://vite.dev/)/[Vocs](https://vocs.dev/) project, you'll see the following folders and files:
