@@ -4,6 +4,7 @@
   "version": "1.34.0",
   "type": "module",
   "scripts": {
+    "postinstall": "node -e \"const fs=require('fs');fs.mkdirSync('node_modules/~icons',{recursive:true});fs.writeFileSync('node_modules/~icons/package.json',JSON.stringify({name:'~icons',version:'0.0.0',exports:{'./*':'./stub.js'}}));fs.writeFileSync('node_modules/~icons/stub.js','export default function Icon(){return null}');\"",
     "dev": "vocs dev",
     "build": "vocs build",
     "preview": "vocs preview",
