@@ -18,7 +18,7 @@
     "@mui/material": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "vocs": "^1"
+    "vocs": "^2"
   },
   "devDependencies": {
     "@types/react": "latest",
