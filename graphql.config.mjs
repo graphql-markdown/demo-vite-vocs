@@ -20,7 +20,8 @@ export default {
                 content: {
                     width: "100%"
                 }
-            }
+            },
+            sectionHeaderId: false,
         },
         formatter: "@graphql-markdown/formatters/vocs",
         homepage: "./assets/index.mdx",
