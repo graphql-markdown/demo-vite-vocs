@@ -13,30 +13,30 @@ enum UserTitleLanguage {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI</code></span>](#romaji) \{#romaji}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI</code></span>](#)
 
 The romanization of the native language title
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ENGLISH</code></span>](#english) \{#english}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ENGLISH</code></span>](#)
 
 The official english title
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE</code></span>](#native) \{#native}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE</code></span>](#)
 
 Official title in it's native language
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI\_STYLISED</code></span>](#romaji-stylised) \{#romaji-stylised}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI\_STYLISED</code></span>](#)
 
 The romanization of the native language title, stylised by media creator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ENGLISH\_STYLISED</code></span>](#english-stylised) \{#english-stylised}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ENGLISH\_STYLISED</code></span>](#)
 
 The official english title, stylised by media creator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE\_STYLISED</code></span>](#native-stylised) \{#native-stylised}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE\_STYLISED</code></span>](#)
 
 Official title in it's native language, stylised by media creator
 
 ### Member Of
 
-[`UpdateUser`](/operations/mutations/update-user.mdx)  <Chip color="info" label="mutation" size="small" variant="outlined" /><Bullet />[`UserOptions`](/types/objects/user-options.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`UpdateUser`](/operations/mutations/update-user.mdx)  :badge[mutation]<Bullet />[`UserOptions`](/types/objects/user-options.mdx)  :badge[object]

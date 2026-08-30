@@ -12,28 +12,28 @@ ToggleFavourite(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleFavourite</code>.<code className="gqlmd-mdx-entity-name">animeId</code></span>](#anime-id)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#anime-id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleFavourite</code>.<code className="gqlmd-mdx-entity-name">animeId</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The id of the anime to un/favourite
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleFavourite</code>.<code className="gqlmd-mdx-entity-name">mangaId</code></span>](#manga-id)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#manga-id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleFavourite</code>.<code className="gqlmd-mdx-entity-name">mangaId</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The id of the manga to un/favourite
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleFavourite</code>.<code className="gqlmd-mdx-entity-name">characterId</code></span>](#character-id)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#character-id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleFavourite</code>.<code className="gqlmd-mdx-entity-name">characterId</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The id of the character to un/favourite
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleFavourite</code>.<code className="gqlmd-mdx-entity-name">staffId</code></span>](#staff-id)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#staff-id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleFavourite</code>.<code className="gqlmd-mdx-entity-name">staffId</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The id of the staff to un/favourite
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleFavourite</code>.<code className="gqlmd-mdx-entity-name">studioId</code></span>](#studio-id)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#studio-id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleFavourite</code>.<code className="gqlmd-mdx-entity-name">studioId</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The id of the studio to un/favourite
 
 ### Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Favourites</code></span>](/types/objects/favourites.mdx) <Chip color="info" label="object" size="small" variant="outlined" />
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Favourites</code></span>](/types/objects/favourites.mdx) :badge[object]
 
 User's favourite anime, manga, characters, staff & studios

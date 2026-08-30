@@ -12,26 +12,26 @@ enum ActivityType {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">TEXT</code></span>](#text) \{#text}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">TEXT</code></span>](#)
 
 A text activity
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">ANIME\_LIST</code></span>](#anime-list) \{#anime-list}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">ANIME\_LIST</code></span>](#)
 
 A anime list update activity
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MANGA\_LIST</code></span>](#manga-list) \{#manga-list}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MANGA\_LIST</code></span>](#)
 
 A manga list update activity
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MESSAGE</code></span>](#message) \{#message}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MESSAGE</code></span>](#)
 
 A text message activity sent to another user
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_LIST</code></span>](#media-list) \{#media-list}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_LIST</code></span>](#)
 
 Anime & Manga list update, only used in query arguments
 
 ### Member Of
 
-[`Activity`](/operations/queries/activity.mdx)  <Chip color="info" label="query" size="small" variant="outlined" /><Bullet />[`ListActivity`](/types/objects/list-activity.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`MessageActivity`](/types/objects/message-activity.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`TextActivity`](/types/objects/text-activity.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`Activity`](/operations/queries/activity.mdx)  :badge[query]<Bullet />[`ListActivity`](/types/objects/list-activity.mdx)  :badge[object]<Bullet />[`MessageActivity`](/types/objects/message-activity.mdx)  :badge[object]<Bullet />[`TextActivity`](/types/objects/text-activity.mdx)  :badge[object]

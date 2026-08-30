@@ -10,16 +10,16 @@ ExternalLinkSourceCollection(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ExternalLinkSourceCollection</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](#id)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ExternalLinkSourceCollection</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Filter by the link id
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ExternalLinkSourceCollection</code>.<code className="gqlmd-mdx-entity-name">type</code></span>](#type)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ExternalLinkType</code></span>](/types/enums/external-link-type.mdx) <Chip color="info" label="enum" size="small" variant="outlined" /> \{#type}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ExternalLinkSourceCollection</code>.<code className="gqlmd-mdx-entity-name">type</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ExternalLinkType</code></span>](/types/enums/external-link-type.mdx) :badge[enum]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ExternalLinkSourceCollection</code>.<code className="gqlmd-mdx-entity-name">mediaType</code></span>](#media-type)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ExternalLinkMediaType</code></span>](/types/enums/external-link-media-type.mdx) <Chip color="info" label="enum" size="small" variant="outlined" /> \{#media-type}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ExternalLinkSourceCollection</code>.<code className="gqlmd-mdx-entity-name">mediaType</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ExternalLinkMediaType</code></span>](/types/enums/external-link-media-type.mdx) :badge[enum]
 
 ### Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">MediaExternalLink</code></span>](/types/objects/media-external-link.mdx) <Chip color="info" label="object" size="small" variant="outlined" />
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">MediaExternalLink</code></span>](/types/objects/media-external-link.mdx) :badge[object]
 
 An external link to another site related to the media or staff member

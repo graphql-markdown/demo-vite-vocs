@@ -10,18 +10,18 @@ type FuzzyDate {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">year</code></span>](#year)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#year}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">year</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Numeric Year (2017)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">month</code></span>](#month)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#month}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">month</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Numeric Month (3)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">day</code></span>](#day)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#day}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">day</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Numeric Day (24)
 
 ### Member Of
 
-[`Character`](/types/objects/character.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`Media`](/types/objects/media.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`MediaList`](/types/objects/media-list.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`Staff`](/types/objects/staff.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`Character`](/types/objects/character.mdx)  :badge[object]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`MediaList`](/types/objects/media-list.mdx)  :badge[object]<Bullet />[`Staff`](/types/objects/staff.mdx)  :badge[object]

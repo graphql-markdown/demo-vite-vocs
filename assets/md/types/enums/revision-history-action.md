@@ -9,10 +9,10 @@ enum RevisionHistoryAction {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RevisionHistoryAction</code>.<code className="gqlmd-mdx-entity-name">CREATE</code></span>](#create) \{#create}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RevisionHistoryAction</code>.<code className="gqlmd-mdx-entity-name">CREATE</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RevisionHistoryAction</code>.<code className="gqlmd-mdx-entity-name">EDIT</code></span>](#edit) \{#edit}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RevisionHistoryAction</code>.<code className="gqlmd-mdx-entity-name">EDIT</code></span>](#)
 
 ### Member Of
 
-[`RevisionHistory`](/types/objects/revision-history.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`RevisionHistory`](/types/objects/revision-history.mdx)  :badge[object]

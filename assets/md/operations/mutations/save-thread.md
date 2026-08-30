@@ -14,36 +14,36 @@ SaveThread(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](#id)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The thread id, required for updating
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">title</code></span>](#title)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#title}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">title</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The title of the thread (Min: 6, Max: 120)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">body</code></span>](#body)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#body}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">body</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The main text body of the thread (Max: 30000)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">categories</code></span>](#categories)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#categories}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">categories</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 Forum categories the thread should be within
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">mediaCategories</code></span>](#media-categories)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#media-categories}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">mediaCategories</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 Media related to the contents of the thread
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">sticky</code></span>](#sticky)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#sticky}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">sticky</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) :badge[scalar]
 
 If the thread should be stickied. (Mod Only)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">locked</code></span>](#locked)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#locked}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveThread</code>.<code className="gqlmd-mdx-entity-name">locked</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) :badge[scalar]
 
 If the thread should be locked. (Mod Only)
 
 ### Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Thread</code></span>](/types/objects/thread.mdx) <Chip color="info" label="object" size="small" variant="outlined" />
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Thread</code></span>](/types/objects/thread.mdx) :badge[object]
 
 Forum Thread

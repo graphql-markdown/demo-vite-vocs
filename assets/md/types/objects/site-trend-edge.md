@@ -8,8 +8,8 @@ type SiteTrendEdge {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendEdge</code>.<code className="gqlmd-mdx-entity-name">node</code></span>](#node)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">SiteTrend</code></span>](/types/objects/site-trend.mdx) <Chip color="info" label="object" size="small" variant="outlined" /> \{#node}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendEdge</code>.<code className="gqlmd-mdx-entity-name">node</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">SiteTrend</code></span>](/types/objects/site-trend.mdx) :badge[object]
 
 ### Member Of
 
-[`SiteTrendConnection`](/types/objects/site-trend-connection.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`SiteTrendConnection`](/types/objects/site-trend-connection.mdx)  :badge[object]

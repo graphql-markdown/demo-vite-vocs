@@ -15,38 +15,38 @@ type CharacterName {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">first</code></span>](#first)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#first}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">first</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The character's given name
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">middle</code></span>](#middle)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#middle}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">middle</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The character's middle name
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">last</code></span>](#last)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#last}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">last</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The character's surname
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">full</code></span>](#full)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#full}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">full</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The character's first and last name
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">native</code></span>](#native)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#native}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">native</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The character's full name in their native language
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">alternative</code></span>](#alternative)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[String\]</code></span>](/types/scalars/string.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#alternative}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">alternative</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[String\]</code></span>](/types/scalars/string.mdx) :badge[list] :badge[scalar]
 
 Other names the character might be referred to as
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">alternativeSpoiler</code></span>](#alternative-spoiler)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[String\]</code></span>](/types/scalars/string.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#alternative-spoiler}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">alternativeSpoiler</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[String\]</code></span>](/types/scalars/string.mdx) :badge[list] :badge[scalar]
 
 Other names the character might be referred to as but are spoilers
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">userPreferred</code></span>](#user-preferred)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#user-preferred}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterName</code>.<code className="gqlmd-mdx-entity-name">userPreferred</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The currently authenticated users preferred name language. Default romaji for non-authenticated
 
 ### Member Of
 
-[`Character`](/types/objects/character.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`Character`](/types/objects/character.mdx)  :badge[object]

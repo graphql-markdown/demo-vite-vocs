@@ -10,18 +10,18 @@ enum UserStaffNameLanguage {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI\_WESTERN</code></span>](#romaji-western) \{#romaji-western}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI\_WESTERN</code></span>](#)
 
 The romanization of the staff or character's native name, with western name ordering
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI</code></span>](#romaji) \{#romaji}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI</code></span>](#)
 
 The romanization of the staff or character's native name
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE</code></span>](#native) \{#native}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE</code></span>](#)
 
 The staff or character's name in their native language
 
 ### Member Of
 
-[`UpdateUser`](/operations/mutations/update-user.mdx)  <Chip color="info" label="mutation" size="small" variant="outlined" /><Bullet />[`UserOptions`](/types/objects/user-options.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`UpdateUser`](/operations/mutations/update-user.mdx)  :badge[mutation]<Bullet />[`UserOptions`](/types/objects/user-options.mdx)  :badge[object]

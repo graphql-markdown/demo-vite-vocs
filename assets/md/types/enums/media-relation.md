@@ -21,62 +21,62 @@ enum MediaRelation {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">ADAPTATION</code></span>](#adaptation) \{#adaptation}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">ADAPTATION</code></span>](#)
 
 An adaption of this media into a different format
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">PREQUEL</code></span>](#prequel) \{#prequel}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">PREQUEL</code></span>](#)
 
 Released before the relation
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SEQUEL</code></span>](#sequel) \{#sequel}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SEQUEL</code></span>](#)
 
 Released after the relation
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">PARENT</code></span>](#parent) \{#parent}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">PARENT</code></span>](#)
 
 The media a side story is from
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SIDE\_STORY</code></span>](#side-story) \{#side-story}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SIDE\_STORY</code></span>](#)
 
 A side story of the parent media
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">CHARACTER</code></span>](#character) \{#character}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">CHARACTER</code></span>](#)
 
 Shares at least 1 character
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SUMMARY</code></span>](#summary) \{#summary}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SUMMARY</code></span>](#)
 
 A shortened and summarized version
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">ALTERNATIVE</code></span>](#alternative) \{#alternative}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">ALTERNATIVE</code></span>](#)
 
 An alternative version of the same media
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SPIN\_OFF</code></span>](#spin-off) \{#spin-off}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SPIN\_OFF</code></span>](#)
 
 An alternative version of the media with a different primary focus
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">OTHER</code></span>](#other) \{#other}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">OTHER</code></span>](#)
 
 Other
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SOURCE</code></span>](#source) \{#source}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SOURCE</code></span>](#)
 
 Version 2 only. The source material the media was adapted from
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">COMPILATION</code></span>](#compilation) \{#compilation}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">COMPILATION</code></span>](#)
 
 Version 2 only.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">CONTAINS</code></span>](#contains) \{#contains}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">CONTAINS</code></span>](#)
 
 Version 2 only.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SAME\_UNIVERSE</code></span>](#same-universe) \{#same-universe}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaRelation</code>.<code className="gqlmd-mdx-entity-name">SAME\_UNIVERSE</code></span>](#)
 
 Version 3 only. The media is set in the same universe as another media
 
 ### Member Of
 
-[`MediaEdge`](/types/objects/media-edge.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`MediaEdge`](/types/objects/media-edge.mdx)  :badge[object]

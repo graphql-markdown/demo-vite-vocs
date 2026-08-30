@@ -14,20 +14,20 @@ enum StudioSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#id) \{#id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#id-desc) \{#id-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">NAME</code></span>](#name) \{#name}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">NAME</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">NAME\_DESC</code></span>](#name-desc) \{#name-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">NAME\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](#search-match) \{#search-match}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES</code></span>](#favourites) \{#favourites}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES\_DESC</code></span>](#favourites-desc) \{#favourites-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES\_DESC</code></span>](#)
 
 ### Member Of
 
-[`Studio`](/operations/queries/studio.mdx)  <Chip color="info" label="query" size="small" variant="outlined" />
+[`Studio`](/operations/queries/studio.mdx)  :badge[query]

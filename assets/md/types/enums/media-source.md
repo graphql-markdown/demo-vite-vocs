@@ -22,66 +22,66 @@ enum MediaSource {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">ORIGINAL</code></span>](#original) \{#original}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">ORIGINAL</code></span>](#)
 
 An original production not based of another work
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">MANGA</code></span>](#manga) \{#manga}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">MANGA</code></span>](#)
 
 Asian comic book
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">LIGHT\_NOVEL</code></span>](#light-novel) \{#light-novel}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">LIGHT\_NOVEL</code></span>](#)
 
 Written work published in volumes
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">VISUAL\_NOVEL</code></span>](#visual-novel) \{#visual-novel}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">VISUAL\_NOVEL</code></span>](#)
 
 Video game driven primary by text and narrative
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">VIDEO\_GAME</code></span>](#video-game) \{#video-game}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">VIDEO\_GAME</code></span>](#)
 
 Video game
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">OTHER</code></span>](#other) \{#other}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">OTHER</code></span>](#)
 
 Other
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">NOVEL</code></span>](#novel) \{#novel}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">NOVEL</code></span>](#)
 
 Version 2+ only. Written works not published in volumes
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">DOUJINSHI</code></span>](#doujinshi) \{#doujinshi}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">DOUJINSHI</code></span>](#)
 
 Version 2+ only. Self-published works
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">ANIME</code></span>](#anime) \{#anime}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">ANIME</code></span>](#)
 
 Version 2+ only. Japanese Anime
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">WEB\_NOVEL</code></span>](#web-novel) \{#web-novel}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">WEB\_NOVEL</code></span>](#)
 
 Version 3 only. Written works published online
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">LIVE\_ACTION</code></span>](#live-action) \{#live-action}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">LIVE\_ACTION</code></span>](#)
 
 Version 3 only. Live action media such as movies or TV show
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">GAME</code></span>](#game) \{#game}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">GAME</code></span>](#)
 
 Version 3 only. Games excluding video games
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">COMIC</code></span>](#comic) \{#comic}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">COMIC</code></span>](#)
 
 Version 3 only. Comics excluding manga
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">MULTIMEDIA\_PROJECT</code></span>](#multimedia-project) \{#multimedia-project}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">MULTIMEDIA\_PROJECT</code></span>](#)
 
 Version 3 only. Multimedia project
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">PICTURE\_BOOK</code></span>](#picture-book) \{#picture-book}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSource</code>.<code className="gqlmd-mdx-entity-name">PICTURE\_BOOK</code></span>](#)
 
 Version 3 only. Picture book
 
 ### Member Of
 
-[`Media`](/operations/queries/media.mdx)  <Chip color="info" label="query" size="small" variant="outlined" /><Bullet />[`Media`](/types/objects/media.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`Media`](/operations/queries/media.mdx)  :badge[query]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]

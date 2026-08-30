@@ -10,12 +10,12 @@ type AniChartUser {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AniChartUser</code>.<code className="gqlmd-mdx-entity-name">user</code></span>](#user)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">User</code></span>](/types/objects/user.mdx) <Chip color="info" label="object" size="small" variant="outlined" /> \{#user}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AniChartUser</code>.<code className="gqlmd-mdx-entity-name">user</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">User</code></span>](/types/objects/user.mdx) :badge[object]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AniChartUser</code>.<code className="gqlmd-mdx-entity-name">settings</code></span>](#settings)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Json</code></span>](/types/scalars/json.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#settings}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AniChartUser</code>.<code className="gqlmd-mdx-entity-name">settings</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Json</code></span>](/types/scalars/json.mdx) :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AniChartUser</code>.<code className="gqlmd-mdx-entity-name">highlights</code></span>](#highlights)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Json</code></span>](/types/scalars/json.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#highlights}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AniChartUser</code>.<code className="gqlmd-mdx-entity-name">highlights</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Json</code></span>](/types/scalars/json.mdx) :badge[scalar]
 
 ### Returned By
 
-[`AniChartUser`](/operations/queries/ani-chart-user.mdx)  <Chip color="info" label="query" size="small" variant="outlined" />
+[`AniChartUser`](/operations/queries/ani-chart-user.mdx)  :badge[query]

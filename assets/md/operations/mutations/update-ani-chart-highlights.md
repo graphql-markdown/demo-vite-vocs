@@ -8,8 +8,8 @@ UpdateAniChartHighlights(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateAniChartHighlights</code>.<code className="gqlmd-mdx-entity-name">highlights</code></span>](#highlights)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[AniChartHighlightInput\]</code></span>](/types/inputs/ani-chart-highlight-input.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="input" size="small" variant="outlined" /> \{#highlights}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateAniChartHighlights</code>.<code className="gqlmd-mdx-entity-name">highlights</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[AniChartHighlightInput\]</code></span>](/types/inputs/ani-chart-highlight-input.mdx) :badge[list] :badge[input]
 
 ### Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Json</code></span>](/types/scalars/json.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" />
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Json</code></span>](/types/scalars/json.mdx) :badge[scalar]

@@ -10,18 +10,18 @@ enum CharacterRole {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">MAIN</code></span>](#main) \{#main}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">MAIN</code></span>](#)
 
 A primary character role in the media
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">SUPPORTING</code></span>](#supporting) \{#supporting}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">SUPPORTING</code></span>](#)
 
 A supporting character role in the media
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">BACKGROUND</code></span>](#background) \{#background}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">BACKGROUND</code></span>](#)
 
 A background character in the media
 
 ### Member Of
 
-[`CharacterEdge`](/types/objects/character-edge.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`CharacterSubmissionEdge`](/types/objects/character-submission-edge.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`MediaCharacter`](/types/objects/media-character.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`MediaEdge`](/types/objects/media-edge.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`MediaSubmissionEdge`](/types/objects/media-submission-edge.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`CharacterEdge`](/types/objects/character-edge.mdx)  :badge[object]<Bullet />[`CharacterSubmissionEdge`](/types/objects/character-submission-edge.mdx)  :badge[object]<Bullet />[`MediaCharacter`](/types/objects/media-character.mdx)  :badge[object]<Bullet />[`MediaEdge`](/types/objects/media-edge.mdx)  :badge[object]<Bullet />[`MediaSubmissionEdge`](/types/objects/media-submission-edge.mdx)  :badge[object]

@@ -17,48 +17,48 @@ UpdateFavouriteOrder(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">animeIds</code></span>](#anime-ids)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#anime-ids}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">animeIds</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 The id of the anime to un/favourite
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">mangaIds</code></span>](#manga-ids)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#manga-ids}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">mangaIds</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 The id of the manga to un/favourite
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">characterIds</code></span>](#character-ids)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#character-ids}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">characterIds</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 The id of the character to un/favourite
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">staffIds</code></span>](#staff-ids)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#staff-ids}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">staffIds</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 The id of the staff to un/favourite
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">studioIds</code></span>](#studio-ids)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#studio-ids}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">studioIds</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 The id of the studio to un/favourite
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">animeOrder</code></span>](#anime-order)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#anime-order}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">animeOrder</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 List of integers which the anime should be ordered by (Asc)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">mangaOrder</code></span>](#manga-order)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#manga-order}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">mangaOrder</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 List of integers which the manga should be ordered by (Asc)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">characterOrder</code></span>](#character-order)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#character-order}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">characterOrder</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 List of integers which the character should be ordered by (Asc)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">staffOrder</code></span>](#staff-order)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#staff-order}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">staffOrder</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 List of integers which the staff should be ordered by (Asc)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">studioOrder</code></span>](#studio-order)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#studio-order}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UpdateFavouriteOrder</code>.<code className="gqlmd-mdx-entity-name">studioOrder</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]</code></span>](/types/scalars/int.mdx) :badge[list] :badge[scalar]
 
 List of integers which the studio should be ordered by (Asc)
 
 ### Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Favourites</code></span>](/types/objects/favourites.mdx) <Chip color="info" label="object" size="small" variant="outlined" />
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Favourites</code></span>](/types/objects/favourites.mdx) :badge[object]
 
 User's favourite anime, manga, characters, staff & studios

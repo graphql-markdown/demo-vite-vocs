@@ -17,34 +17,34 @@ enum ReviewSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#id) \{#id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#id-desc) \{#id-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">SCORE</code></span>](#score) \{#score}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">SCORE</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">SCORE\_DESC</code></span>](#score-desc) \{#score-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">SCORE\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">RATING</code></span>](#rating) \{#rating}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">RATING</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">RATING\_DESC</code></span>](#rating-desc) \{#rating-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">RATING\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT</code></span>](#created-at) <Chip color="warning" label="deprecated" size="small" variant="outlined" /> \{#created-at}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT</code></span>](#) :badge[deprecated]{warning}
 
 :::warning[DEPRECATED]
 Use ID instead
 :::
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT\_DESC</code></span>](#created-at-desc) <Chip color="warning" label="deprecated" size="small" variant="outlined" /> \{#created-at-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT\_DESC</code></span>](#) :badge[deprecated]{warning}
 
 :::warning[DEPRECATED]
 Use ID\_DESC instead
 :::
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT</code></span>](#updated-at) \{#updated-at}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT\_DESC</code></span>](#updated-at-desc) \{#updated-at-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT\_DESC</code></span>](#)
 
 ### Member Of
 
-[`Review`](/operations/queries/review.mdx)  <Chip color="info" label="query" size="small" variant="outlined" />
+[`Review`](/operations/queries/review.mdx)  :badge[query]

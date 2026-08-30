@@ -11,16 +11,16 @@ type GenreStats {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">GenreStats</code>.<code className="gqlmd-mdx-entity-name">genre</code></span>](#genre)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#genre}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">GenreStats</code>.<code className="gqlmd-mdx-entity-name">genre</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">GenreStats</code>.<code className="gqlmd-mdx-entity-name">amount</code></span>](#amount)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#amount}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">GenreStats</code>.<code className="gqlmd-mdx-entity-name">amount</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">GenreStats</code>.<code className="gqlmd-mdx-entity-name">meanScore</code></span>](#mean-score)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#mean-score}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">GenreStats</code>.<code className="gqlmd-mdx-entity-name">meanScore</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">GenreStats</code>.<code className="gqlmd-mdx-entity-name">timeWatched</code></span>](#time-watched)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#time-watched}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">GenreStats</code>.<code className="gqlmd-mdx-entity-name">timeWatched</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The amount of time in minutes the genre has been watched by the user
 
 ### Member Of
 
-[`UserStats`](/types/objects/user-stats.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`UserStats`](/types/objects/user-stats.mdx)  :badge[object]

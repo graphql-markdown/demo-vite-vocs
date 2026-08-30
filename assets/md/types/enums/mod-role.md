@@ -22,66 +22,66 @@ enum ModRole {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">ADMIN</code></span>](#admin) \{#admin}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">ADMIN</code></span>](#)
 
 An AniList administrator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">LEAD\_DEVELOPER</code></span>](#lead-developer) \{#lead-developer}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">LEAD\_DEVELOPER</code></span>](#)
 
 A head developer of AniList
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">DEVELOPER</code></span>](#developer) \{#developer}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">DEVELOPER</code></span>](#)
 
 An AniList developer
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">LEAD\_COMMUNITY</code></span>](#lead-community) \{#lead-community}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">LEAD\_COMMUNITY</code></span>](#)
 
 A lead community moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">COMMUNITY</code></span>](#community) \{#community}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">COMMUNITY</code></span>](#)
 
 A community moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">DISCORD\_COMMUNITY</code></span>](#discord-community) \{#discord-community}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">DISCORD\_COMMUNITY</code></span>](#)
 
 A discord community moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">LEAD\_ANIME\_DATA</code></span>](#lead-anime-data) \{#lead-anime-data}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">LEAD\_ANIME\_DATA</code></span>](#)
 
 A lead anime data moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">ANIME\_DATA</code></span>](#anime-data) \{#anime-data}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">ANIME\_DATA</code></span>](#)
 
 An anime data moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">LEAD\_MANGA\_DATA</code></span>](#lead-manga-data) \{#lead-manga-data}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">LEAD\_MANGA\_DATA</code></span>](#)
 
 A lead manga data moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">MANGA\_DATA</code></span>](#manga-data) \{#manga-data}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">MANGA\_DATA</code></span>](#)
 
 A manga data moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">LEAD\_SOCIAL\_MEDIA</code></span>](#lead-social-media) \{#lead-social-media}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">LEAD\_SOCIAL\_MEDIA</code></span>](#)
 
 A lead social media moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">SOCIAL\_MEDIA</code></span>](#social-media) \{#social-media}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">SOCIAL\_MEDIA</code></span>](#)
 
 A social media moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">RETIRED</code></span>](#retired) \{#retired}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">RETIRED</code></span>](#)
 
 A retired moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">CHARACTER\_DATA</code></span>](#character-data) \{#character-data}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">CHARACTER\_DATA</code></span>](#)
 
 A character data moderator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">STAFF\_DATA</code></span>](#staff-data) \{#staff-data}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ModRole</code>.<code className="gqlmd-mdx-entity-name">STAFF\_DATA</code></span>](#)
 
 A staff data moderator
 
 ### Member Of
 
-[`User`](/types/objects/user.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`User`](/types/objects/user.mdx)  :badge[object]

@@ -9,10 +9,10 @@ type ListScoreStats {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ListScoreStats</code>.<code className="gqlmd-mdx-entity-name">meanScore</code></span>](#mean-score)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#mean-score}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ListScoreStats</code>.<code className="gqlmd-mdx-entity-name">meanScore</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ListScoreStats</code>.<code className="gqlmd-mdx-entity-name">standardDeviation</code></span>](#standard-deviation)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#standard-deviation}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ListScoreStats</code>.<code className="gqlmd-mdx-entity-name">standardDeviation</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 ### Member Of
 
-[`UserStats`](/types/objects/user-stats.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`UserStats`](/types/objects/user-stats.mdx)  :badge[object]

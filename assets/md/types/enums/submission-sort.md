@@ -9,6 +9,6 @@ enum SubmissionSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SubmissionSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#id) \{#id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SubmissionSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SubmissionSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#id-desc) \{#id-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SubmissionSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)

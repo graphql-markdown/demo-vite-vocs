@@ -8,8 +8,8 @@ type ReviewEdge {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewEdge</code>.<code className="gqlmd-mdx-entity-name">node</code></span>](#node)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Review</code></span>](/types/objects/review.mdx) <Chip color="info" label="object" size="small" variant="outlined" /> \{#node}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewEdge</code>.<code className="gqlmd-mdx-entity-name">node</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Review</code></span>](/types/objects/review.mdx) :badge[object]
 
 ### Member Of
 
-[`ReviewConnection`](/types/objects/review-connection.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`ReviewConnection`](/types/objects/review-connection.mdx)  :badge[object]

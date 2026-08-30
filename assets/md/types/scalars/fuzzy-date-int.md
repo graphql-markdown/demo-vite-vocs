@@ -6,4 +6,4 @@ scalar FuzzyDateInt
 
 ### Member Of
 
-[`Media`](/operations/queries/media.mdx)  <Chip color="info" label="query" size="small" variant="outlined" /><Bullet />[`MediaList`](/operations/queries/media-list.mdx)  <Chip color="info" label="query" size="small" variant="outlined" /><Bullet />[`MediaListCollection`](/operations/queries/media-list-collection.mdx)  <Chip color="info" label="query" size="small" variant="outlined" />
+[`Media`](/operations/queries/media.mdx)  :badge[query]<Bullet />[`MediaList`](/operations/queries/media-list.mdx)  :badge[query]<Bullet />[`MediaListCollection`](/operations/queries/media-list-collection.mdx)  :badge[query]

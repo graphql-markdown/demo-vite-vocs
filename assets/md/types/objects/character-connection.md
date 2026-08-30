@@ -10,14 +10,14 @@ type CharacterConnection {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterConnection</code>.<code className="gqlmd-mdx-entity-name">edges</code></span>](#edges)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[CharacterEdge\]</code></span>](/types/objects/character-edge.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="object" size="small" variant="outlined" /> \{#edges}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterConnection</code>.<code className="gqlmd-mdx-entity-name">edges</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[CharacterEdge\]</code></span>](/types/objects/character-edge.mdx) :badge[list] :badge[object]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterConnection</code>.<code className="gqlmd-mdx-entity-name">nodes</code></span>](#nodes)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Character\]</code></span>](/types/objects/character.mdx) <Chip color="info" label="list" size="small" variant="outlined" /> <Chip color="info" label="object" size="small" variant="outlined" /> \{#nodes}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterConnection</code>.<code className="gqlmd-mdx-entity-name">nodes</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Character\]</code></span>](/types/objects/character.mdx) :badge[list] :badge[object]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterConnection</code>.<code className="gqlmd-mdx-entity-name">pageInfo</code></span>](#page-info)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">PageInfo</code></span>](/types/objects/page-info.mdx) <Chip color="info" label="object" size="small" variant="outlined" /> \{#page-info}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterConnection</code>.<code className="gqlmd-mdx-entity-name">pageInfo</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">PageInfo</code></span>](/types/objects/page-info.mdx) :badge[object]
 
 The pagination information
 
 ### Member Of
 
-[`Favourites`](/types/objects/favourites.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`Media`](/types/objects/media.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`Staff`](/types/objects/staff.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`Favourites`](/types/objects/favourites.mdx)  :badge[object]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`Staff`](/types/objects/staff.mdx)  :badge[object]

@@ -37,66 +37,66 @@ enum MediaListSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID</code></span>](#media-id) \{#media-id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID\_DESC</code></span>](#media-id-desc) \{#media-id-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">SCORE</code></span>](#score) \{#score}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">SCORE</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">SCORE\_DESC</code></span>](#score-desc) \{#score-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">SCORE\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">STATUS</code></span>](#status) \{#status}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">STATUS</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">STATUS\_DESC</code></span>](#status-desc) \{#status-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">STATUS\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS</code></span>](#progress) \{#progress}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS\_DESC</code></span>](#progress-desc) \{#progress-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS\_VOLUMES</code></span>](#progress-volumes) \{#progress-volumes}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS\_VOLUMES</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS\_VOLUMES\_DESC</code></span>](#progress-volumes-desc) \{#progress-volumes-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS\_VOLUMES\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">REPEAT</code></span>](#repeat) \{#repeat}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">REPEAT</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">REPEAT\_DESC</code></span>](#repeat-desc) \{#repeat-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">REPEAT\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PRIORITY</code></span>](#priority) \{#priority}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PRIORITY</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PRIORITY\_DESC</code></span>](#priority-desc) \{#priority-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">PRIORITY\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">STARTED\_ON</code></span>](#started-on) \{#started-on}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">STARTED\_ON</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">STARTED\_ON\_DESC</code></span>](#started-on-desc) \{#started-on-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">STARTED\_ON\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">FINISHED\_ON</code></span>](#finished-on) \{#finished-on}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">FINISHED\_ON</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">FINISHED\_ON\_DESC</code></span>](#finished-on-desc) \{#finished-on-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">FINISHED\_ON\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">ADDED\_TIME</code></span>](#added-time) \{#added-time}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">ADDED\_TIME</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">ADDED\_TIME\_DESC</code></span>](#added-time-desc) \{#added-time-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">ADDED\_TIME\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_TIME</code></span>](#updated-time) \{#updated-time}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_TIME</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_TIME\_DESC</code></span>](#updated-time-desc) \{#updated-time-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_TIME\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_ROMAJI</code></span>](#media-title-romaji) \{#media-title-romaji}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_ROMAJI</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_ROMAJI\_DESC</code></span>](#media-title-romaji-desc) \{#media-title-romaji-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_ROMAJI\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_ENGLISH</code></span>](#media-title-english) \{#media-title-english}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_ENGLISH</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_ENGLISH\_DESC</code></span>](#media-title-english-desc) \{#media-title-english-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_ENGLISH\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_NATIVE</code></span>](#media-title-native) \{#media-title-native}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_NATIVE</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_NATIVE\_DESC</code></span>](#media-title-native-desc) \{#media-title-native-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_TITLE\_NATIVE\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_POPULARITY</code></span>](#media-popularity) \{#media-popularity}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_POPULARITY</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_POPULARITY\_DESC</code></span>](#media-popularity-desc) \{#media-popularity-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_POPULARITY\_DESC</code></span>](#)
 
 ### Member Of
 
-[`MediaList`](/operations/queries/media-list.mdx)  <Chip color="info" label="query" size="small" variant="outlined" /><Bullet />[`MediaListCollection`](/operations/queries/media-list-collection.mdx)  <Chip color="info" label="query" size="small" variant="outlined" />
+[`MediaList`](/operations/queries/media-list.mdx)  :badge[query]<Bullet />[`MediaListCollection`](/operations/queries/media-list-collection.mdx)  :badge[query]

@@ -17,46 +17,46 @@ enum StaffLanguage {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">JAPANESE</code></span>](#japanese) \{#japanese}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">JAPANESE</code></span>](#)
 
 Japanese
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">ENGLISH</code></span>](#english) \{#english}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">ENGLISH</code></span>](#)
 
 English
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">KOREAN</code></span>](#korean) \{#korean}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">KOREAN</code></span>](#)
 
 Korean
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">ITALIAN</code></span>](#italian) \{#italian}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">ITALIAN</code></span>](#)
 
 Italian
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">SPANISH</code></span>](#spanish) \{#spanish}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">SPANISH</code></span>](#)
 
 Spanish
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">PORTUGUESE</code></span>](#portuguese) \{#portuguese}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">PORTUGUESE</code></span>](#)
 
 Portuguese
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">FRENCH</code></span>](#french) \{#french}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">FRENCH</code></span>](#)
 
 French
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">GERMAN</code></span>](#german) \{#german}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">GERMAN</code></span>](#)
 
 German
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">HEBREW</code></span>](#hebrew) \{#hebrew}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">HEBREW</code></span>](#)
 
 Hebrew
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">HUNGARIAN</code></span>](#hungarian) \{#hungarian}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffLanguage</code>.<code className="gqlmd-mdx-entity-name">HUNGARIAN</code></span>](#)
 
 Hungarian
 
 ### Member Of
 
-[`Staff`](/types/objects/staff.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`Staff`](/types/objects/staff.mdx)  :badge[object]

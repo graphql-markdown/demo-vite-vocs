@@ -9,12 +9,12 @@ type ScoreDistribution {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreDistribution</code>.<code className="gqlmd-mdx-entity-name">score</code></span>](#score)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#score}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreDistribution</code>.<code className="gqlmd-mdx-entity-name">score</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreDistribution</code>.<code className="gqlmd-mdx-entity-name">amount</code></span>](#amount)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) <Chip color="info" label="scalar" size="small" variant="outlined" /> \{#amount}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreDistribution</code>.<code className="gqlmd-mdx-entity-name">amount</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The amount of list entries with this score
 
 ### Member Of
 
-[`MediaStats`](/types/objects/media-stats.mdx)  <Chip color="info" label="object" size="small" variant="outlined" /><Bullet />[`UserStats`](/types/objects/user-stats.mdx)  <Chip color="info" label="object" size="small" variant="outlined" />
+[`MediaStats`](/types/objects/media-stats.mdx)  :badge[object]<Bullet />[`UserStats`](/types/objects/user-stats.mdx)  :badge[object]

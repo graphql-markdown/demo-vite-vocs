@@ -16,24 +16,24 @@ enum UserSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#id) \{#id}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#id-desc) \{#id-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">USERNAME</code></span>](#username) \{#username}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">USERNAME</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">USERNAME\_DESC</code></span>](#username-desc) \{#username-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">USERNAME\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">WATCHED\_TIME</code></span>](#watched-time) \{#watched-time}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">WATCHED\_TIME</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">WATCHED\_TIME\_DESC</code></span>](#watched-time-desc) \{#watched-time-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">WATCHED\_TIME\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">CHAPTERS\_READ</code></span>](#chapters-read) \{#chapters-read}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">CHAPTERS\_READ</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">CHAPTERS\_READ\_DESC</code></span>](#chapters-read-desc) \{#chapters-read-desc}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">CHAPTERS\_READ\_DESC</code></span>](#)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](#search-match) \{#search-match}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](#)
 
 ### Member Of
 
-[`Follower`](/operations/queries/follower.mdx)  <Chip color="info" label="query" size="small" variant="outlined" /><Bullet />[`Following`](/operations/queries/following.mdx)  <Chip color="info" label="query" size="small" variant="outlined" /><Bullet />[`User`](/operations/queries/user.mdx)  <Chip color="info" label="query" size="small" variant="outlined" />
+[`Follower`](/operations/queries/follower.mdx)  :badge[query]<Bullet />[`Following`](/operations/queries/following.mdx)  :badge[query]<Bullet />[`User`](/operations/queries/user.mdx)  :badge[query]
