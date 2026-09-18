@@ -13,12 +13,12 @@
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
-    "@graphql-markdown/cli": "^1.0.2",
-    "@graphql-markdown/formatters": "^1.0.2",
+    "@graphql-markdown/cli": "^1.1.0",
+    "@graphql-markdown/formatters": "^1.1.1",
     "react": "latest",
     "react-dom": "latest",
-    "vocs": "^2.8.5",
-    "waku": "1.0.0-beta.8"
+    "vocs": "^2.9.0",
+    "waku": "1.0.0-rc.0"
   },
   "devDependencies": {
     "@types/react": "latest",
