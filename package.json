@@ -17,7 +17,7 @@
     "@graphql-markdown/formatters": "^1.2.0",
     "react": "latest",
     "react-dom": "latest",
-    "vocs": "^2.9.0",
+    "vocs": "^2.10.2",
     "waku": "1.0.0-rc.0"
   },
   "devDependencies": {
