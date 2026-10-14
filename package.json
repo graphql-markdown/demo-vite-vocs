@@ -18,7 +18,7 @@
     "react": "latest",
     "react-dom": "latest",
     "vocs": "^2.10.2",
-    "waku": "1.0.0-rc.0"
+    "waku": "1.0.0-rc.3"
   },
   "devDependencies": {
     "@types/react": "latest",
