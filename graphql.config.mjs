@@ -25,6 +25,7 @@ export default {
         },
         formatter: "@graphql-markdown/formatters/vocs",
         homepage: "./assets/index.mdx",
+        telemetry: false,
       },
     },
   };
