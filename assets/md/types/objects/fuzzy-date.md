@@ -10,15 +10,15 @@ type FuzzyDate {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">year</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">year</code></span>](/types/objects/fuzzy-date)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Numeric Year (2017)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">month</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">month</code></span>](/types/objects/fuzzy-date)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Numeric Month (3)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">day</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">FuzzyDate</code>.<code className="gqlmd-mdx-entity-name">day</code></span>](/types/objects/fuzzy-date)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Numeric Day (24)
 

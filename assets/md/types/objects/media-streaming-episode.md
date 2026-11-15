@@ -11,19 +11,19 @@ type MediaStreamingEpisode {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStreamingEpisode</code>.<code className="gqlmd-mdx-entity-name">title</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStreamingEpisode</code>.<code className="gqlmd-mdx-entity-name">title</code></span>](/types/objects/media-streaming-episode)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 Title of the episode
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStreamingEpisode</code>.<code className="gqlmd-mdx-entity-name">thumbnail</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStreamingEpisode</code>.<code className="gqlmd-mdx-entity-name">thumbnail</code></span>](/types/objects/media-streaming-episode)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 Url of episode image thumbnail
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStreamingEpisode</code>.<code className="gqlmd-mdx-entity-name">url</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStreamingEpisode</code>.<code className="gqlmd-mdx-entity-name">url</code></span>](/types/objects/media-streaming-episode)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The url of the episode
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStreamingEpisode</code>.<code className="gqlmd-mdx-entity-name">site</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStreamingEpisode</code>.<code className="gqlmd-mdx-entity-name">site</code></span>](/types/objects/media-streaming-episode)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The site location of the streaming episodes
 

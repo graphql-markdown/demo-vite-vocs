@@ -12,23 +12,23 @@ enum ScoreFormat {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreFormat</code>.<code className="gqlmd-mdx-entity-name">POINT\_100</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreFormat</code>.<code className="gqlmd-mdx-entity-name">POINT\_100</code></span>](/types/enums/score-format)
 
 An integer from 0-100
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreFormat</code>.<code className="gqlmd-mdx-entity-name">POINT\_10\_DECIMAL</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreFormat</code>.<code className="gqlmd-mdx-entity-name">POINT\_10\_DECIMAL</code></span>](/types/enums/score-format)
 
 A float from 0-10 with 1 decimal place
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreFormat</code>.<code className="gqlmd-mdx-entity-name">POINT\_10</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreFormat</code>.<code className="gqlmd-mdx-entity-name">POINT\_10</code></span>](/types/enums/score-format)
 
 An integer from 0-10
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreFormat</code>.<code className="gqlmd-mdx-entity-name">POINT\_5</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreFormat</code>.<code className="gqlmd-mdx-entity-name">POINT\_5</code></span>](/types/enums/score-format)
 
 An integer from 0-5. Should be represented in Stars
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreFormat</code>.<code className="gqlmd-mdx-entity-name">POINT\_3</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ScoreFormat</code>.<code className="gqlmd-mdx-entity-name">POINT\_3</code></span>](/types/enums/score-format)
 
 An integer from 0-3. Should be represented in Smileys. 0 => No Score, 1 => :(, 2 => :|, 3 => :)
 

@@ -11,13 +11,13 @@ enum LikeableType {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LikeableType</code>.<code className="gqlmd-mdx-entity-name">THREAD</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LikeableType</code>.<code className="gqlmd-mdx-entity-name">THREAD</code></span>](/types/enums/likeable-type)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LikeableType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_COMMENT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LikeableType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_COMMENT</code></span>](/types/enums/likeable-type)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LikeableType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LikeableType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY</code></span>](/types/enums/likeable-type)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LikeableType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_REPLY</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LikeableType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_REPLY</code></span>](/types/enums/likeable-type)
 
 ### Member Of
 

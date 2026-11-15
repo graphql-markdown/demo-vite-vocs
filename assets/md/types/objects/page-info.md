@@ -12,23 +12,23 @@ type PageInfo {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">PageInfo</code>.<code className="gqlmd-mdx-entity-name">total</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">PageInfo</code>.<code className="gqlmd-mdx-entity-name">total</code></span>](/types/objects/page-info)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The total number of items. Note: This value is not guaranteed to be accurate, do not rely on this for logic
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">PageInfo</code>.<code className="gqlmd-mdx-entity-name">perPage</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">PageInfo</code>.<code className="gqlmd-mdx-entity-name">perPage</code></span>](/types/objects/page-info)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The count on a page
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">PageInfo</code>.<code className="gqlmd-mdx-entity-name">currentPage</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">PageInfo</code>.<code className="gqlmd-mdx-entity-name">currentPage</code></span>](/types/objects/page-info)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The current page
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">PageInfo</code>.<code className="gqlmd-mdx-entity-name">lastPage</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">PageInfo</code>.<code className="gqlmd-mdx-entity-name">lastPage</code></span>](/types/objects/page-info)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The last page
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">PageInfo</code>.<code className="gqlmd-mdx-entity-name">hasNextPage</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">PageInfo</code>.<code className="gqlmd-mdx-entity-name">hasNextPage</code></span>](/types/objects/page-info)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) :badge[scalar]
 
 If there is another page
 

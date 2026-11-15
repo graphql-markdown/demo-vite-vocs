@@ -14,19 +14,19 @@ enum StudioSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](/types/enums/studio-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](/types/enums/studio-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">NAME</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">NAME</code></span>](/types/enums/studio-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">NAME\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">NAME\_DESC</code></span>](/types/enums/studio-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](/types/enums/studio-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES</code></span>](/types/enums/studio-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StudioSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES\_DESC</code></span>](/types/enums/studio-sort)
 
 ### Member Of
 

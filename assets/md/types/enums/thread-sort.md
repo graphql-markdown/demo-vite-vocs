@@ -23,45 +23,45 @@ enum ThreadSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">TITLE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">TITLE</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_DESC</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT</code></span>](#) :badge[deprecated]{warning}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT</code></span>](/types/enums/thread-sort) :badge[deprecated]{warning}
 
 :::warning[DEPRECATED]
 Use ID instead
 :::
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT\_DESC</code></span>](#) :badge[deprecated]{warning}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT\_DESC</code></span>](/types/enums/thread-sort) :badge[deprecated]{warning}
 
 :::warning[DEPRECATED]
 Use ID\_DESC instead
 :::
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT\_DESC</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">REPLIED\_AT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">REPLIED\_AT</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">REPLIED\_AT\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">REPLIED\_AT\_DESC</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">REPLY\_COUNT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">REPLY\_COUNT</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">REPLY\_COUNT\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">REPLY\_COUNT\_DESC</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">VIEW\_COUNT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">VIEW\_COUNT</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">VIEW\_COUNT\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">VIEW\_COUNT\_DESC</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">IS\_STICKY</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">IS\_STICKY</code></span>](/types/enums/thread-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ThreadSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](/types/enums/thread-sort)
 
 ### Member Of
 

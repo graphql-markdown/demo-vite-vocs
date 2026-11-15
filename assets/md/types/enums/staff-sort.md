@@ -17,25 +17,25 @@ enum StaffSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](/types/enums/staff-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](/types/enums/staff-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">ROLE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">ROLE</code></span>](/types/enums/staff-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">ROLE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">ROLE\_DESC</code></span>](/types/enums/staff-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">LANGUAGE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">LANGUAGE</code></span>](/types/enums/staff-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">LANGUAGE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">LANGUAGE\_DESC</code></span>](/types/enums/staff-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](/types/enums/staff-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES</code></span>](/types/enums/staff-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES\_DESC</code></span>](/types/enums/staff-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">RELEVANCE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffSort</code>.<code className="gqlmd-mdx-entity-name">RELEVANCE</code></span>](/types/enums/staff-sort)
 
 Order manually decided by moderators
 

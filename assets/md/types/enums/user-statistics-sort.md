@@ -15,18 +15,18 @@ enum UserStatisticsSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](/types/enums/user-statistics-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](/types/enums/user-statistics-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">COUNT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">COUNT</code></span>](/types/enums/user-statistics-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">COUNT\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">COUNT\_DESC</code></span>](/types/enums/user-statistics-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS</code></span>](/types/enums/user-statistics-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">PROGRESS\_DESC</code></span>](/types/enums/user-statistics-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">MEAN\_SCORE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">MEAN\_SCORE</code></span>](/types/enums/user-statistics-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">MEAN\_SCORE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">MEAN\_SCORE\_DESC</code></span>](/types/enums/user-statistics-sort)

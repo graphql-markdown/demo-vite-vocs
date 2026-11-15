@@ -9,11 +9,11 @@ type CharacterImage {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterImage</code>.<code className="gqlmd-mdx-entity-name">large</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterImage</code>.<code className="gqlmd-mdx-entity-name">large</code></span>](/types/objects/character-image)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The character's image of media at its largest size
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterImage</code>.<code className="gqlmd-mdx-entity-name">medium</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterImage</code>.<code className="gqlmd-mdx-entity-name">medium</code></span>](/types/objects/character-image)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The character's image of media at medium size
 

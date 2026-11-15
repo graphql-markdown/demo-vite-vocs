@@ -13,17 +13,17 @@ type UserStudioStatistic {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">count</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">count</code></span>](/types/objects/user-studio-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">meanScore</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Float!</code></span>](/types/scalars/float.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">meanScore</code></span>](/types/objects/user-studio-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Float!</code></span>](/types/scalars/float.mdx) :badge[non-null] :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">minutesWatched</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">minutesWatched</code></span>](/types/objects/user-studio-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">chaptersRead</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">chaptersRead</code></span>](/types/objects/user-studio-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">mediaIds</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">mediaIds</code></span>](/types/objects/user-studio-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">studio</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Studio</code></span>](/types/objects/studio.mdx) :badge[object]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStudioStatistic</code>.<code className="gqlmd-mdx-entity-name">studio</code></span>](/types/objects/user-studio-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Studio</code></span>](/types/objects/studio.mdx) :badge[object]
 
 ### Member Of
 

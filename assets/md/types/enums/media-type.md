@@ -9,11 +9,11 @@ enum MediaType {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaType</code>.<code className="gqlmd-mdx-entity-name">ANIME</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaType</code>.<code className="gqlmd-mdx-entity-name">ANIME</code></span>](/types/enums/media-type)
 
 Japanese Anime
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaType</code>.<code className="gqlmd-mdx-entity-name">MANGA</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaType</code>.<code className="gqlmd-mdx-entity-name">MANGA</code></span>](/types/enums/media-type)
 
 Asian comic
 

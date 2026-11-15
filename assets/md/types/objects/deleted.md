@@ -8,7 +8,7 @@ type Deleted {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Deleted</code>.<code className="gqlmd-mdx-entity-name">deleted</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Deleted</code>.<code className="gqlmd-mdx-entity-name">deleted</code></span>](/types/objects/deleted)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) :badge[scalar]
 
 If an item has been successfully deleted
 

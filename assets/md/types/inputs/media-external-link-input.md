@@ -10,14 +10,14 @@ input MediaExternalLinkInput {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaExternalLinkInput</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaExternalLinkInput</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](/types/inputs/media-external-link-input)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
 The id of the external link
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaExternalLinkInput</code>.<code className="gqlmd-mdx-entity-name">url</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaExternalLinkInput</code>.<code className="gqlmd-mdx-entity-name">url</code></span>](/types/inputs/media-external-link-input)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The url of the external link
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaExternalLinkInput</code>.<code className="gqlmd-mdx-entity-name">site</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaExternalLinkInput</code>.<code className="gqlmd-mdx-entity-name">site</code></span>](/types/inputs/media-external-link-input)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The site location of the external link

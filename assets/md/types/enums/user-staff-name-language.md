@@ -10,15 +10,15 @@ enum UserStaffNameLanguage {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI\_WESTERN</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI\_WESTERN</code></span>](/types/enums/user-staff-name-language)
 
 The romanization of the staff or character's native name, with western name ordering
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI</code></span>](/types/enums/user-staff-name-language)
 
 The romanization of the staff or character's native name
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStaffNameLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE</code></span>](/types/enums/user-staff-name-language)
 
 The staff or character's name in their native language
 

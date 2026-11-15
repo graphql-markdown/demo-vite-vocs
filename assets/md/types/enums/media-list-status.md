@@ -13,27 +13,27 @@ enum MediaListStatus {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">CURRENT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">CURRENT</code></span>](/types/enums/media-list-status)
 
 Currently watching/reading
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">PLANNING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">PLANNING</code></span>](/types/enums/media-list-status)
 
 Planning to watch/read
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">COMPLETED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">COMPLETED</code></span>](/types/enums/media-list-status)
 
 Finished watching/reading
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">DROPPED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">DROPPED</code></span>](/types/enums/media-list-status)
 
 Stopped watching/reading before completing
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">PAUSED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">PAUSED</code></span>](/types/enums/media-list-status)
 
 Paused watching/reading
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">REPEATING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaListStatus</code>.<code className="gqlmd-mdx-entity-name">REPEATING</code></span>](/types/enums/media-list-status)
 
 Re-watching/reading
 

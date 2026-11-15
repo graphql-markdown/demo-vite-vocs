@@ -9,11 +9,11 @@ type StatusDistribution {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StatusDistribution</code>.<code className="gqlmd-mdx-entity-name">status</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">MediaListStatus</code></span>](/types/enums/media-list-status.mdx) :badge[enum]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StatusDistribution</code>.<code className="gqlmd-mdx-entity-name">status</code></span>](/types/objects/status-distribution)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">MediaListStatus</code></span>](/types/enums/media-list-status.mdx) :badge[enum]
 
 The day the activity took place (Unix timestamp)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StatusDistribution</code>.<code className="gqlmd-mdx-entity-name">amount</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StatusDistribution</code>.<code className="gqlmd-mdx-entity-name">amount</code></span>](/types/objects/status-distribution)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The amount of entries with this status
 

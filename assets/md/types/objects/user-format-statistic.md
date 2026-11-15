@@ -13,17 +13,17 @@ type UserFormatStatistic {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">count</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">count</code></span>](/types/objects/user-format-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">meanScore</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Float!</code></span>](/types/scalars/float.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">meanScore</code></span>](/types/objects/user-format-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Float!</code></span>](/types/scalars/float.mdx) :badge[non-null] :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">minutesWatched</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">minutesWatched</code></span>](/types/objects/user-format-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">chaptersRead</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">chaptersRead</code></span>](/types/objects/user-format-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">mediaIds</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">mediaIds</code></span>](/types/objects/user-format-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Int\]!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">format</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">MediaFormat</code></span>](/types/enums/media-format.mdx) :badge[enum]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserFormatStatistic</code>.<code className="gqlmd-mdx-entity-name">format</code></span>](/types/objects/user-format-statistic)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">MediaFormat</code></span>](/types/enums/media-format.mdx) :badge[enum]
 
 ### Member Of
 

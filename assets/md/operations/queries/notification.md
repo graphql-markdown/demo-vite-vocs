@@ -10,15 +10,15 @@ Notification(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Notification</code>.<code className="gqlmd-mdx-entity-name">type</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">NotificationType</code></span>](/types/enums/notification-type.mdx) :badge[enum]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Notification</code>.<code className="gqlmd-mdx-entity-name">type</code></span>](/operations/queries/notification)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">NotificationType</code></span>](/types/enums/notification-type.mdx) :badge[enum]
 
 Filter by the type of notifications
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Notification</code>.<code className="gqlmd-mdx-entity-name">resetNotificationCount</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Notification</code>.<code className="gqlmd-mdx-entity-name">resetNotificationCount</code></span>](/operations/queries/notification)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) :badge[scalar]
 
 Reset the unread notification count to 0 on load
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Notification</code>.<code className="gqlmd-mdx-entity-name">type\_in</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[NotificationType\]</code></span>](/types/enums/notification-type.mdx) :badge[list] :badge[enum]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Notification</code>.<code className="gqlmd-mdx-entity-name">type\_in</code></span>](/operations/queries/notification)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[NotificationType\]</code></span>](/types/enums/notification-type.mdx) :badge[list] :badge[enum]
 
 Filter by the type of notifications (max 10,000 items)
 

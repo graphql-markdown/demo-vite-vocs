@@ -13,27 +13,27 @@ type AiringSchedule {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](/types/objects/airing-schedule)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
 The id of the airing schedule item
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">airingAt</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">airingAt</code></span>](/types/objects/airing-schedule)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
 The time the episode airs at
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">timeUntilAiring</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">timeUntilAiring</code></span>](/types/objects/airing-schedule)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
 Seconds until episode starts airing
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">episode</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">episode</code></span>](/types/objects/airing-schedule)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
 The airing episode number
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">mediaId</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">mediaId</code></span>](/types/objects/airing-schedule)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
 The associate media id of the airing episode
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">media</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Media</code></span>](/types/objects/media.mdx) :badge[object]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSchedule</code>.<code className="gqlmd-mdx-entity-name">media</code></span>](/types/objects/airing-schedule)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Media</code></span>](/types/objects/media.mdx) :badge[object]
 
 The associate media of the airing episode
 

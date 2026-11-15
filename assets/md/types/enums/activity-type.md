@@ -12,23 +12,23 @@ enum ActivityType {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">TEXT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">TEXT</code></span>](/types/enums/activity-type)
 
 A text activity
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">ANIME\_LIST</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">ANIME\_LIST</code></span>](/types/enums/activity-type)
 
 A anime list update activity
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MANGA\_LIST</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MANGA\_LIST</code></span>](/types/enums/activity-type)
 
 A manga list update activity
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MESSAGE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MESSAGE</code></span>](/types/enums/activity-type)
 
 A text message activity sent to another user
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_LIST</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ActivityType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_LIST</code></span>](/types/enums/activity-type)
 
 Anime & Manga list update, only used in query arguments
 

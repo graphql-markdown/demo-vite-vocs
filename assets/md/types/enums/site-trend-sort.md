@@ -13,14 +13,14 @@ enum SiteTrendSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">DATE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">DATE</code></span>](/types/enums/site-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">DATE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">DATE\_DESC</code></span>](/types/enums/site-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">COUNT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">COUNT</code></span>](/types/enums/site-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">COUNT\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">COUNT\_DESC</code></span>](/types/enums/site-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">CHANGE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">CHANGE</code></span>](/types/enums/site-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">CHANGE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">CHANGE\_DESC</code></span>](/types/enums/site-trend-sort)

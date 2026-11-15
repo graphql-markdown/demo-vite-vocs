@@ -27,83 +27,83 @@ enum NotificationType {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_MESSAGE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_MESSAGE</code></span>](/types/enums/notification-type)
 
 A user has sent you message
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_REPLY</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_REPLY</code></span>](/types/enums/notification-type)
 
 A user has replied to your activity
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">FOLLOWING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">FOLLOWING</code></span>](/types/enums/notification-type)
 
 A user has followed you
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_MENTION</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_MENTION</code></span>](/types/enums/notification-type)
 
 A user has mentioned you in their activity
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_COMMENT\_MENTION</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_COMMENT\_MENTION</code></span>](/types/enums/notification-type)
 
 A user has mentioned you in a forum comment
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_SUBSCRIBED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_SUBSCRIBED</code></span>](/types/enums/notification-type)
 
 A user has commented in one of your subscribed forum threads
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_COMMENT\_REPLY</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_COMMENT\_REPLY</code></span>](/types/enums/notification-type)
 
 A user has replied to your forum comment
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">AIRING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">AIRING</code></span>](/types/enums/notification-type)
 
 An anime you are currently watching has aired
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_LIKE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_LIKE</code></span>](/types/enums/notification-type)
 
 A user has liked your activity
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_REPLY\_LIKE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_REPLY\_LIKE</code></span>](/types/enums/notification-type)
 
 A user has liked your activity reply
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_LIKE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_LIKE</code></span>](/types/enums/notification-type)
 
 A user has liked your forum thread
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_COMMENT\_LIKE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">THREAD\_COMMENT\_LIKE</code></span>](/types/enums/notification-type)
 
 A user has liked your forum comment
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_REPLY\_SUBSCRIBED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">ACTIVITY\_REPLY\_SUBSCRIBED</code></span>](/types/enums/notification-type)
 
 A user has replied to activity you have also replied to
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">RELATED\_MEDIA\_ADDITION</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">RELATED\_MEDIA\_ADDITION</code></span>](/types/enums/notification-type)
 
 A new anime or manga has been added to the site where its related media is on the user's list
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_DATA\_CHANGE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_DATA\_CHANGE</code></span>](/types/enums/notification-type)
 
 An anime or manga has had a data change that affects how a user may track it in their lists
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_MERGE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_MERGE</code></span>](/types/enums/notification-type)
 
 Anime or manga entries on the user's list have been merged into a single entry
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_DELETION</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_DELETION</code></span>](/types/enums/notification-type)
 
 An anime or manga on the user's list has been deleted from the site
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_SUBMISSION\_UPDATE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_SUBMISSION\_UPDATE</code></span>](/types/enums/notification-type)
 
 A user's submission has been accepted, partially accepted, or rejected
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">STAFF\_SUBMISSION\_UPDATE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">STAFF\_SUBMISSION\_UPDATE</code></span>](/types/enums/notification-type)
 
 A user's staff submission has been accepted, partially accepted, or rejected
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">CHARACTER\_SUBMISSION\_UPDATE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">NotificationType</code>.<code className="gqlmd-mdx-entity-name">CHARACTER\_SUBMISSION\_UPDATE</code></span>](/types/enums/notification-type)
 
 A user's character submission has been accepted, partially accepted, or rejected
 

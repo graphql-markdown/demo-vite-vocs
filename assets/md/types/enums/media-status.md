@@ -12,23 +12,23 @@ enum MediaStatus {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStatus</code>.<code className="gqlmd-mdx-entity-name">FINISHED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStatus</code>.<code className="gqlmd-mdx-entity-name">FINISHED</code></span>](/types/enums/media-status)
 
 Has completed and is no longer being released
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStatus</code>.<code className="gqlmd-mdx-entity-name">RELEASING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStatus</code>.<code className="gqlmd-mdx-entity-name">RELEASING</code></span>](/types/enums/media-status)
 
 Currently releasing
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStatus</code>.<code className="gqlmd-mdx-entity-name">NOT\_YET\_RELEASED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStatus</code>.<code className="gqlmd-mdx-entity-name">NOT\_YET\_RELEASED</code></span>](/types/enums/media-status)
 
 To be released at a later date
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStatus</code>.<code className="gqlmd-mdx-entity-name">CANCELLED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStatus</code>.<code className="gqlmd-mdx-entity-name">CANCELLED</code></span>](/types/enums/media-status)
 
 Ended before the work could be finished
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStatus</code>.<code className="gqlmd-mdx-entity-name">HIATUS</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaStatus</code>.<code className="gqlmd-mdx-entity-name">HIATUS</code></span>](/types/enums/media-status)
 
 Version 2 only. Is currently paused from releasing and will resume at a later date
 

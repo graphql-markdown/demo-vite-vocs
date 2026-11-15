@@ -10,15 +10,15 @@ type UserActivityHistory {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserActivityHistory</code>.<code className="gqlmd-mdx-entity-name">date</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserActivityHistory</code>.<code className="gqlmd-mdx-entity-name">date</code></span>](/types/objects/user-activity-history)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The day the activity took place (Unix timestamp)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserActivityHistory</code>.<code className="gqlmd-mdx-entity-name">amount</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserActivityHistory</code>.<code className="gqlmd-mdx-entity-name">amount</code></span>](/types/objects/user-activity-history)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The amount of activity on the day
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserActivityHistory</code>.<code className="gqlmd-mdx-entity-name">level</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserActivityHistory</code>.<code className="gqlmd-mdx-entity-name">level</code></span>](/types/objects/user-activity-history)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The level of activity represented on a 1-10 scale
 

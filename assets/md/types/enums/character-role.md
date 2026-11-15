@@ -10,15 +10,15 @@ enum CharacterRole {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">MAIN</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">MAIN</code></span>](/types/enums/character-role)
 
 A primary character role in the media
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">SUPPORTING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">SUPPORTING</code></span>](/types/enums/character-role)
 
 A supporting character role in the media
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">BACKGROUND</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CharacterRole</code>.<code className="gqlmd-mdx-entity-name">BACKGROUND</code></span>](/types/enums/character-role)
 
 A background character in the media
 

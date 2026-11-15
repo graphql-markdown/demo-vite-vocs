@@ -44,79 +44,79 @@ enum MediaSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_ROMAJI</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_ROMAJI</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_ROMAJI\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_ROMAJI\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_ENGLISH</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_ENGLISH</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_ENGLISH\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_ENGLISH\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_NATIVE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_NATIVE</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_NATIVE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TITLE\_NATIVE\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TYPE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TYPE</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TYPE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TYPE\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">FORMAT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">FORMAT</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">FORMAT\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">FORMAT\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">START\_DATE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">START\_DATE</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">START\_DATE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">START\_DATE\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">END\_DATE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">END\_DATE</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">END\_DATE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">END\_DATE\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">SCORE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">SCORE</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">SCORE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">SCORE\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">POPULARITY</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">POPULARITY</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">POPULARITY\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">POPULARITY\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TRENDING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TRENDING</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TRENDING\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">TRENDING\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">EPISODES</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">EPISODES</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">EPISODES\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">EPISODES\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">DURATION</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">DURATION</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">DURATION\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">DURATION\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">STATUS</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">STATUS</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">STATUS\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">STATUS\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">CHAPTERS</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">CHAPTERS</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">CHAPTERS\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">CHAPTERS\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">VOLUMES</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">VOLUMES</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">VOLUMES\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">VOLUMES\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT\_DESC</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">SEARCH\_MATCH</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES</code></span>](/types/enums/media-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSort</code>.<code className="gqlmd-mdx-entity-name">FAVOURITES\_DESC</code></span>](/types/enums/media-sort)
 
 ### Member Of
 

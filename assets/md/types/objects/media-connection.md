@@ -10,11 +10,11 @@ type MediaConnection {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaConnection</code>.<code className="gqlmd-mdx-entity-name">edges</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[MediaEdge\]</code></span>](/types/objects/media-edge.mdx) :badge[list] :badge[object]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaConnection</code>.<code className="gqlmd-mdx-entity-name">edges</code></span>](/types/objects/media-connection)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[MediaEdge\]</code></span>](/types/objects/media-edge.mdx) :badge[list] :badge[object]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaConnection</code>.<code className="gqlmd-mdx-entity-name">nodes</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Media\]</code></span>](/types/objects/media.mdx) :badge[list] :badge[object]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaConnection</code>.<code className="gqlmd-mdx-entity-name">nodes</code></span>](/types/objects/media-connection)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Media\]</code></span>](/types/objects/media.mdx) :badge[list] :badge[object]
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaConnection</code>.<code className="gqlmd-mdx-entity-name">pageInfo</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">PageInfo</code></span>](/types/objects/page-info.mdx) :badge[object]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaConnection</code>.<code className="gqlmd-mdx-entity-name">pageInfo</code></span>](/types/objects/media-connection)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">PageInfo</code></span>](/types/objects/page-info.mdx) :badge[object]
 
 The pagination information
 

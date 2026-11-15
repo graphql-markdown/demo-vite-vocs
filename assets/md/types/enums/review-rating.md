@@ -10,11 +10,11 @@ enum ReviewRating {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewRating</code>.<code className="gqlmd-mdx-entity-name">NO\_VOTE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewRating</code>.<code className="gqlmd-mdx-entity-name">NO\_VOTE</code></span>](/types/enums/review-rating)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewRating</code>.<code className="gqlmd-mdx-entity-name">UP\_VOTE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewRating</code>.<code className="gqlmd-mdx-entity-name">UP\_VOTE</code></span>](/types/enums/review-rating)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewRating</code>.<code className="gqlmd-mdx-entity-name">DOWN\_VOTE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewRating</code>.<code className="gqlmd-mdx-entity-name">DOWN\_VOTE</code></span>](/types/enums/review-rating)
 
 ### Member Of
 

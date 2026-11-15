@@ -9,11 +9,11 @@ RateReview(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RateReview</code>.<code className="gqlmd-mdx-entity-name">reviewId</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RateReview</code>.<code className="gqlmd-mdx-entity-name">reviewId</code></span>](/operations/mutations/rate-review)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The id of the review to rate
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RateReview</code>.<code className="gqlmd-mdx-entity-name">rating</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ReviewRating</code></span>](/types/enums/review-rating.mdx) :badge[enum]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RateReview</code>.<code className="gqlmd-mdx-entity-name">rating</code></span>](/operations/mutations/rate-review)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ReviewRating</code></span>](/types/enums/review-rating.mdx) :badge[enum]
 
 The rating to apply to the review
 

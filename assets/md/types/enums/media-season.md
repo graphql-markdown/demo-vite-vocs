@@ -11,19 +11,19 @@ enum MediaSeason {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSeason</code>.<code className="gqlmd-mdx-entity-name">WINTER</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSeason</code>.<code className="gqlmd-mdx-entity-name">WINTER</code></span>](/types/enums/media-season)
 
 Predominantly started airing between January and March
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSeason</code>.<code className="gqlmd-mdx-entity-name">SPRING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSeason</code>.<code className="gqlmd-mdx-entity-name">SPRING</code></span>](/types/enums/media-season)
 
 Predominantly started airing between April and June
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSeason</code>.<code className="gqlmd-mdx-entity-name">SUMMER</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSeason</code>.<code className="gqlmd-mdx-entity-name">SUMMER</code></span>](/types/enums/media-season)
 
 Predominantly started airing between July and September
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSeason</code>.<code className="gqlmd-mdx-entity-name">FALL</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaSeason</code>.<code className="gqlmd-mdx-entity-name">FALL</code></span>](/types/enums/media-season)
 
 Predominantly started airing between October and November
 

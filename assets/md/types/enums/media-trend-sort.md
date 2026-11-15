@@ -21,33 +21,33 @@ enum MediaTrendSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID\_DESC</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">DATE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">DATE</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">DATE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">DATE\_DESC</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">SCORE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">SCORE</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">SCORE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">SCORE\_DESC</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">POPULARITY</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">POPULARITY</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">POPULARITY\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">POPULARITY\_DESC</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">TRENDING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">TRENDING</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">TRENDING\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">TRENDING\_DESC</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">EPISODE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">EPISODE</code></span>](/types/enums/media-trend-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">EPISODE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendSort</code>.<code className="gqlmd-mdx-entity-name">EPISODE\_DESC</code></span>](/types/enums/media-trend-sort)
 
 ### Member Of
 

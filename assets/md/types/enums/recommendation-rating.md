@@ -10,11 +10,11 @@ enum RecommendationRating {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RecommendationRating</code>.<code className="gqlmd-mdx-entity-name">NO\_RATING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RecommendationRating</code>.<code className="gqlmd-mdx-entity-name">NO\_RATING</code></span>](/types/enums/recommendation-rating)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RecommendationRating</code>.<code className="gqlmd-mdx-entity-name">RATE\_UP</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RecommendationRating</code>.<code className="gqlmd-mdx-entity-name">RATE\_UP</code></span>](/types/enums/recommendation-rating)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RecommendationRating</code>.<code className="gqlmd-mdx-entity-name">RATE\_DOWN</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">RecommendationRating</code>.<code className="gqlmd-mdx-entity-name">RATE\_DOWN</code></span>](/types/enums/recommendation-rating)
 
 ### Member Of
 

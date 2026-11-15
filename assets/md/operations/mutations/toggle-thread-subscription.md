@@ -9,11 +9,11 @@ ToggleThreadSubscription(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleThreadSubscription</code>.<code className="gqlmd-mdx-entity-name">threadId</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleThreadSubscription</code>.<code className="gqlmd-mdx-entity-name">threadId</code></span>](/operations/mutations/toggle-thread-subscription)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The id of the forum thread to un/subscribe
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleThreadSubscription</code>.<code className="gqlmd-mdx-entity-name">subscribe</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ToggleThreadSubscription</code>.<code className="gqlmd-mdx-entity-name">subscribe</code></span>](/operations/mutations/toggle-thread-subscription)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean</code></span>](/types/scalars/boolean.mdx) :badge[scalar]
 
 Whether to subscribe or unsubscribe from the forum thread
 

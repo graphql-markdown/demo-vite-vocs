@@ -8,7 +8,7 @@ type MediaTrendEdge {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendEdge</code>.<code className="gqlmd-mdx-entity-name">node</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">MediaTrend</code></span>](/types/objects/media-trend.mdx) :badge[object]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">MediaTrendEdge</code>.<code className="gqlmd-mdx-entity-name">node</code></span>](/types/objects/media-trend-edge)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">MediaTrend</code></span>](/types/objects/media-trend.mdx) :badge[object]
 
 ### Member Of
 

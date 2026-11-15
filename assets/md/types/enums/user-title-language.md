@@ -13,27 +13,27 @@ enum UserTitleLanguage {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI</code></span>](/types/enums/user-title-language)
 
 The romanization of the native language title
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ENGLISH</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ENGLISH</code></span>](/types/enums/user-title-language)
 
 The official english title
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE</code></span>](/types/enums/user-title-language)
 
 Official title in it's native language
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI\_STYLISED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ROMAJI\_STYLISED</code></span>](/types/enums/user-title-language)
 
 The romanization of the native language title, stylised by media creator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ENGLISH\_STYLISED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">ENGLISH\_STYLISED</code></span>](/types/enums/user-title-language)
 
 The official english title, stylised by media creator
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE\_STYLISED</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserTitleLanguage</code>.<code className="gqlmd-mdx-entity-name">NATIVE\_STYLISED</code></span>](/types/enums/user-title-language)
 
 Official title in it's native language, stylised by media creator
 

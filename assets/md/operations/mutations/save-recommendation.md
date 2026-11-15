@@ -10,15 +10,15 @@ SaveRecommendation(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveRecommendation</code>.<code className="gqlmd-mdx-entity-name">mediaId</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveRecommendation</code>.<code className="gqlmd-mdx-entity-name">mediaId</code></span>](/operations/mutations/save-recommendation)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The id of the base media
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveRecommendation</code>.<code className="gqlmd-mdx-entity-name">mediaRecommendationId</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveRecommendation</code>.<code className="gqlmd-mdx-entity-name">mediaRecommendationId</code></span>](/operations/mutations/save-recommendation)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The id of the media to recommend
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveRecommendation</code>.<code className="gqlmd-mdx-entity-name">rating</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">RecommendationRating</code></span>](/types/enums/recommendation-rating.mdx) :badge[enum]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SaveRecommendation</code>.<code className="gqlmd-mdx-entity-name">rating</code></span>](/operations/mutations/save-recommendation)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">RecommendationRating</code></span>](/types/enums/recommendation-rating.mdx) :badge[enum]
 
 The rating to give the recommendation
 

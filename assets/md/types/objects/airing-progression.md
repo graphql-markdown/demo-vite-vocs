@@ -10,15 +10,15 @@ type AiringProgression {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringProgression</code>.<code className="gqlmd-mdx-entity-name">episode</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Float</code></span>](/types/scalars/float.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringProgression</code>.<code className="gqlmd-mdx-entity-name">episode</code></span>](/types/objects/airing-progression)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Float</code></span>](/types/scalars/float.mdx) :badge[scalar]
 
 The episode the stats were recorded at. .5 is the mid point between 2 episodes airing dates.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringProgression</code>.<code className="gqlmd-mdx-entity-name">score</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Float</code></span>](/types/scalars/float.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringProgression</code>.<code className="gqlmd-mdx-entity-name">score</code></span>](/types/objects/airing-progression)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Float</code></span>](/types/scalars/float.mdx) :badge[scalar]
 
-The average score for the media
+The weighted average score for the media
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringProgression</code>.<code className="gqlmd-mdx-entity-name">watching</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringProgression</code>.<code className="gqlmd-mdx-entity-name">watching</code></span>](/types/objects/airing-progression)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 The amount of users watching the anime
 

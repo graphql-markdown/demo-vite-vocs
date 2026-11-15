@@ -9,11 +9,11 @@ type StaffImage {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffImage</code>.<code className="gqlmd-mdx-entity-name">large</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffImage</code>.<code className="gqlmd-mdx-entity-name">large</code></span>](/types/objects/staff-image)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The person's image of media at its largest size
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffImage</code>.<code className="gqlmd-mdx-entity-name">medium</code></span>](#)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">StaffImage</code>.<code className="gqlmd-mdx-entity-name">medium</code></span>](/types/objects/staff-image)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The person's image of media at medium size
 

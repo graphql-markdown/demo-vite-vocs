@@ -15,21 +15,21 @@ enum AiringSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](/types/enums/airing-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](/types/enums/airing-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID</code></span>](/types/enums/airing-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">MEDIA\_ID\_DESC</code></span>](/types/enums/airing-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">TIME</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">TIME</code></span>](/types/enums/airing-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">TIME\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">TIME\_DESC</code></span>](/types/enums/airing-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">EPISODE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">EPISODE</code></span>](/types/enums/airing-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">EPISODE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringSort</code>.<code className="gqlmd-mdx-entity-name">EPISODE\_DESC</code></span>](/types/enums/airing-sort)
 
 ### Member Of
 

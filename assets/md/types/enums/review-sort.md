@@ -17,33 +17,33 @@ enum ReviewSort {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">ID</code></span>](/types/enums/review-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](/types/enums/review-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">SCORE</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">SCORE</code></span>](/types/enums/review-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">SCORE\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">SCORE\_DESC</code></span>](/types/enums/review-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">RATING</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">RATING</code></span>](/types/enums/review-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">RATING\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">RATING\_DESC</code></span>](/types/enums/review-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT</code></span>](#) :badge[deprecated]{warning}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT</code></span>](/types/enums/review-sort) :badge[deprecated]{warning}
 
 :::warning[DEPRECATED]
 Use ID instead
 :::
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT\_DESC</code></span>](#) :badge[deprecated]{warning}
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">CREATED\_AT\_DESC</code></span>](/types/enums/review-sort) :badge[deprecated]{warning}
 
 :::warning[DEPRECATED]
 Use ID\_DESC instead
 :::
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT</code></span>](/types/enums/review-sort)
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT\_DESC</code></span>](#)
+#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ReviewSort</code>.<code className="gqlmd-mdx-entity-name">UPDATED\_AT\_DESC</code></span>](/types/enums/review-sort)
 
 ### Member Of
 
