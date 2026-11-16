@@ -23,6 +23,7 @@ export function Footer() {
           paddingTop: '1rem',
           borderTop: '1px solid rgba(127, 127, 127, 0.25)',
           fontSize: '0.875rem',
+          textAlign: 'center',
           opacity: 0.8,
         }}
       >
