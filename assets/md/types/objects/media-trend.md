@@ -1,3 +1,5 @@
+# MediaTrend
+
 Daily media statistics
 
 ```graphql

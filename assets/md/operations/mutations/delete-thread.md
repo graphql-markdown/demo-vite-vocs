@@ -1,3 +1,5 @@
+# DeleteThread
+
 Delete a thread
 
 ```graphql

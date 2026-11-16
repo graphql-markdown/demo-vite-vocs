@@ -1,3 +1,5 @@
+# skip
+
 Directs the executor to skip this field or fragment when the `if` argument is true.
 
 ```graphql

@@ -1,3 +1,5 @@
+# MediaListOptions
+
 A user's list options
 
 ```graphql

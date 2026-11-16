@@ -1,3 +1,5 @@
+# MediaTrendSort
+
 Media trend sort enums
 
 ```graphql

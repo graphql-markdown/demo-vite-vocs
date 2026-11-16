@@ -1,3 +1,5 @@
+# MediaFormat
+
 The format the media was released in
 
 ```graphql

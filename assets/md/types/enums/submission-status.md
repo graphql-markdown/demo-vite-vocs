@@ -1,3 +1,5 @@
+# SubmissionStatus
+
 Submission status
 
 ```graphql

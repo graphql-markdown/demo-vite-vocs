@@ -1,3 +1,5 @@
+# Like
+
 Like query
 
 ```graphql

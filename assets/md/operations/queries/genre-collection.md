@@ -1,3 +1,5 @@
+# GenreCollection
+
 Collection of all the possible media genres
 
 ```graphql

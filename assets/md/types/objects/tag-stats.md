@@ -1,3 +1,5 @@
+# TagStats
+
 User's tag statistics
 
 ```graphql

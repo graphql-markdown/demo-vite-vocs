@@ -1,3 +1,5 @@
+# FuzzyDate
+
 Date object that allows for incomplete date values (fuzzy)
 
 ```graphql

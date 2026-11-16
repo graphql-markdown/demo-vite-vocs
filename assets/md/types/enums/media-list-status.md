@@ -1,3 +1,5 @@
+# MediaListStatus
+
 Media list watching/reading status enum.
 
 ```graphql

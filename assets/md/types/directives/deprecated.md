@@ -1,8 +1,10 @@
+# deprecated
+
 Marks an element of a GraphQL schema as no longer supported.
 
 ```graphql
 directive @deprecated(
-  reason: String = "No longer supported"
+  reason: String
 ) on 
   | FIELD_DEFINITION
   | ENUM_VALUE

@@ -1,3 +1,5 @@
+# RecommendationRating
+
 Recommendation rating enums
 
 ```graphql

@@ -1,3 +1,5 @@
+# MediaSubmission
+
 Media submission
 
 ```graphql

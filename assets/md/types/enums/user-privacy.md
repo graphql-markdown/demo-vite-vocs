@@ -1,3 +1,5 @@
+# UserPrivacy
+
 User's account privacy setting
 
 ```graphql

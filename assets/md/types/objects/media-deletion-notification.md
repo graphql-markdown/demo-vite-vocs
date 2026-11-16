@@ -1,3 +1,5 @@
+# MediaDeletionNotification
+
 Notification for when a media tracked in a user's list is deleted from the site
 
 ```graphql

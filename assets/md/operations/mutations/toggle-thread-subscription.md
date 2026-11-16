@@ -1,3 +1,5 @@
+# ToggleThreadSubscription
+
 Toggle the subscription of a forum thread
 
 ```graphql

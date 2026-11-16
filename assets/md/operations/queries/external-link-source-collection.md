@@ -1,3 +1,5 @@
+# ExternalLinkSourceCollection
+
 ExternalLinkSource collection query
 
 ```graphql

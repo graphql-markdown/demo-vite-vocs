@@ -1,3 +1,5 @@
+# Activity
+
 Activity query
 
 ```graphql

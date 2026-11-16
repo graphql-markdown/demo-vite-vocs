@@ -1,3 +1,5 @@
+# ThreadComment
+
 Comment query
 
 ```graphql

@@ -1,3 +1,5 @@
+# StudioStats
+
 User's studio statistics
 
 ```graphql

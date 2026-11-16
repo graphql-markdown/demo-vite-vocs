@@ -1,3 +1,5 @@
+# ThreadComment
+
 Forum Thread Comment
 
 ```graphql

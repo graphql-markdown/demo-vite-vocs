@@ -1,3 +1,5 @@
+# ListScoreStats
+
 User's list score statistics
 
 ```graphql

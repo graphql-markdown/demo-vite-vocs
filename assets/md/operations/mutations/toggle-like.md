@@ -1,3 +1,5 @@
+# ToggleLike
+
 Add or remove a like from a likeable type.
 Returns all the users who liked the same model
 

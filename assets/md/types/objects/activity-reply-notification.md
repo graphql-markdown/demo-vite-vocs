@@ -1,3 +1,5 @@
+# ActivityReplyNotification
+
 Notification for when a user replies to the authenticated users activity
 
 ```graphql

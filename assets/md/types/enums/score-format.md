@@ -1,3 +1,5 @@
+# ScoreFormat
+
 Media list scoring type
 
 ```graphql

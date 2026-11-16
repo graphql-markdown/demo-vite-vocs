@@ -1,3 +1,5 @@
+# Viewer
+
 Get the currently authenticated user
 
 ```graphql

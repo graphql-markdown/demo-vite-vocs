@@ -1,3 +1,5 @@
+# UserScoreStatistic
+
 No description
 
 ```graphql

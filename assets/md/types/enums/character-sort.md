@@ -1,3 +1,5 @@
+# CharacterSort
+
 Character sort enums
 
 ```graphql

@@ -1,3 +1,5 @@
+# CharacterSubmissionUpdateNotification
+
 Notification for when a character submission is accepted, partially accepted, or rejected
 
 ```graphql

@@ -1,3 +1,5 @@
+# ParsedMarkdown
+
 Provides the parsed markdown as html
 
 ```graphql

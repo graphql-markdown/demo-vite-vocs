@@ -1,3 +1,5 @@
+# MediaTrend
+
 Media Trend query
 
 ```graphql

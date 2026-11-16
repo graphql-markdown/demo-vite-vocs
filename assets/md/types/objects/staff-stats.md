@@ -1,3 +1,5 @@
+# StaffStats
+
 User's staff statistics
 
 ```graphql

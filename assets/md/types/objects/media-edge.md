@@ -1,3 +1,5 @@
+# MediaEdge
+
 Media connection edge
 
 ```graphql

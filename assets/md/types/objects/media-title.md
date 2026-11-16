@@ -1,3 +1,5 @@
+# MediaTitle
+
 The official titles of the media in various languages
 
 ```graphql

@@ -1,3 +1,5 @@
+# StaffEdge
+
 Staff connection edge
 
 ```graphql

@@ -1,3 +1,5 @@
+# FuzzyDateInt
+
 8 digit long date integer (YYYYMMDD). Unknown dates represented by 0. E.g. 2016: 20160000, May 1976: 19760500
 
 ```graphql

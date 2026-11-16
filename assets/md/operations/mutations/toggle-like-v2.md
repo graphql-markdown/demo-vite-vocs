@@ -1,3 +1,5 @@
+# ToggleLikeV2
+
 Add or remove a like from a likeable type.
 
 ```graphql

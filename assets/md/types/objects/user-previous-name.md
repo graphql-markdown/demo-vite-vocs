@@ -1,3 +1,5 @@
+# UserPreviousName
+
 A user's previous name
 
 ```graphql

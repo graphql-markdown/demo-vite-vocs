@@ -1,3 +1,5 @@
+# StaffNameInput
+
 The names of the staff member
 
 ```graphql

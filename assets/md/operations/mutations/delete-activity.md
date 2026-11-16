@@ -1,3 +1,5 @@
+# DeleteActivity
+
 Delete an activity item of the authenticated users
 
 ```graphql

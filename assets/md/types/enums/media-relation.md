@@ -1,3 +1,5 @@
+# MediaRelation
+
 Type of relation media has to its parent.
 
 ```graphql

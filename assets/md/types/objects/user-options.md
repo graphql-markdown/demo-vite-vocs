@@ -1,3 +1,5 @@
+# UserOptions
+
 A user's general options
 
 ```graphql

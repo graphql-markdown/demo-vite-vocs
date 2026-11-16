@@ -1,3 +1,5 @@
+# CharacterSubmission
+
 A submission for a character that features in an anime or manga
 
 ```graphql

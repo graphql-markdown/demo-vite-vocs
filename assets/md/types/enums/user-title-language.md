@@ -1,3 +1,5 @@
+# UserTitleLanguage
+
 The language the user wants to see media titles in
 
 ```graphql

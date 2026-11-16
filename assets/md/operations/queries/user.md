@@ -1,3 +1,5 @@
+# User
+
 User query
 
 ```graphql

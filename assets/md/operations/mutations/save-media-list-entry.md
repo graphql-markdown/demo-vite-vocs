@@ -1,3 +1,5 @@
+# SaveMediaListEntry
+
 Create or update a media list entry
 
 ```graphql

@@ -1,3 +1,5 @@
+# ExternalLinkType
+
 No description
 
 ```graphql

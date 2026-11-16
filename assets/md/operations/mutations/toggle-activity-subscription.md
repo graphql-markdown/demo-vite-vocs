@@ -1,3 +1,5 @@
+# ToggleActivitySubscription
+
 Toggle the subscription of an activity item
 
 ```graphql

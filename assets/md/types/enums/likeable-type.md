@@ -1,3 +1,5 @@
+# LikeableType
+
 Types that can be liked
 
 ```graphql

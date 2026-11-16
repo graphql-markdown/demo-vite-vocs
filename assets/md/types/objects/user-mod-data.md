@@ -1,3 +1,5 @@
+# UserModData
+
 User data for moderators
 
 ```graphql

@@ -1,3 +1,5 @@
+# NotificationType
+
 Notification type enum
 
 ```graphql

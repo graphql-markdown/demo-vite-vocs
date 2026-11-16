@@ -1,3 +1,5 @@
+# MediaCharacter
+
 Internal - Media characters separated
 
 ```graphql

@@ -1,3 +1,5 @@
+# ToggleFavourite
+
 Favourite or unfavourite an anime, manga, character, staff member, or studio
 
 ```graphql

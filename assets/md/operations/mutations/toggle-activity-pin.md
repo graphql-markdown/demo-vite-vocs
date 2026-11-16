@@ -1,3 +1,5 @@
+# ToggleActivityPin
+
 Toggle activity to be pinned to the top of the user's activity feed
 
 ```graphql

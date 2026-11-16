@@ -1,3 +1,5 @@
+# AiringSchedule
+
 Airing schedule query
 
 ```graphql

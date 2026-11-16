@@ -1,3 +1,5 @@
+# RelatedMediaAdditionNotification
+
 Notification for when new media is added to the site
 
 ```graphql

@@ -254,6 +254,8 @@ Sitemap:
 
 <!-- Source: /operations/directives/include -->
 
+# include
+
 Directs the executor to include this field or fragment only when the `if` argument is true.
 
 ```graphql
@@ -273,6 +275,8 @@ Included when true.
 
 <!-- Source: /operations/directives/skip -->
 
+# skip
+
 Directs the executor to skip this field or fragment when the `if` argument is true.
 
 ```graphql
@@ -291,6 +295,8 @@ directive @skip(
 Skipped when true.
 
 <!-- Source: /operations/mutations/delete-activity -->
+
+# DeleteActivity
 
 Delete an activity item of the authenticated users
 
@@ -314,6 +320,8 @@ Deleted data type
 
 <!-- Source: /operations/mutations/delete-activity-reply -->
 
+# DeleteActivityReply
+
 Delete an activity reply of the authenticated users
 
 ```graphql
@@ -335,6 +343,8 @@ The id of the reply to delete
 Deleted data type
 
 <!-- Source: /operations/mutations/delete-custom-list -->
+
+# DeleteCustomList
 
 Delete a custom list and remove the list entries from it
 
@@ -363,6 +373,8 @@ Deleted data type
 
 <!-- Source: /operations/mutations/delete-follower -->
 
+# DeleteFollower
+
 Removes a follower
 
 ```graphql
@@ -384,6 +396,8 @@ The id of the user to remove the follower status of
 A user
 
 <!-- Source: /operations/mutations/delete-media-list-entry -->
+
+# DeleteMediaListEntry
 
 Delete a media list entry
 
@@ -407,6 +421,8 @@ Deleted data type
 
 <!-- Source: /operations/mutations/delete-review -->
 
+# DeleteReview
+
 Delete a review
 
 ```graphql
@@ -428,6 +444,8 @@ The id of the review to delete
 Deleted data type
 
 <!-- Source: /operations/mutations/delete-thread -->
+
+# DeleteThread
 
 Delete a thread
 
@@ -451,6 +469,8 @@ Deleted data type
 
 <!-- Source: /operations/mutations/delete-thread-comment -->
 
+# DeleteThreadComment
+
 Delete a thread comment
 
 ```graphql
@@ -472,6 +492,8 @@ The id of the thread comment to delete
 Deleted data type
 
 <!-- Source: /operations/mutations/rate-review -->
+
+# RateReview
 
 Rate a review
 
@@ -499,6 +521,8 @@ The rating to apply to the review
 A Review that features in an anime or manga
 
 <!-- Source: /operations/mutations/save-activity-reply -->
+
+# SaveActivityReply
 
 Create or update an activity reply
 
@@ -537,6 +561,8 @@ Replay to an activity item
 
 <!-- Source: /operations/mutations/save-list-activity -->
 
+# SaveListActivity
+
 Update list activity (Mod Only)
 
 ```graphql
@@ -563,6 +589,8 @@ If the activity should be locked. (Mod Only)
 User list activity (anime & manga updates)
 
 <!-- Source: /operations/mutations/save-media-list-entry -->
+
+# SaveMediaListEntry
 
 Create or update a media list entry
 
@@ -661,6 +689,8 @@ List of anime or manga
 
 <!-- Source: /operations/mutations/save-message-activity -->
 
+# SaveMessageActivity
+
 Create or update message activity for the currently authenticated user
 
 ```graphql
@@ -708,6 +738,8 @@ User message activity
 
 <!-- Source: /operations/mutations/save-recommendation -->
 
+# SaveRecommendation
+
 Recommendation a media
 
 ```graphql
@@ -739,6 +771,8 @@ The rating to give the recommendation
 Media recommendation
 
 <!-- Source: /operations/mutations/save-review -->
+
+# SaveReview
 
 Create or update a review
 
@@ -787,6 +821,8 @@ A Review that features in an anime or manga
 
 <!-- Source: /operations/mutations/save-text-activity -->
 
+# SaveTextActivity
+
 Create or update text activity for the currently authenticated user
 
 ```graphql
@@ -818,6 +854,8 @@ If the activity should be locked. (Mod Only)
 User text activity
 
 <!-- Source: /operations/mutations/save-thread -->
+
+# SaveThread
 
 Create or update a forum thread
 
@@ -871,6 +909,8 @@ Forum Thread
 
 <!-- Source: /operations/mutations/save-thread-comment -->
 
+# SaveThreadComment
+
 Create or update a thread comment
 
 ```graphql
@@ -913,6 +953,8 @@ Forum Thread Comment
 
 <!-- Source: /operations/mutations/toggle-activity-pin -->
 
+# ToggleActivityPin
+
 Toggle activity to be pinned to the top of the user's activity feed
 
 ```graphql
@@ -940,6 +982,8 @@ Activity union type
 
 <!-- Source: /operations/mutations/toggle-activity-subscription -->
 
+# ToggleActivitySubscription
+
 Toggle the subscription of an activity item
 
 ```graphql
@@ -966,6 +1010,8 @@ Whether to subscribe or unsubscribe from the activity
 Activity union type
 
 <!-- Source: /operations/mutations/toggle-favourite -->
+
+# ToggleFavourite
 
 Favourite or unfavourite an anime, manga, character, staff member, or studio
 
@@ -1009,6 +1055,8 @@ User's favourite anime, manga, characters, staff & studios
 
 <!-- Source: /operations/mutations/toggle-follow -->
 
+# ToggleFollow
+
 Toggle the un/following of a user
 
 ```graphql
@@ -1030,6 +1078,8 @@ The id of the user to un/follow
 A user
 
 <!-- Source: /operations/mutations/toggle-like -->
+
+# ToggleLike
 
 Add or remove a like from a likeable type.
 Returns all the users who liked the same model
@@ -1059,6 +1109,8 @@ A user
 
 <!-- Source: /operations/mutations/toggle-like-v2 -->
 
+# ToggleLikeV2
+
 Add or remove a like from a likeable type.
 
 ```graphql
@@ -1085,6 +1137,8 @@ The type of model to be un/liked
 Likeable union type
 
 <!-- Source: /operations/mutations/toggle-thread-subscription -->
+
+# ToggleThreadSubscription
 
 Toggle the subscription of a forum thread
 
@@ -1113,6 +1167,8 @@ Forum Thread
 
 <!-- Source: /operations/mutations/update-ani-chart-highlights -->
 
+# UpdateAniChartHighlights
+
 No description
 
 ```graphql
@@ -1130,6 +1186,8 @@ UpdateAniChartHighlights(
 #### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Json</code></span>](/types/scalars/json.mdx) :badge[scalar]
 
 <!-- Source: /operations/mutations/update-ani-chart-settings -->
+
+# UpdateAniChartSettings
 
 No description
 
@@ -1157,6 +1215,8 @@ UpdateAniChartSettings(
 #### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Json</code></span>](/types/scalars/json.mdx) :badge[scalar]
 
 <!-- Source: /operations/mutations/update-favourite-order -->
+
+# UpdateFavouriteOrder
 
 Update the order favourites are displayed in
 
@@ -1224,6 +1284,8 @@ List of integers which the studio should be ordered by (Asc)
 User's favourite anime, manga, characters, staff & studios
 
 <!-- Source: /operations/mutations/update-media-list-entries -->
+
+# UpdateMediaListEntries
 
 Update multiple media list entries to the same values
 
@@ -1311,6 +1373,8 @@ The list entries ids to update
 List of anime or manga
 
 <!-- Source: /operations/mutations/update-user -->
+
+# UpdateUser
 
 No description
 
@@ -1421,6 +1485,8 @@ Only allow messages from other users the user follows
 A user
 
 <!-- Source: /operations/queries/activity -->
+
+# Activity
 
 Activity query
 
@@ -1574,6 +1640,8 @@ Activity union type
 
 <!-- Source: /operations/queries/activity-reply -->
 
+# ActivityReply
+
 Activity reply query
 
 ```graphql
@@ -1600,6 +1668,8 @@ Filter by the parent id
 Replay to an activity item
 
 <!-- Source: /operations/queries/airing-schedule -->
+
+# AiringSchedule
 
 Airing schedule query
 
@@ -1713,6 +1783,8 @@ Media Airing Schedule. NOTE: We only aim to guarantee that FUTURE airing data is
 
 <!-- Source: /operations/queries/ani-chart-user -->
 
+# AniChartUser
+
 No description
 
 ```graphql
@@ -1724,6 +1796,8 @@ AniChartUser: AniChartUser
 #### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">AniChartUser</code></span>](/types/objects/ani-chart-user.mdx) :badge[object]
 
 <!-- Source: /operations/queries/character -->
+
+# Character
 
 Character query
 
@@ -1777,6 +1851,8 @@ A character that features in an anime or manga
 
 <!-- Source: /operations/queries/external-link-source-collection -->
 
+# ExternalLinkSourceCollection
+
 ExternalLinkSource collection query
 
 ```graphql
@@ -1805,6 +1881,8 @@ An external link to another site related to the media or staff member
 
 <!-- Source: /operations/queries/follower -->
 
+# Follower
+
 Follower query
 
 ```graphql
@@ -1831,6 +1909,8 @@ The order the results will be returned in
 A user
 
 <!-- Source: /operations/queries/following -->
+
+# Following
 
 Following query
 
@@ -1859,6 +1939,8 @@ A user
 
 <!-- Source: /operations/queries/genre-collection -->
 
+# GenreCollection
+
 Collection of all the possible media genres
 
 ```graphql
@@ -1872,6 +1954,8 @@ GenreCollection: [String]
 The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.
 
 <!-- Source: /operations/queries/like -->
+
+# Like
 
 Like query
 
@@ -1900,6 +1984,8 @@ A user
 
 <!-- Source: /operations/queries/markdown -->
 
+# Markdown
+
 Provide AniList markdown to be converted to html (Requires auth)
 
 ```graphql
@@ -1921,6 +2007,8 @@ The markdown to be parsed to html
 Provides the parsed markdown as html
 
 <!-- Source: /operations/queries/media -->
+
+# Media
 
 Media query
 
@@ -2314,6 +2402,8 @@ Anime or Manga
 
 <!-- Source: /operations/queries/media-list -->
 
+# MediaList
+
 Media list query
 
 ```graphql
@@ -2456,6 +2546,8 @@ List of anime or manga
 
 <!-- Source: /operations/queries/media-list-collection -->
 
+# MediaListCollection
+
 Media list collection query, provides list pre-grouped by status & custom lists. User ID and Media Type arguments required.
 
 ```graphql
@@ -2578,6 +2670,8 @@ List of anime or manga
 
 <!-- Source: /operations/queries/media-tag-collection -->
 
+# MediaTagCollection
+
 Collection of all the possible media tags
 
 ```graphql
@@ -2599,6 +2693,8 @@ Mod Only
 A tag that describes a theme or element of the media
 
 <!-- Source: /operations/queries/media-trend -->
+
+# MediaTrend
 
 Media Trend query
 
@@ -2762,6 +2858,8 @@ Daily media statistics
 
 <!-- Source: /operations/queries/mutual-follower -->
 
+# MutualFollower
+
 Mutual follower query
 
 ```graphql
@@ -2788,6 +2886,8 @@ The order the results will be returned in
 A user
 
 <!-- Source: /operations/queries/notification -->
+
+# Notification
 
 Notification query
 
@@ -2821,6 +2921,8 @@ Notification union type
 
 <!-- Source: /operations/queries/page -->
 
+# Page
+
 No description
 
 ```graphql
@@ -2847,6 +2949,8 @@ The amount of entries per page, max 50
 Page of data. Limited to a max depth of 5000 entries. This is calculated as the page parameter multiplied by the perPage parameter.
 
 <!-- Source: /operations/queries/recommendation -->
+
+# Recommendation
 
 Recommendation query
 
@@ -2910,6 +3014,8 @@ Media recommendation
 
 <!-- Source: /operations/queries/review -->
 
+# Review
+
 Review query
 
 ```graphql
@@ -2952,6 +3058,8 @@ A Review that features in an anime or manga
 
 <!-- Source: /operations/queries/site-statistics -->
 
+# SiteStatistics
+
 Site statistics query
 
 ```graphql
@@ -2963,6 +3071,8 @@ SiteStatistics: SiteStatistics
 #### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">SiteStatistics</code></span>](/types/objects/site-statistics.mdx) :badge[object]
 
 <!-- Source: /operations/queries/staff -->
+
+# Staff
 
 Staff query
 
@@ -3016,6 +3126,8 @@ Voice actors or production staff
 
 <!-- Source: /operations/queries/studio -->
 
+# Studio
+
 Studio query
 
 ```graphql
@@ -3062,6 +3174,8 @@ The order the results will be returned in
 Animation or production company
 
 <!-- Source: /operations/queries/thread -->
+
+# Thread
 
 Thread query
 
@@ -3125,6 +3239,8 @@ Forum Thread
 
 <!-- Source: /operations/queries/thread-comment -->
 
+# ThreadComment
+
 Comment query
 
 ```graphql
@@ -3161,6 +3277,8 @@ The order the results will be returned in
 Forum Thread Comment
 
 <!-- Source: /operations/queries/user -->
+
+# User
 
 User query
 
@@ -3204,6 +3322,8 @@ A user
 
 <!-- Source: /operations/queries/viewer -->
 
+# Viewer
+
 Get the currently authenticated user
 
 ```graphql
@@ -3218,11 +3338,13 @@ A user
 
 <!-- Source: /types/directives/deprecated -->
 
+# deprecated
+
 Marks an element of a GraphQL schema as no longer supported.
 
 ```graphql
 directive @deprecated(
-  reason: String = "No longer supported"
+  reason: String
 ) on 
   | FIELD_DEFINITION
   | ENUM_VALUE
@@ -3235,6 +3357,8 @@ directive @deprecated(
 Explains why this element was deprecated, usually also including a suggestion for how to access supported similar data. Formatted in [Markdown](https://daringfireball.net/projects/markdown/).
 
 <!-- Source: /types/enums/activity-sort -->
+
+# ActivitySort
 
 Activity sort enums
 
@@ -3259,6 +3383,8 @@ enum ActivitySort {
 [`Activity`](/operations/queries/activity.mdx)  :badge[query]
 
 <!-- Source: /types/enums/activity-type -->
+
+# ActivityType
 
 Activity type enum.
 
@@ -3300,6 +3426,8 @@ Anime & Manga list update, only used in query arguments
 
 <!-- Source: /types/enums/airing-sort -->
 
+# AiringSort
+
 Airing schedule sort enums
 
 ```graphql
@@ -3339,6 +3467,8 @@ enum AiringSort {
 
 <!-- Source: /types/enums/character-role -->
 
+# CharacterRole
+
 The role the character plays in the media
 
 ```graphql
@@ -3368,6 +3498,8 @@ A background character in the media
 [`CharacterEdge`](/types/objects/character-edge.mdx)  :badge[object]<Bullet />[`CharacterSubmissionEdge`](/types/objects/character-submission-edge.mdx)  :badge[object]<Bullet />[`MediaCharacter`](/types/objects/media-character.mdx)  :badge[object]<Bullet />[`MediaEdge`](/types/objects/media-edge.mdx)  :badge[object]<Bullet />[`MediaSubmissionEdge`](/types/objects/media-submission-edge.mdx)  :badge[object]
 
 <!-- Source: /types/enums/character-sort -->
+
+# CharacterSort
 
 Character sort enums
 
@@ -3410,6 +3542,8 @@ Order manually decided by moderators
 
 <!-- Source: /types/enums/external-link-media-type -->
 
+# ExternalLinkMediaType
+
 No description
 
 ```graphql
@@ -3434,6 +3568,8 @@ enum ExternalLinkMediaType {
 
 <!-- Source: /types/enums/external-link-type -->
 
+# ExternalLinkType
+
 No description
 
 ```graphql
@@ -3457,6 +3593,8 @@ enum ExternalLinkType {
 [`ExternalLinkSourceCollection`](/operations/queries/external-link-source-collection.mdx)  :badge[query]<Bullet />[`MediaExternalLink`](/types/objects/media-external-link.mdx)  :badge[object]
 
 <!-- Source: /types/enums/likeable-type -->
+
+# LikeableType
 
 Types that can be liked
 
@@ -3484,6 +3622,8 @@ enum LikeableType {
 [`Like`](/operations/queries/like.mdx)  :badge[query]<Bullet />[`ToggleLike`](/operations/mutations/toggle-like.mdx)  :badge[mutation]<Bullet />[`ToggleLikeV2`](/operations/mutations/toggle-like-v2.mdx)  :badge[mutation]
 
 <!-- Source: /types/enums/media-format -->
+
+# MediaFormat
 
 The format the media was released in
 
@@ -3549,6 +3689,8 @@ Manga with just one chapter
 [`FormatStats`](/types/objects/format-stats.mdx)  :badge[object]<Bullet />[`Media`](/operations/queries/media.mdx)  :badge[query]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`MediaRank`](/types/objects/media-rank.mdx)  :badge[object]<Bullet />[`UserFormatStatistic`](/types/objects/user-format-statistic.mdx)  :badge[object]
 
 <!-- Source: /types/enums/media-list-sort -->
+
+# MediaListSort
 
 Media list sort enums
 
@@ -3655,6 +3797,8 @@ enum MediaListSort {
 
 <!-- Source: /types/enums/media-list-status -->
 
+# MediaListStatus
+
 Media list watching/reading status enum.
 
 ```graphql
@@ -3700,6 +3844,8 @@ Re-watching/reading
 
 <!-- Source: /types/enums/media-rank-type -->
 
+# MediaRankType
+
 The type of ranking
 
 ```graphql
@@ -3724,6 +3870,8 @@ Ranking is based on the media's popularity
 [`MediaRank`](/types/objects/media-rank.mdx)  :badge[object]
 
 <!-- Source: /types/enums/media-relation -->
+
+# MediaRelation
 
 Type of relation media has to its parent.
 
@@ -3810,6 +3958,8 @@ Version 3 only. The media is set in the same universe as another media
 
 <!-- Source: /types/enums/media-season -->
 
+# MediaSeason
+
 No description
 
 ```graphql
@@ -3844,6 +3994,8 @@ Predominantly started airing between October and November
 [`Media`](/operations/queries/media.mdx)  :badge[query]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`MediaRank`](/types/objects/media-rank.mdx)  :badge[object]
 
 <!-- Source: /types/enums/media-sort -->
+
+# MediaSort
 
 Media sort enums
 
@@ -3971,6 +4123,8 @@ enum MediaSort {
 
 <!-- Source: /types/enums/media-source -->
 
+# MediaSource
+
 Source type the media was adapted from
 
 ```graphql
@@ -4061,6 +4215,8 @@ Version 3 only. Picture book
 
 <!-- Source: /types/enums/media-status -->
 
+# MediaStatus
+
 The current releasing status of the media
 
 ```graphql
@@ -4100,6 +4256,8 @@ Version 2 only. Is currently paused from releasing and will resume at a later da
 [`Media`](/operations/queries/media.mdx)  :badge[query]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]
 
 <!-- Source: /types/enums/media-trend-sort -->
+
+# MediaTrendSort
 
 Media trend sort enums
 
@@ -4158,6 +4316,8 @@ enum MediaTrendSort {
 
 <!-- Source: /types/enums/media-type -->
 
+# MediaType
+
 Media type enum, anime or manga.
 
 ```graphql
@@ -4182,6 +4342,8 @@ Asian comic
 [`DeleteCustomList`](/operations/mutations/delete-custom-list.mdx)  :badge[mutation]<Bullet />[`Media`](/operations/queries/media.mdx)  :badge[query]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`MediaList`](/operations/queries/media-list.mdx)  :badge[query]<Bullet />[`MediaListCollection`](/operations/queries/media-list-collection.mdx)  :badge[query]<Bullet />[`Review`](/operations/queries/review.mdx)  :badge[query]<Bullet />[`Review`](/types/objects/review.mdx)  :badge[object]
 
 <!-- Source: /types/enums/mod-action-type -->
+
+# ModActionType
 
 No description
 
@@ -4221,6 +4383,8 @@ enum ModActionType {
 [`ModAction`](/types/objects/mod-action.mdx)  :badge[object]
 
 <!-- Source: /types/enums/mod-role -->
+
+# ModRole
 
 Mod role enums
 
@@ -4311,6 +4475,8 @@ A staff data moderator
 [`User`](/types/objects/user.mdx)  :badge[object]
 
 <!-- Source: /types/enums/notification-type -->
+
+# NotificationType
 
 Notification type enum
 
@@ -4427,6 +4593,8 @@ A user's character submission has been accepted, partially accepted, or rejected
 
 <!-- Source: /types/enums/recommendation-rating -->
 
+# RecommendationRating
+
 Recommendation rating enums
 
 ```graphql
@@ -4450,6 +4618,8 @@ enum RecommendationRating {
 [`Recommendation`](/types/objects/recommendation.mdx)  :badge[object]<Bullet />[`SaveRecommendation`](/operations/mutations/save-recommendation.mdx)  :badge[mutation]
 
 <!-- Source: /types/enums/recommendation-sort -->
+
+# RecommendationSort
 
 Recommendation sort enums
 
@@ -4478,6 +4648,8 @@ enum RecommendationSort {
 
 <!-- Source: /types/enums/review-rating -->
 
+# ReviewRating
+
 Review rating enums
 
 ```graphql
@@ -4501,6 +4673,8 @@ enum ReviewRating {
 [`RateReview`](/operations/mutations/rate-review.mdx)  :badge[mutation]<Bullet />[`Review`](/types/objects/review.mdx)  :badge[object]
 
 <!-- Source: /types/enums/review-sort -->
+
+# ReviewSort
 
 Review sort enums
 
@@ -4555,6 +4729,8 @@ Use ID\_DESC instead
 
 <!-- Source: /types/enums/revision-history-action -->
 
+# RevisionHistoryAction
+
 Revision history actions
 
 ```graphql
@@ -4575,6 +4751,8 @@ enum RevisionHistoryAction {
 [`RevisionHistory`](/types/objects/revision-history.mdx)  :badge[object]
 
 <!-- Source: /types/enums/score-format -->
+
+# ScoreFormat
 
 Media list scoring type
 
@@ -4616,6 +4794,8 @@ An integer from 0-3. Should be represented in Smileys. 0 => No Score, 1 => :(, 2
 
 <!-- Source: /types/enums/site-trend-sort -->
 
+# SiteTrendSort
+
 Site trend sort enums
 
 ```graphql
@@ -4644,6 +4824,8 @@ enum SiteTrendSort {
 #### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SiteTrendSort</code>.<code className="gqlmd-mdx-entity-name">CHANGE\_DESC</code></span>](/types/enums/site-trend-sort)
 
 <!-- Source: /types/enums/staff-language -->
+
+# StaffLanguage
 
 The primary language of the voice actor
 
@@ -4710,6 +4892,8 @@ Hungarian
 
 <!-- Source: /types/enums/staff-sort -->
 
+# StaffSort
+
 Staff sort enums
 
 ```graphql
@@ -4757,6 +4941,8 @@ Order manually decided by moderators
 
 <!-- Source: /types/enums/studio-sort -->
 
+# StudioSort
+
 Studio sort enums
 
 ```graphql
@@ -4793,6 +4979,8 @@ enum StudioSort {
 
 <!-- Source: /types/enums/submission-sort -->
 
+# SubmissionSort
+
 Submission sort enums
 
 ```graphql
@@ -4809,6 +4997,8 @@ enum SubmissionSort {
 #### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SubmissionSort</code>.<code className="gqlmd-mdx-entity-name">ID\_DESC</code></span>](/types/enums/submission-sort)
 
 <!-- Source: /types/enums/submission-status -->
+
+# SubmissionStatus
 
 Submission status
 
@@ -4837,6 +5027,8 @@ enum SubmissionStatus {
 
 <!-- Source: /types/enums/thread-comment-sort -->
 
+# ThreadCommentSort
+
 Thread comments sort enums
 
 ```graphql
@@ -4857,6 +5049,8 @@ enum ThreadCommentSort {
 [`ThreadComment`](/operations/queries/thread-comment.mdx)  :badge[query]
 
 <!-- Source: /types/enums/thread-sort -->
+
+# ThreadSort
 
 Thread sort enums
 
@@ -4929,6 +5123,8 @@ Use ID\_DESC instead
 
 <!-- Source: /types/enums/user-privacy -->
 
+# UserPrivacy
+
 User's account privacy setting
 
 ```graphql
@@ -4958,6 +5154,8 @@ Private user
 [`User`](/types/objects/user.mdx)  :badge[object]
 
 <!-- Source: /types/enums/user-sort -->
+
+# UserSort
 
 User sort enums
 
@@ -5001,6 +5199,8 @@ enum UserSort {
 
 <!-- Source: /types/enums/user-staff-name-language -->
 
+# UserStaffNameLanguage
+
 The language the user wants to see staff and character names in
 
 ```graphql
@@ -5030,6 +5230,8 @@ The staff or character's name in their native language
 [`UpdateUser`](/operations/mutations/update-user.mdx)  :badge[mutation]<Bullet />[`UserOptions`](/types/objects/user-options.mdx)  :badge[object]
 
 <!-- Source: /types/enums/user-statistics-sort -->
+
+# UserStatisticsSort
 
 User statistics sort enum
 
@@ -5065,6 +5267,8 @@ enum UserStatisticsSort {
 #### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserStatisticsSort</code>.<code className="gqlmd-mdx-entity-name">MEAN\_SCORE\_DESC</code></span>](/types/enums/user-statistics-sort)
 
 <!-- Source: /types/enums/user-title-language -->
+
+# UserTitleLanguage
 
 The language the user wants to see media titles in
 
@@ -5111,6 +5315,8 @@ Official title in it's native language, stylised by media creator
 
 <!-- Source: /types/inputs/airing-schedule-input -->
 
+# AiringScheduleInput
+
 No description
 
 ```graphql
@@ -5130,6 +5336,8 @@ input AiringScheduleInput {
 #### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">AiringScheduleInput</code>.<code className="gqlmd-mdx-entity-name">timeUntilAiring</code></span>](/types/inputs/airing-schedule-input)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 <!-- Source: /types/inputs/ani-chart-highlight-input -->
+
+# AniChartHighlightInput
 
 No description
 
@@ -5151,6 +5359,8 @@ input AniChartHighlightInput {
 [`UpdateAniChartHighlights`](/operations/mutations/update-ani-chart-highlights.mdx)  :badge[mutation]
 
 <!-- Source: /types/inputs/character-name-input -->
+
+# CharacterNameInput
 
 The names of the character
 
@@ -5193,6 +5403,8 @@ Other names the character might be referred to as but are spoilers
 
 <!-- Source: /types/inputs/fuzzy-date-input -->
 
+# FuzzyDateInput
+
 Date object that allows for incomplete date values (fuzzy)
 
 ```graphql
@@ -5223,6 +5435,8 @@ Numeric Day (24)
 
 <!-- Source: /types/inputs/list-activity-option-input -->
 
+# ListActivityOptionInput
+
 No description
 
 ```graphql
@@ -5243,6 +5457,8 @@ input ListActivityOptionInput {
 [`UpdateUser`](/operations/mutations/update-user.mdx)  :badge[mutation]
 
 <!-- Source: /types/inputs/media-external-link-input -->
+
+# MediaExternalLinkInput
 
 An external link to another site related to the media
 
@@ -5269,6 +5485,8 @@ The url of the external link
 The site location of the external link
 
 <!-- Source: /types/inputs/media-list-options-input -->
+
+# MediaListOptionsInput
 
 A user's list options for anime or manga lists
 
@@ -5315,6 +5533,8 @@ list theme
 
 <!-- Source: /types/inputs/media-title-input -->
 
+# MediaTitleInput
+
 The official titles of the media in various languages
 
 ```graphql
@@ -5341,6 +5561,8 @@ Official title in it's native language
 
 <!-- Source: /types/inputs/notification-option-input -->
 
+# NotificationOptionInput
+
 Notification option input
 
 ```graphql
@@ -5365,6 +5587,8 @@ Whether this type of notification is enabled
 [`UpdateUser`](/operations/mutations/update-user.mdx)  :badge[mutation]
 
 <!-- Source: /types/inputs/staff-name-input -->
+
+# StaffNameInput
 
 The names of the staff member
 
@@ -5401,6 +5625,8 @@ The person's full name in their native language
 Other names the character might be referred by
 
 <!-- Source: /types/objects/activity-like-notification -->
+
+# ActivityLikeNotification
 
 Notification for when a activity is liked
 
@@ -5457,6 +5683,8 @@ The user who liked the activity
 
 <!-- Source: /types/objects/activity-mention-notification -->
 
+# ActivityMentionNotification
+
 Notification for when authenticated user is @ mentioned in activity or reply
 
 ```graphql
@@ -5512,6 +5740,8 @@ The user who mentioned the authenticated user
 
 <!-- Source: /types/objects/activity-message-notification -->
 
+# ActivityMessageNotification
+
 Notification for when a user is send an activity message
 
 ```graphql
@@ -5566,6 +5796,8 @@ The user who sent the message
 [`NotificationUnion`](/types/unions/notification-union.mdx)  :badge[union]
 
 <!-- Source: /types/objects/activity-reply -->
+
+# ActivityReply
 
 Replay to an activity item
 
@@ -5641,6 +5873,8 @@ The users who liked the reply
 
 <!-- Source: /types/objects/activity-reply-like-notification -->
 
+# ActivityReplyLikeNotification
+
 Notification for when a activity reply is liked
 
 ```graphql
@@ -5695,6 +5929,8 @@ The user who liked the activity reply
 [`NotificationUnion`](/types/unions/notification-union.mdx)  :badge[union]
 
 <!-- Source: /types/objects/activity-reply-notification -->
+
+# ActivityReplyNotification
 
 Notification for when a user replies to the authenticated users activity
 
@@ -5751,6 +5987,8 @@ The user who replied to the activity
 
 <!-- Source: /types/objects/activity-reply-subscribed-notification -->
 
+# ActivityReplySubscribedNotification
+
 Notification for when a user replies to activity the authenticated user has replied to
 
 ```graphql
@@ -5806,6 +6044,8 @@ The user who replied to the activity
 
 <!-- Source: /types/objects/airing-notification -->
 
+# AiringNotification
+
 Notification for when an episode of anime airs
 
 ```graphql
@@ -5856,6 +6096,8 @@ The associated media of the airing schedule
 
 <!-- Source: /types/objects/airing-progression -->
 
+# AiringProgression
+
 Score & Watcher stats for airing anime by episode and mid-week
 
 ```graphql
@@ -5885,6 +6127,8 @@ The amount of users watching the anime
 [`MediaStats`](/types/objects/media-stats.mdx)  :badge[object]
 
 <!-- Source: /types/objects/airing-schedule -->
+
+# AiringSchedule
 
 Media Airing Schedule. NOTE: We only aim to guarantee that FUTURE airing data is present and accurate.
 
@@ -5935,6 +6179,8 @@ The associate media of the airing episode
 
 <!-- Source: /types/objects/airing-schedule-connection -->
 
+# AiringScheduleConnection
+
 No description
 
 ```graphql
@@ -5961,6 +6207,8 @@ The pagination information
 
 <!-- Source: /types/objects/airing-schedule-edge -->
 
+# AiringScheduleEdge
+
 AiringSchedule connection edge
 
 ```graphql
@@ -5983,6 +6231,8 @@ The id of the connection
 [`AiringScheduleConnection`](/types/objects/airing-schedule-connection.mdx)  :badge[object]
 
 <!-- Source: /types/objects/ani-chart-user -->
+
+# AniChartUser
 
 No description
 
@@ -6007,6 +6257,8 @@ type AniChartUser {
 [`AniChartUser`](/operations/queries/ani-chart-user.mdx)  :badge[query]
 
 <!-- Source: /types/objects/character -->
+
+# Character
 
 A character that features in an anime or manga
 
@@ -6130,6 +6382,8 @@ Notes for site moderators
 
 <!-- Source: /types/objects/character-connection -->
 
+# CharacterConnection
+
 No description
 
 ```graphql
@@ -6155,6 +6409,8 @@ The pagination information
 [`Favourites`](/types/objects/favourites.mdx)  :badge[object]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`Staff`](/types/objects/staff.mdx)  :badge[object]
 
 <!-- Source: /types/objects/character-edge -->
+
+# CharacterEdge
 
 Character connection edge
 
@@ -6223,6 +6479,8 @@ The order the character should be displayed from the users favourites
 
 <!-- Source: /types/objects/character-image -->
 
+# CharacterImage
+
 No description
 
 ```graphql
@@ -6247,6 +6505,8 @@ The character's image of media at medium size
 [`Character`](/types/objects/character.mdx)  :badge[object]
 
 <!-- Source: /types/objects/character-name -->
+
+# CharacterName
 
 The names of the character
 
@@ -6302,6 +6562,8 @@ The currently authenticated users preferred name language. Default romaji for no
 [`Character`](/types/objects/character.mdx)  :badge[object]
 
 <!-- Source: /types/objects/character-submission -->
+
+# CharacterSubmission
 
 A submission for a character that features in an anime or manga
 
@@ -6364,6 +6626,8 @@ Whether the submission is locked
 
 <!-- Source: /types/objects/character-submission-connection -->
 
+# CharacterSubmissionConnection
+
 No description
 
 ```graphql
@@ -6385,6 +6649,8 @@ type CharacterSubmissionConnection {
 The pagination information
 
 <!-- Source: /types/objects/character-submission-edge -->
+
+# CharacterSubmissionEdge
 
 CharacterSubmission connection edge
 
@@ -6418,6 +6684,8 @@ The submitted voice actors of the character
 [`CharacterSubmissionConnection`](/types/objects/character-submission-connection.mdx)  :badge[object]
 
 <!-- Source: /types/objects/character-submission-update-notification -->
+
+# CharacterSubmissionUpdateNotification
 
 Notification for when a character submission is accepted, partially accepted, or rejected
 
@@ -6469,6 +6737,8 @@ The character that was modified.
 
 <!-- Source: /types/objects/deleted -->
 
+# Deleted
+
 Deleted data type
 
 ```graphql
@@ -6488,6 +6758,8 @@ If an item has been successfully deleted
 [`DeleteActivity`](/operations/mutations/delete-activity.mdx)  :badge[mutation]<Bullet />[`DeleteActivityReply`](/operations/mutations/delete-activity-reply.mdx)  :badge[mutation]<Bullet />[`DeleteCustomList`](/operations/mutations/delete-custom-list.mdx)  :badge[mutation]<Bullet />[`DeleteMediaListEntry`](/operations/mutations/delete-media-list-entry.mdx)  :badge[mutation]<Bullet />[`DeleteReview`](/operations/mutations/delete-review.mdx)  :badge[mutation]<Bullet />[`DeleteThread`](/operations/mutations/delete-thread.mdx)  :badge[mutation]<Bullet />[`DeleteThreadComment`](/operations/mutations/delete-thread-comment.mdx)  :badge[mutation]
 
 <!-- Source: /types/objects/favourites -->
+
+# Favourites
 
 User's favourite anime, manga, characters, staff & studios
 
@@ -6588,6 +6860,8 @@ The amount of entries per page, max 25
 
 <!-- Source: /types/objects/following-notification -->
 
+# FollowingNotification
+
 Notification for when the authenticated user is followed by another user
 
 ```graphql
@@ -6633,6 +6907,8 @@ The liked activity
 
 <!-- Source: /types/objects/format-stats -->
 
+# FormatStats
+
 User's format statistics
 
 ```graphql
@@ -6653,6 +6929,8 @@ type FormatStats {
 [`UserStats`](/types/objects/user-stats.mdx)  :badge[object]
 
 <!-- Source: /types/objects/fuzzy-date -->
+
+# FuzzyDate
 
 Date object that allows for incomplete date values (fuzzy)
 
@@ -6684,6 +6962,8 @@ Numeric Day (24)
 
 <!-- Source: /types/objects/genre-stats -->
 
+# GenreStats
+
 User's genre statistics
 
 ```graphql
@@ -6712,6 +6992,8 @@ The amount of time in minutes the genre has been watched by the user
 [`UserStats`](/types/objects/user-stats.mdx)  :badge[object]
 
 <!-- Source: /types/objects/internal-page -->
+
+# InternalPage
 
 Page of data. Limited to a max depth of 5000 entries. This is calculated as the page parameter multiplied by the perPage parameter.
 
@@ -8164,6 +8446,8 @@ The type of model the id applies to
 
 <!-- Source: /types/objects/list-activity -->
 
+# ListActivity
+
 User list activity (anime & manga updates)
 
 ```graphql
@@ -8268,6 +8552,8 @@ The users who liked the activity
 
 <!-- Source: /types/objects/list-activity-option -->
 
+# ListActivityOption
+
 No description
 
 ```graphql
@@ -8289,6 +8575,8 @@ type ListActivityOption {
 
 <!-- Source: /types/objects/list-score-stats -->
 
+# ListScoreStats
+
 User's list score statistics
 
 ```graphql
@@ -8309,6 +8597,8 @@ type ListScoreStats {
 [`UserStats`](/types/objects/user-stats.mdx)  :badge[object]
 
 <!-- Source: /types/objects/media -->
+
+# Media
 
 Anime or Manga
 
@@ -8736,6 +9026,8 @@ Notes for site moderators
 
 <!-- Source: /types/objects/media-character -->
 
+# MediaCharacter
+
 Internal - Media characters separated
 
 ```graphql
@@ -8782,6 +9074,8 @@ The voice actor of the character
 
 <!-- Source: /types/objects/media-connection -->
 
+# MediaConnection
+
 No description
 
 ```graphql
@@ -8807,6 +9101,8 @@ The pagination information
 [`Character`](/types/objects/character.mdx)  :badge[object]<Bullet />[`Favourites`](/types/objects/favourites.mdx)  :badge[object]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`Staff`](/types/objects/staff.mdx)  :badge[object]<Bullet />[`Studio`](/types/objects/studio.mdx)  :badge[object]
 
 <!-- Source: /types/objects/media-cover-image -->
+
+# MediaCoverImage
 
 No description
 
@@ -8842,6 +9138,8 @@ Average #hex color of cover image
 [`Media`](/types/objects/media.mdx)  :badge[object]
 
 <!-- Source: /types/objects/media-data-change-notification -->
+
+# MediaDataChangeNotification
 
 Notification for when a media entry's data was changed in a significant way impacting users' list tracking
 
@@ -8893,6 +9191,8 @@ The media that received data changes
 
 <!-- Source: /types/objects/media-deletion-notification -->
 
+# MediaDeletionNotification
+
 Notification for when a media tracked in a user's list is deleted from the site
 
 ```graphql
@@ -8937,6 +9237,8 @@ The time the notification was created at
 [`NotificationUnion`](/types/unions/notification-union.mdx)  :badge[union]
 
 <!-- Source: /types/objects/media-edge -->
+
+# MediaEdge
 
 Media connection edge
 
@@ -9036,6 +9338,8 @@ The order the media should be displayed from the users favourites
 
 <!-- Source: /types/objects/media-external-link -->
 
+# MediaExternalLink
+
 An external link to another site related to the media or staff member
 
 ```graphql
@@ -9096,6 +9400,8 @@ The icon image url of the site. Not available for all links. Transparent PNG 64x
 [`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`MediaSubmissionComparison`](/types/objects/media-submission-comparison.mdx)  :badge[object]<Bullet />[`MediaSubmissionEdge`](/types/objects/media-submission-edge.mdx)  :badge[object]<Bullet />[`RevisionHistory`](/types/objects/revision-history.mdx)  :badge[object]
 
 <!-- Source: /types/objects/media-list -->
+
+# MediaList
 
 List of anime or manga
 
@@ -9224,6 +9530,8 @@ When the entry data was created
 
 <!-- Source: /types/objects/media-list-collection -->
 
+# MediaListCollection
+
 List of anime or manga
 
 ```graphql
@@ -9280,6 +9588,8 @@ A map of media list entry arrays grouped by custom lists
 
 <!-- Source: /types/objects/media-list-group -->
 
+# MediaListGroup
+
 List group of anime or manga entries
 
 ```graphql
@@ -9311,6 +9621,8 @@ Media list entries
 [`MediaListCollection`](/types/objects/media-list-collection.mdx)  :badge[object]
 
 <!-- Source: /types/objects/media-list-options -->
+
+# MediaListOptions
 
 A user's list options
 
@@ -9372,6 +9684,8 @@ If the shared theme should be used instead of the individual list themes
 
 <!-- Source: /types/objects/media-list-type-options -->
 
+# MediaListTypeOptions
+
 A user's list options for anime or manga lists
 
 ```graphql
@@ -9420,6 +9734,8 @@ If advanced scoring is enabled
 [`MediaListOptions`](/types/objects/media-list-options.mdx)  :badge[object]
 
 <!-- Source: /types/objects/media-merge-notification -->
+
+# MediaMergeNotification
 
 Notification for when a media entry is merged into another for a user who had it on their list
 
@@ -9476,6 +9792,8 @@ The media that was merged into
 
 <!-- Source: /types/objects/media-rank -->
 
+# MediaRank
+
 The ranking of a media in a particular time span and format compared to other media
 
 ```graphql
@@ -9531,6 +9849,8 @@ String that gives context to the ranking type and time span
 
 <!-- Source: /types/objects/media-stats -->
 
+# MediaStats
+
 A media's statistics
 
 ```graphql
@@ -9558,6 +9878,8 @@ Replaced by MediaTrends
 [`Media`](/types/objects/media.mdx)  :badge[object]
 
 <!-- Source: /types/objects/media-streaming-episode -->
+
+# MediaStreamingEpisode
 
 Data and links to legal streaming episodes on external sites
 
@@ -9593,6 +9915,8 @@ The site location of the streaming episodes
 [`Media`](/types/objects/media.mdx)  :badge[object]
 
 <!-- Source: /types/objects/media-submission -->
+
+# MediaSubmission
 
 Media submission
 
@@ -9670,6 +9994,8 @@ Whether the submission is locked
 
 <!-- Source: /types/objects/media-submission-comparison -->
 
+# MediaSubmissionComparison
+
 Media submission with comparison to current data
 
 ```graphql
@@ -9699,6 +10025,8 @@ type MediaSubmissionComparison {
 [`MediaSubmission`](/types/objects/media-submission.mdx)  :badge[object]
 
 <!-- Source: /types/objects/media-submission-edge -->
+
+# MediaSubmissionEdge
 
 No description
 
@@ -9765,6 +10093,8 @@ The id of the direct submission
 
 <!-- Source: /types/objects/media-submission-update-notification -->
 
+# MediaSubmissionUpdateNotification
+
 Notification for when a media submission is accepted, partially accepted, or rejected
 
 ```graphql
@@ -9819,6 +10149,8 @@ The title of the media that was submitted. If this submission was to edit an exi
 [`NotificationUnion`](/types/unions/notification-union.mdx)  :badge[union]
 
 <!-- Source: /types/objects/media-tag -->
+
+# MediaTag
 
 A tag that describes a theme or element of the media
 
@@ -9884,6 +10216,8 @@ The user who submitted the tag
 
 <!-- Source: /types/objects/media-title -->
 
+# MediaTitle
+
 The official titles of the media in various languages
 
 ```graphql
@@ -9931,6 +10265,8 @@ The currently authenticated users preferred title language. Default romaji for n
 
 <!-- Source: /types/objects/media-trailer -->
 
+# MediaTrailer
+
 Media trailer or advertisement
 
 ```graphql
@@ -9960,6 +10296,8 @@ The url for the thumbnail image of the video
 [`Media`](/types/objects/media.mdx)  :badge[object]
 
 <!-- Source: /types/objects/media-trend -->
+
+# MediaTrend
 
 Daily media statistics
 
@@ -10034,6 +10372,8 @@ The related media
 
 <!-- Source: /types/objects/media-trend-connection -->
 
+# MediaTrendConnection
+
 No description
 
 ```graphql
@@ -10060,6 +10400,8 @@ The pagination information
 
 <!-- Source: /types/objects/media-trend-edge -->
 
+# MediaTrendEdge
+
 Media trend connection edge
 
 ```graphql
@@ -10077,6 +10419,8 @@ type MediaTrendEdge {
 [`MediaTrendConnection`](/types/objects/media-trend-connection.mdx)  :badge[object]
 
 <!-- Source: /types/objects/message-activity -->
+
+# MessageActivity
 
 User message activity
 
@@ -10197,6 +10541,8 @@ The users who liked the activity
 
 <!-- Source: /types/objects/mod-action -->
 
+# ModAction
+
 No description
 
 ```graphql
@@ -10238,6 +10584,8 @@ The id of the action
 
 <!-- Source: /types/objects/notification-option -->
 
+# NotificationOption
+
 Notification option
 
 ```graphql
@@ -10262,6 +10610,8 @@ Whether this type of notification is enabled
 [`UserOptions`](/types/objects/user-options.mdx)  :badge[object]
 
 <!-- Source: /types/objects/page -->
+
+# Page
 
 Page of data. Limited to a max depth of 5000 entries. This is calculated as the page parameter multiplied by the perPage parameter.
 
@@ -11559,6 +11909,8 @@ The type of model the id applies to
 
 <!-- Source: /types/objects/page-info -->
 
+# PageInfo
+
 No description
 
 ```graphql
@@ -11599,6 +11951,8 @@ If there is another page
 
 <!-- Source: /types/objects/parsed-markdown -->
 
+# ParsedMarkdown
+
 Provides the parsed markdown as html
 
 ```graphql
@@ -11618,6 +11972,8 @@ The parsed markdown as html
 [`Markdown`](/operations/queries/markdown.mdx)  :badge[query]
 
 <!-- Source: /types/objects/recommendation -->
+
+# Recommendation
 
 Media recommendation
 
@@ -11668,6 +12024,8 @@ The user that first created the recommendation
 
 <!-- Source: /types/objects/recommendation-connection -->
 
+# RecommendationConnection
+
 No description
 
 ```graphql
@@ -11694,6 +12052,8 @@ The pagination information
 
 <!-- Source: /types/objects/recommendation-edge -->
 
+# RecommendationEdge
+
 Recommendation connection edge
 
 ```graphql
@@ -11711,6 +12071,8 @@ type RecommendationEdge {
 [`RecommendationConnection`](/types/objects/recommendation-connection.mdx)  :badge[object]
 
 <!-- Source: /types/objects/related-media-addition-notification -->
+
+# RelatedMediaAdditionNotification
 
 Notification for when new media is added to the site
 
@@ -11757,6 +12119,8 @@ The associated media of the airing schedule
 
 <!-- Source: /types/objects/report -->
 
+# Report
+
 No description
 
 ```graphql
@@ -11794,6 +12158,8 @@ When the entry data was created
 [`InternalPage`](/types/objects/internal-page.mdx)  :badge[object]
 
 <!-- Source: /types/objects/review -->
+
+# Review
 
 A Review that features in an anime or manga
 
@@ -11900,6 +12266,8 @@ The media the review is of
 
 <!-- Source: /types/objects/review-connection -->
 
+# ReviewConnection
+
 No description
 
 ```graphql
@@ -11926,6 +12294,8 @@ The pagination information
 
 <!-- Source: /types/objects/review-edge -->
 
+# ReviewEdge
+
 Review connection edge
 
 ```graphql
@@ -11943,6 +12313,8 @@ type ReviewEdge {
 [`ReviewConnection`](/types/objects/review-connection.mdx)  :badge[object]
 
 <!-- Source: /types/objects/revision-history -->
+
+# RevisionHistory
 
 Feed of mod edit activity
 
@@ -12009,6 +12381,8 @@ When the mod feed entry was created
 
 <!-- Source: /types/objects/score-distribution -->
 
+# ScoreDistribution
+
 A user's list score distribution.
 
 ```graphql
@@ -12031,6 +12405,8 @@ The amount of list entries with this score
 [`MediaStats`](/types/objects/media-stats.mdx)  :badge[object]<Bullet />[`UserStats`](/types/objects/user-stats.mdx)  :badge[object]
 
 <!-- Source: /types/objects/site-statistics -->
+
+# SiteStatistics
 
 No description
 
@@ -12166,6 +12542,8 @@ The amount of entries per page, max 25
 
 <!-- Source: /types/objects/site-trend -->
 
+# SiteTrend
+
 Daily site statistics
 
 ```graphql
@@ -12194,6 +12572,8 @@ The change from yesterday
 
 <!-- Source: /types/objects/site-trend-connection -->
 
+# SiteTrendConnection
+
 No description
 
 ```graphql
@@ -12220,6 +12600,8 @@ The pagination information
 
 <!-- Source: /types/objects/site-trend-edge -->
 
+# SiteTrendEdge
+
 Site trend connection edge
 
 ```graphql
@@ -12237,6 +12619,8 @@ type SiteTrendEdge {
 [`SiteTrendConnection`](/types/objects/site-trend-connection.mdx)  :badge[object]
 
 <!-- Source: /types/objects/staff -->
+
+# Staff
 
 Voice actors or production staff
 
@@ -12451,6 +12835,8 @@ Notes for site moderators
 
 <!-- Source: /types/objects/staff-connection -->
 
+# StaffConnection
+
 No description
 
 ```graphql
@@ -12476,6 +12862,8 @@ The pagination information
 [`Favourites`](/types/objects/favourites.mdx)  :badge[object]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]
 
 <!-- Source: /types/objects/staff-edge -->
+
+# StaffEdge
 
 Staff connection edge
 
@@ -12510,6 +12898,8 @@ The order the staff should be displayed from the users favourites
 
 <!-- Source: /types/objects/staff-image -->
 
+# StaffImage
+
 No description
 
 ```graphql
@@ -12534,6 +12924,8 @@ The person's image of media at medium size
 [`Staff`](/types/objects/staff.mdx)  :badge[object]
 
 <!-- Source: /types/objects/staff-name -->
+
+# StaffName
 
 The names of the staff member
 
@@ -12585,6 +12977,8 @@ The currently authenticated users preferred name language. Default romaji for no
 
 <!-- Source: /types/objects/staff-role-type -->
 
+# StaffRoleType
+
 Voice actor role for a character
 
 ```graphql
@@ -12615,6 +13009,8 @@ Used for grouping roles where multiple dubs exist for the same language. Either 
 
 <!-- Source: /types/objects/staff-stats -->
 
+# StaffStats
+
 User's staff statistics
 
 ```graphql
@@ -12643,6 +13039,8 @@ The amount of time in minutes the staff member has been watched by the user
 [`UserStats`](/types/objects/user-stats.mdx)  :badge[object]
 
 <!-- Source: /types/objects/staff-submission -->
+
+# StaffSubmission
 
 A submission for a staff that features in an anime or manga
 
@@ -12705,6 +13103,8 @@ Whether the submission is locked
 
 <!-- Source: /types/objects/staff-submission-update-notification -->
 
+# StaffSubmissionUpdateNotification
+
 Notification for when a staff submission is accepted, partially accepted, or rejected
 
 ```graphql
@@ -12755,6 +13155,8 @@ The staff that was modified.
 
 <!-- Source: /types/objects/status-distribution -->
 
+# StatusDistribution
+
 The distribution of the watching/reading status of media or a user's list
 
 ```graphql
@@ -12779,6 +13181,8 @@ The amount of entries with this status
 [`MediaStats`](/types/objects/media-stats.mdx)  :badge[object]<Bullet />[`UserStats`](/types/objects/user-stats.mdx)  :badge[object]
 
 <!-- Source: /types/objects/studio -->
+
+# Studio
 
 Animation or production company
 
@@ -12858,6 +13262,8 @@ The amount of user's who have favourited the studio
 
 <!-- Source: /types/objects/studio-connection -->
 
+# StudioConnection
+
 No description
 
 ```graphql
@@ -12883,6 +13289,8 @@ The pagination information
 [`Favourites`](/types/objects/favourites.mdx)  :badge[object]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]
 
 <!-- Source: /types/objects/studio-edge -->
+
+# StudioEdge
 
 Studio connection edge
 
@@ -12917,6 +13325,8 @@ The order the character should be displayed from the users favourites
 
 <!-- Source: /types/objects/studio-stats -->
 
+# StudioStats
+
 User's studio statistics
 
 ```graphql
@@ -12946,6 +13356,8 @@ The amount of time in minutes the studio's works have been watched by the user
 
 <!-- Source: /types/objects/tag-stats -->
 
+# TagStats
+
 User's tag statistics
 
 ```graphql
@@ -12974,6 +13386,8 @@ The amount of time in minutes the tag has been watched by the user
 [`UserStats`](/types/objects/user-stats.mdx)  :badge[object]
 
 <!-- Source: /types/objects/text-activity -->
+
+# TextActivity
 
 User text activity
 
@@ -13074,6 +13488,8 @@ The users who liked the activity
 [`ActivityUnion`](/types/unions/activity-union.mdx)  :badge[union]<Bullet />[`LikeableUnion`](/types/unions/likeable-union.mdx)  :badge[union]
 
 <!-- Source: /types/objects/thread -->
+
+# Thread
 
 Forum Thread
 
@@ -13214,6 +13630,8 @@ The media categories of the thread
 
 <!-- Source: /types/objects/thread-category -->
 
+# ThreadCategory
+
 A forum thread category
 
 ```graphql
@@ -13238,6 +13656,8 @@ The name of the category
 [`Thread`](/types/objects/thread.mdx)  :badge[object]
 
 <!-- Source: /types/objects/thread-comment -->
+
+# ThreadComment
 
 Forum Thread Comment
 
@@ -13338,6 +13758,8 @@ If the comment tree is locked and may not receive replies or edits
 
 <!-- Source: /types/objects/thread-comment-like-notification -->
 
+# ThreadCommentLikeNotification
+
 Notification for when a thread comment is liked
 
 ```graphql
@@ -13397,6 +13819,8 @@ The user who liked the activity
 [`NotificationUnion`](/types/unions/notification-union.mdx)  :badge[union]
 
 <!-- Source: /types/objects/thread-comment-mention-notification -->
+
+# ThreadCommentMentionNotification
 
 Notification for when authenticated user is @ mentioned in a forum thread comment
 
@@ -13458,6 +13882,8 @@ The user who mentioned the authenticated user
 
 <!-- Source: /types/objects/thread-comment-reply-notification -->
 
+# ThreadCommentReplyNotification
+
 Notification for when a user replies to your forum thread comment
 
 ```graphql
@@ -13517,6 +13943,8 @@ The user who replied to the activity
 [`NotificationUnion`](/types/unions/notification-union.mdx)  :badge[union]
 
 <!-- Source: /types/objects/thread-comment-subscribed-notification -->
+
+# ThreadCommentSubscribedNotification
 
 Notification for when a user replies to a subscribed forum thread
 
@@ -13578,6 +14006,8 @@ The user who replied to the subscribed thread
 
 <!-- Source: /types/objects/thread-like-notification -->
 
+# ThreadLikeNotification
+
 Notification for when a thread is liked
 
 ```graphql
@@ -13637,6 +14067,8 @@ The user who liked the activity
 [`NotificationUnion`](/types/unions/notification-union.mdx)  :badge[union]
 
 <!-- Source: /types/objects/user -->
+
+# User
 
 A user
 
@@ -13797,6 +14229,8 @@ The user's previously used names.
 
 <!-- Source: /types/objects/user-activity-history -->
 
+# UserActivityHistory
+
 A user's activity history stats for the previous 6 months. Refreshes only periodically
 
 ```graphql
@@ -13827,6 +14261,8 @@ The level of activity represented on a 1-10 scale
 
 <!-- Source: /types/objects/user-avatar -->
 
+# UserAvatar
+
 A user's avatars
 
 ```graphql
@@ -13851,6 +14287,8 @@ The avatar of user at medium size
 [`User`](/types/objects/user.mdx)  :badge[object]
 
 <!-- Source: /types/objects/user-country-statistic -->
+
+# UserCountryStatistic
 
 No description
 
@@ -13885,6 +14323,8 @@ type UserCountryStatistic {
 
 <!-- Source: /types/objects/user-format-statistic -->
 
+# UserFormatStatistic
+
 No description
 
 ```graphql
@@ -13917,6 +14357,8 @@ type UserFormatStatistic {
 [`UserStatistics`](/types/objects/user-statistics.mdx)  :badge[object]
 
 <!-- Source: /types/objects/user-genre-statistic -->
+
+# UserGenreStatistic
 
 No description
 
@@ -13951,6 +14393,8 @@ type UserGenreStatistic {
 
 <!-- Source: /types/objects/user-length-statistic -->
 
+# UserLengthStatistic
+
 No description
 
 ```graphql
@@ -13984,6 +14428,8 @@ type UserLengthStatistic {
 
 <!-- Source: /types/objects/user-mod-data -->
 
+# UserModData
+
 User data for moderators
 
 ```graphql
@@ -14012,6 +14458,8 @@ type UserModData {
 #### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">UserModData</code>.<code className="gqlmd-mdx-entity-name">email</code></span>](/types/objects/user-mod-data)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 <!-- Source: /types/objects/user-options -->
+
+# UserOptions
 
 A user's general options
 
@@ -14093,6 +14541,8 @@ The list activity types the user has disabled from being created from list updat
 
 <!-- Source: /types/objects/user-previous-name -->
 
+# UserPreviousName
+
 A user's previous name
 
 ```graphql
@@ -14122,6 +14572,8 @@ When the user most recently changed from this name.
 [`User`](/types/objects/user.mdx)  :badge[object]
 
 <!-- Source: /types/objects/user-release-year-statistic -->
+
+# UserReleaseYearStatistic
 
 No description
 
@@ -14156,6 +14608,8 @@ type UserReleaseYearStatistic {
 
 <!-- Source: /types/objects/user-score-statistic -->
 
+# UserScoreStatistic
+
 No description
 
 ```graphql
@@ -14188,6 +14642,8 @@ type UserScoreStatistic {
 [`UserStatistics`](/types/objects/user-statistics.mdx)  :badge[object]
 
 <!-- Source: /types/objects/user-staff-statistic -->
+
+# UserStaffStatistic
 
 No description
 
@@ -14222,6 +14678,8 @@ type UserStaffStatistic {
 
 <!-- Source: /types/objects/user-start-year-statistic -->
 
+# UserStartYearStatistic
+
 No description
 
 ```graphql
@@ -14255,6 +14713,8 @@ type UserStartYearStatistic {
 
 <!-- Source: /types/objects/user-statistic-types -->
 
+# UserStatisticTypes
+
 No description
 
 ```graphql
@@ -14275,6 +14735,8 @@ type UserStatisticTypes {
 [`User`](/types/objects/user.mdx)  :badge[object]
 
 <!-- Source: /types/objects/user-statistics -->
+
+# UserStatistics
 
 No description
 
@@ -14432,6 +14894,8 @@ type UserStatistics {
 
 <!-- Source: /types/objects/user-stats -->
 
+# UserStats
+
 A user's statistics
 
 ```graphql
@@ -14502,6 +14966,8 @@ The amount of manga chapters the user has read
 
 <!-- Source: /types/objects/user-status-statistic -->
 
+# UserStatusStatistic
+
 No description
 
 ```graphql
@@ -14534,6 +15000,8 @@ type UserStatusStatistic {
 [`UserStatistics`](/types/objects/user-statistics.mdx)  :badge[object]
 
 <!-- Source: /types/objects/user-studio-statistic -->
+
+# UserStudioStatistic
 
 No description
 
@@ -14568,6 +15036,8 @@ type UserStudioStatistic {
 
 <!-- Source: /types/objects/user-tag-statistic -->
 
+# UserTagStatistic
+
 No description
 
 ```graphql
@@ -14600,6 +15070,8 @@ type UserTagStatistic {
 [`UserStatistics`](/types/objects/user-statistics.mdx)  :badge[object]
 
 <!-- Source: /types/objects/user-voice-actor-statistic -->
+
+# UserVoiceActorStatistic
 
 No description
 
@@ -14637,6 +15109,8 @@ type UserVoiceActorStatistic {
 
 <!-- Source: /types/objects/year-stats -->
 
+# YearStats
+
 User's year statistics
 
 ```graphql
@@ -14661,6 +15135,8 @@ type YearStats {
 
 <!-- Source: /types/scalars/boolean -->
 
+# Boolean
+
 The `Boolean` scalar type represents `true` or `false`.
 
 ```graphql
@@ -14672,6 +15148,8 @@ scalar Boolean
 [`Activity`](/operations/queries/activity.mdx)  :badge[query]<Bullet />[`ActivityReply`](/types/objects/activity-reply.mdx)  :badge[object]<Bullet />[`AiringSchedule`](/operations/queries/airing-schedule.mdx)  :badge[query]<Bullet />[`Character`](/operations/queries/character.mdx)  :badge[query]<Bullet />[`Character`](/types/objects/character.mdx)  :badge[object]<Bullet />[`CharacterSubmission`](/types/objects/character-submission.mdx)  :badge[object]<Bullet />[`Deleted`](/types/objects/deleted.mdx)  :badge[object]<Bullet />[`include`](/operations/directives/include.mdx)  :badge[directive]<Bullet />[`ListActivity`](/types/objects/list-activity.mdx)  :badge[object]<Bullet />[`ListActivityOption`](/types/objects/list-activity-option.mdx)  :badge[object]<Bullet />[`ListActivityOptionInput`](/types/inputs/list-activity-option-input.mdx)  :badge[input]<Bullet />[`Media`](/operations/queries/media.mdx)  :badge[query]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`MediaEdge`](/types/objects/media-edge.mdx)  :badge[object]<Bullet />[`MediaExternalLink`](/types/objects/media-external-link.mdx)  :badge[object]<Bullet />[`MediaList`](/operations/queries/media-list.mdx)  :badge[query]<Bullet />[`MediaList`](/types/objects/media-list.mdx)  :badge[object]<Bullet />[`MediaListCollection`](/operations/queries/media-list-collection.mdx)  :badge[query]<Bullet />[`MediaListCollection`](/types/objects/media-list-collection.mdx)  :badge[object]<Bullet />[`MediaListGroup`](/types/objects/media-list-group.mdx)  :badge[object]<Bullet />[`MediaListOptions`](/types/objects/media-list-options.mdx)  :badge[object]<Bullet />[`MediaListOptionsInput`](/types/inputs/media-list-options-input.mdx)  :badge[input]<Bullet />[`MediaListTypeOptions`](/types/objects/media-list-type-options.mdx)  :badge[object]<Bullet />[`MediaRank`](/types/objects/media-rank.mdx)  :badge[object]<Bullet />[`MediaSubmission`](/types/objects/media-submission.mdx)  :badge[object]<Bullet />[`MediaSubmissionEdge`](/types/objects/media-submission-edge.mdx)  :badge[object]<Bullet />[`MediaTag`](/types/objects/media-tag.mdx)  :badge[object]<Bullet />[`MediaTrend`](/operations/queries/media-trend.mdx)  :badge[query]<Bullet />[`MediaTrend`](/types/objects/media-trend.mdx)  :badge[object]<Bullet />[`MessageActivity`](/types/objects/message-activity.mdx)  :badge[object]<Bullet />[`Notification`](/operations/queries/notification.mdx)  :badge[query]<Bullet />[`NotificationOption`](/types/objects/notification-option.mdx)  :badge[object]<Bullet />[`NotificationOptionInput`](/types/inputs/notification-option-input.mdx)  :badge[input]<Bullet />[`PageInfo`](/types/objects/page-info.mdx)  :badge[object]<Bullet />[`Recommendation`](/operations/queries/recommendation.mdx)  :badge[query]<Bullet />[`Report`](/types/objects/report.mdx)  :badge[object]<Bullet />[`Review`](/types/objects/review.mdx)  :badge[object]<Bullet />[`SaveActivityReply`](/operations/mutations/save-activity-reply.mdx)  :badge[mutation]<Bullet />[`SaveListActivity`](/operations/mutations/save-list-activity.mdx)  :badge[mutation]<Bullet />[`SaveMediaListEntry`](/operations/mutations/save-media-list-entry.mdx)  :badge[mutation]<Bullet />[`SaveMessageActivity`](/operations/mutations/save-message-activity.mdx)  :badge[mutation]<Bullet />[`SaveReview`](/operations/mutations/save-review.mdx)  :badge[mutation]<Bullet />[`SaveTextActivity`](/operations/mutations/save-text-activity.mdx)  :badge[mutation]<Bullet />[`SaveThread`](/operations/mutations/save-thread.mdx)  :badge[mutation]<Bullet />[`SaveThreadComment`](/operations/mutations/save-thread-comment.mdx)  :badge[mutation]<Bullet />[`skip`](/operations/directives/skip.mdx)  :badge[directive]<Bullet />[`Staff`](/operations/queries/staff.mdx)  :badge[query]<Bullet />[`Staff`](/types/objects/staff.mdx)  :badge[object]<Bullet />[`StaffSubmission`](/types/objects/staff-submission.mdx)  :badge[object]<Bullet />[`Studio`](/types/objects/studio.mdx)  :badge[object]<Bullet />[`StudioEdge`](/types/objects/studio-edge.mdx)  :badge[object]<Bullet />[`TextActivity`](/types/objects/text-activity.mdx)  :badge[object]<Bullet />[`Thread`](/operations/queries/thread.mdx)  :badge[query]<Bullet />[`Thread`](/types/objects/thread.mdx)  :badge[object]<Bullet />[`ThreadComment`](/types/objects/thread-comment.mdx)  :badge[object]<Bullet />[`ToggleActivityPin`](/operations/mutations/toggle-activity-pin.mdx)  :badge[mutation]<Bullet />[`ToggleActivitySubscription`](/operations/mutations/toggle-activity-subscription.mdx)  :badge[mutation]<Bullet />[`ToggleThreadSubscription`](/operations/mutations/toggle-thread-subscription.mdx)  :badge[mutation]<Bullet />[`UpdateMediaListEntries`](/operations/mutations/update-media-list-entries.mdx)  :badge[mutation]<Bullet />[`UpdateUser`](/operations/mutations/update-user.mdx)  :badge[mutation]<Bullet />[`User`](/operations/queries/user.mdx)  :badge[query]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]<Bullet />[`UserOptions`](/types/objects/user-options.mdx)  :badge[object]
 
 <!-- Source: /types/scalars/country-code -->
+
+# CountryCode
 
 ISO 3166-1 alpha-2 country code
 
@@ -14685,6 +15163,8 @@ scalar CountryCode
 
 <!-- Source: /types/scalars/float -->
 
+# Float
+
 The `Float` scalar type represents signed double-precision fractional values as specified by [IEEE 754](https://en.wikipedia.org/wiki/IEEE_floating_point).
 
 ```graphql
@@ -14696,6 +15176,8 @@ scalar Float
 [`AiringProgression`](/types/objects/airing-progression.mdx)  :badge[object]<Bullet />[`MediaList`](/types/objects/media-list.mdx)  :badge[object]<Bullet />[`SaveMediaListEntry`](/operations/mutations/save-media-list-entry.mdx)  :badge[mutation]<Bullet />[`UpdateMediaListEntries`](/operations/mutations/update-media-list-entries.mdx)  :badge[mutation]<Bullet />[`UserCountryStatistic`](/types/objects/user-country-statistic.mdx)  :badge[object]<Bullet />[`UserFormatStatistic`](/types/objects/user-format-statistic.mdx)  :badge[object]<Bullet />[`UserGenreStatistic`](/types/objects/user-genre-statistic.mdx)  :badge[object]<Bullet />[`UserLengthStatistic`](/types/objects/user-length-statistic.mdx)  :badge[object]<Bullet />[`UserReleaseYearStatistic`](/types/objects/user-release-year-statistic.mdx)  :badge[object]<Bullet />[`UserScoreStatistic`](/types/objects/user-score-statistic.mdx)  :badge[object]<Bullet />[`UserStaffStatistic`](/types/objects/user-staff-statistic.mdx)  :badge[object]<Bullet />[`UserStartYearStatistic`](/types/objects/user-start-year-statistic.mdx)  :badge[object]<Bullet />[`UserStatistics`](/types/objects/user-statistics.mdx)  :badge[object]<Bullet />[`UserStatusStatistic`](/types/objects/user-status-statistic.mdx)  :badge[object]<Bullet />[`UserStudioStatistic`](/types/objects/user-studio-statistic.mdx)  :badge[object]<Bullet />[`UserTagStatistic`](/types/objects/user-tag-statistic.mdx)  :badge[object]<Bullet />[`UserVoiceActorStatistic`](/types/objects/user-voice-actor-statistic.mdx)  :badge[object]
 
 <!-- Source: /types/scalars/fuzzy-date-int -->
+
+# FuzzyDateInt
 
 8 digit long date integer (YYYYMMDD). Unknown dates represented by 0. E.g. 2016: 20160000, May 1976: 19760500
 
@@ -14709,6 +15191,8 @@ scalar FuzzyDateInt
 
 <!-- Source: /types/scalars/int -->
 
+# Int
+
 The `Int` scalar type represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1.
 
 ```graphql
@@ -14720,6 +15204,8 @@ scalar Int
 [`Activity`](/operations/queries/activity.mdx)  :badge[query]<Bullet />[`ActivityLikeNotification`](/types/objects/activity-like-notification.mdx)  :badge[object]<Bullet />[`ActivityMentionNotification`](/types/objects/activity-mention-notification.mdx)  :badge[object]<Bullet />[`ActivityMessageNotification`](/types/objects/activity-message-notification.mdx)  :badge[object]<Bullet />[`ActivityReply`](/operations/queries/activity-reply.mdx)  :badge[query]<Bullet />[`ActivityReply`](/types/objects/activity-reply.mdx)  :badge[object]<Bullet />[`ActivityReplyLikeNotification`](/types/objects/activity-reply-like-notification.mdx)  :badge[object]<Bullet />[`ActivityReplyNotification`](/types/objects/activity-reply-notification.mdx)  :badge[object]<Bullet />[`ActivityReplySubscribedNotification`](/types/objects/activity-reply-subscribed-notification.mdx)  :badge[object]<Bullet />[`AiringNotification`](/types/objects/airing-notification.mdx)  :badge[object]<Bullet />[`AiringProgression`](/types/objects/airing-progression.mdx)  :badge[object]<Bullet />[`AiringSchedule`](/operations/queries/airing-schedule.mdx)  :badge[query]<Bullet />[`AiringSchedule`](/types/objects/airing-schedule.mdx)  :badge[object]<Bullet />[`AiringScheduleEdge`](/types/objects/airing-schedule-edge.mdx)  :badge[object]<Bullet />[`AiringScheduleInput`](/types/inputs/airing-schedule-input.mdx)  :badge[input]<Bullet />[`AniChartHighlightInput`](/types/inputs/ani-chart-highlight-input.mdx)  :badge[input]<Bullet />[`Character`](/operations/queries/character.mdx)  :badge[query]<Bullet />[`Character`](/types/objects/character.mdx)  :badge[object]<Bullet />[`CharacterEdge`](/types/objects/character-edge.mdx)  :badge[object]<Bullet />[`CharacterSubmission`](/types/objects/character-submission.mdx)  :badge[object]<Bullet />[`CharacterSubmissionUpdateNotification`](/types/objects/character-submission-update-notification.mdx)  :badge[object]<Bullet />[`DeleteActivity`](/operations/mutations/delete-activity.mdx)  :badge[mutation]<Bullet />[`DeleteActivityReply`](/operations/mutations/delete-activity-reply.mdx)  :badge[mutation]<Bullet />[`DeleteFollower`](/operations/mutations/delete-follower.mdx)  :badge[mutation]<Bullet />[`DeleteMediaListEntry`](/operations/mutations/delete-media-list-entry.mdx)  :badge[mutation]<Bullet />[`DeleteReview`](/operations/mutations/delete-review.mdx)  :badge[mutation]<Bullet />[`DeleteThread`](/operations/mutations/delete-thread.mdx)  :badge[mutation]<Bullet />[`DeleteThreadComment`](/operations/mutations/delete-thread-comment.mdx)  :badge[mutation]<Bullet />[`ExternalLinkSourceCollection`](/operations/queries/external-link-source-collection.mdx)  :badge[query]<Bullet />[`Follower`](/operations/queries/follower.mdx)  :badge[query]<Bullet />[`Following`](/operations/queries/following.mdx)  :badge[query]<Bullet />[`FollowingNotification`](/types/objects/following-notification.mdx)  :badge[object]<Bullet />[`FormatStats`](/types/objects/format-stats.mdx)  :badge[object]<Bullet />[`FuzzyDate`](/types/objects/fuzzy-date.mdx)  :badge[object]<Bullet />[`FuzzyDateInput`](/types/inputs/fuzzy-date-input.mdx)  :badge[input]<Bullet />[`GenreStats`](/types/objects/genre-stats.mdx)  :badge[object]<Bullet />[`Like`](/operations/queries/like.mdx)  :badge[query]<Bullet />[`ListActivity`](/types/objects/list-activity.mdx)  :badge[object]<Bullet />[`ListScoreStats`](/types/objects/list-score-stats.mdx)  :badge[object]<Bullet />[`Media`](/operations/queries/media.mdx)  :badge[query]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`MediaCharacter`](/types/objects/media-character.mdx)  :badge[object]<Bullet />[`MediaDataChangeNotification`](/types/objects/media-data-change-notification.mdx)  :badge[object]<Bullet />[`MediaDeletionNotification`](/types/objects/media-deletion-notification.mdx)  :badge[object]<Bullet />[`MediaEdge`](/types/objects/media-edge.mdx)  :badge[object]<Bullet />[`MediaExternalLink`](/types/objects/media-external-link.mdx)  :badge[object]<Bullet />[`MediaExternalLinkInput`](/types/inputs/media-external-link-input.mdx)  :badge[input]<Bullet />[`MediaList`](/operations/queries/media-list.mdx)  :badge[query]<Bullet />[`MediaList`](/types/objects/media-list.mdx)  :badge[object]<Bullet />[`MediaListCollection`](/operations/queries/media-list-collection.mdx)  :badge[query]<Bullet />[`MediaMergeNotification`](/types/objects/media-merge-notification.mdx)  :badge[object]<Bullet />[`MediaRank`](/types/objects/media-rank.mdx)  :badge[object]<Bullet />[`MediaSubmission`](/types/objects/media-submission.mdx)  :badge[object]<Bullet />[`MediaSubmissionEdge`](/types/objects/media-submission-edge.mdx)  :badge[object]<Bullet />[`MediaSubmissionUpdateNotification`](/types/objects/media-submission-update-notification.mdx)  :badge[object]<Bullet />[`MediaTag`](/types/objects/media-tag.mdx)  :badge[object]<Bullet />[`MediaTagCollection`](/operations/queries/media-tag-collection.mdx)  :badge[query]<Bullet />[`MediaTrend`](/operations/queries/media-trend.mdx)  :badge[query]<Bullet />[`MediaTrend`](/types/objects/media-trend.mdx)  :badge[object]<Bullet />[`MessageActivity`](/types/objects/message-activity.mdx)  :badge[object]<Bullet />[`ModAction`](/types/objects/mod-action.mdx)  :badge[object]<Bullet />[`MutualFollower`](/operations/queries/mutual-follower.mdx)  :badge[query]<Bullet />[`Page`](/operations/queries/page.mdx)  :badge[query]<Bullet />[`PageInfo`](/types/objects/page-info.mdx)  :badge[object]<Bullet />[`RateReview`](/operations/mutations/rate-review.mdx)  :badge[mutation]<Bullet />[`Recommendation`](/operations/queries/recommendation.mdx)  :badge[query]<Bullet />[`Recommendation`](/types/objects/recommendation.mdx)  :badge[object]<Bullet />[`RelatedMediaAdditionNotification`](/types/objects/related-media-addition-notification.mdx)  :badge[object]<Bullet />[`Report`](/types/objects/report.mdx)  :badge[object]<Bullet />[`Review`](/operations/queries/review.mdx)  :badge[query]<Bullet />[`Review`](/types/objects/review.mdx)  :badge[object]<Bullet />[`RevisionHistory`](/types/objects/revision-history.mdx)  :badge[object]<Bullet />[`SaveActivityReply`](/operations/mutations/save-activity-reply.mdx)  :badge[mutation]<Bullet />[`SaveListActivity`](/operations/mutations/save-list-activity.mdx)  :badge[mutation]<Bullet />[`SaveMediaListEntry`](/operations/mutations/save-media-list-entry.mdx)  :badge[mutation]<Bullet />[`SaveMessageActivity`](/operations/mutations/save-message-activity.mdx)  :badge[mutation]<Bullet />[`SaveRecommendation`](/operations/mutations/save-recommendation.mdx)  :badge[mutation]<Bullet />[`SaveReview`](/operations/mutations/save-review.mdx)  :badge[mutation]<Bullet />[`SaveTextActivity`](/operations/mutations/save-text-activity.mdx)  :badge[mutation]<Bullet />[`SaveThread`](/operations/mutations/save-thread.mdx)  :badge[mutation]<Bullet />[`SaveThreadComment`](/operations/mutations/save-thread-comment.mdx)  :badge[mutation]<Bullet />[`ScoreDistribution`](/types/objects/score-distribution.mdx)  :badge[object]<Bullet />[`SiteTrend`](/types/objects/site-trend.mdx)  :badge[object]<Bullet />[`Staff`](/operations/queries/staff.mdx)  :badge[query]<Bullet />[`Staff`](/types/objects/staff.mdx)  :badge[object]<Bullet />[`StaffEdge`](/types/objects/staff-edge.mdx)  :badge[object]<Bullet />[`StaffStats`](/types/objects/staff-stats.mdx)  :badge[object]<Bullet />[`StaffSubmission`](/types/objects/staff-submission.mdx)  :badge[object]<Bullet />[`StaffSubmissionUpdateNotification`](/types/objects/staff-submission-update-notification.mdx)  :badge[object]<Bullet />[`StatusDistribution`](/types/objects/status-distribution.mdx)  :badge[object]<Bullet />[`Studio`](/operations/queries/studio.mdx)  :badge[query]<Bullet />[`Studio`](/types/objects/studio.mdx)  :badge[object]<Bullet />[`StudioEdge`](/types/objects/studio-edge.mdx)  :badge[object]<Bullet />[`StudioStats`](/types/objects/studio-stats.mdx)  :badge[object]<Bullet />[`TagStats`](/types/objects/tag-stats.mdx)  :badge[object]<Bullet />[`TextActivity`](/types/objects/text-activity.mdx)  :badge[object]<Bullet />[`Thread`](/operations/queries/thread.mdx)  :badge[query]<Bullet />[`Thread`](/types/objects/thread.mdx)  :badge[object]<Bullet />[`ThreadCategory`](/types/objects/thread-category.mdx)  :badge[object]<Bullet />[`ThreadComment`](/operations/queries/thread-comment.mdx)  :badge[query]<Bullet />[`ThreadComment`](/types/objects/thread-comment.mdx)  :badge[object]<Bullet />[`ThreadCommentLikeNotification`](/types/objects/thread-comment-like-notification.mdx)  :badge[object]<Bullet />[`ThreadCommentMentionNotification`](/types/objects/thread-comment-mention-notification.mdx)  :badge[object]<Bullet />[`ThreadCommentReplyNotification`](/types/objects/thread-comment-reply-notification.mdx)  :badge[object]<Bullet />[`ThreadCommentSubscribedNotification`](/types/objects/thread-comment-subscribed-notification.mdx)  :badge[object]<Bullet />[`ThreadLikeNotification`](/types/objects/thread-like-notification.mdx)  :badge[object]<Bullet />[`ToggleActivityPin`](/operations/mutations/toggle-activity-pin.mdx)  :badge[mutation]<Bullet />[`ToggleActivitySubscription`](/operations/mutations/toggle-activity-subscription.mdx)  :badge[mutation]<Bullet />[`ToggleFavourite`](/operations/mutations/toggle-favourite.mdx)  :badge[mutation]<Bullet />[`ToggleFollow`](/operations/mutations/toggle-follow.mdx)  :badge[mutation]<Bullet />[`ToggleLike`](/operations/mutations/toggle-like.mdx)  :badge[mutation]<Bullet />[`ToggleLikeV2`](/operations/mutations/toggle-like-v2.mdx)  :badge[mutation]<Bullet />[`ToggleThreadSubscription`](/operations/mutations/toggle-thread-subscription.mdx)  :badge[mutation]<Bullet />[`UpdateFavouriteOrder`](/operations/mutations/update-favourite-order.mdx)  :badge[mutation]<Bullet />[`UpdateMediaListEntries`](/operations/mutations/update-media-list-entries.mdx)  :badge[mutation]<Bullet />[`UpdateUser`](/operations/mutations/update-user.mdx)  :badge[mutation]<Bullet />[`User`](/operations/queries/user.mdx)  :badge[query]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]<Bullet />[`UserActivityHistory`](/types/objects/user-activity-history.mdx)  :badge[object]<Bullet />[`UserCountryStatistic`](/types/objects/user-country-statistic.mdx)  :badge[object]<Bullet />[`UserFormatStatistic`](/types/objects/user-format-statistic.mdx)  :badge[object]<Bullet />[`UserGenreStatistic`](/types/objects/user-genre-statistic.mdx)  :badge[object]<Bullet />[`UserLengthStatistic`](/types/objects/user-length-statistic.mdx)  :badge[object]<Bullet />[`UserOptions`](/types/objects/user-options.mdx)  :badge[object]<Bullet />[`UserPreviousName`](/types/objects/user-previous-name.mdx)  :badge[object]<Bullet />[`UserReleaseYearStatistic`](/types/objects/user-release-year-statistic.mdx)  :badge[object]<Bullet />[`UserScoreStatistic`](/types/objects/user-score-statistic.mdx)  :badge[object]<Bullet />[`UserStaffStatistic`](/types/objects/user-staff-statistic.mdx)  :badge[object]<Bullet />[`UserStartYearStatistic`](/types/objects/user-start-year-statistic.mdx)  :badge[object]<Bullet />[`UserStatistics`](/types/objects/user-statistics.mdx)  :badge[object]<Bullet />[`UserStats`](/types/objects/user-stats.mdx)  :badge[object]<Bullet />[`UserStatusStatistic`](/types/objects/user-status-statistic.mdx)  :badge[object]<Bullet />[`UserStudioStatistic`](/types/objects/user-studio-statistic.mdx)  :badge[object]<Bullet />[`UserTagStatistic`](/types/objects/user-tag-statistic.mdx)  :badge[object]<Bullet />[`UserVoiceActorStatistic`](/types/objects/user-voice-actor-statistic.mdx)  :badge[object]<Bullet />[`YearStats`](/types/objects/year-stats.mdx)  :badge[object]
 
 <!-- Source: /types/scalars/json -->
+
+# Json
 
 ```graphql
 scalar Json
@@ -14734,6 +15220,8 @@ scalar Json
 [`AniChartUser`](/types/objects/ani-chart-user.mdx)  :badge[object]<Bullet />[`MediaList`](/types/objects/media-list.mdx)  :badge[object]<Bullet />[`MediaListOptions`](/types/objects/media-list-options.mdx)  :badge[object]<Bullet />[`MediaListTypeOptions`](/types/objects/media-list-type-options.mdx)  :badge[object]<Bullet />[`MediaSubmission`](/types/objects/media-submission.mdx)  :badge[object]<Bullet />[`RevisionHistory`](/types/objects/revision-history.mdx)  :badge[object]<Bullet />[`ThreadComment`](/types/objects/thread-comment.mdx)  :badge[object]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]<Bullet />[`UserModData`](/types/objects/user-mod-data.mdx)  :badge[object]
 
 <!-- Source: /types/scalars/string -->
+
+# String
 
 The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.
 
@@ -14750,6 +15238,8 @@ scalar String
 [`ActivityLikeNotification`](/types/objects/activity-like-notification.mdx)  :badge[object]<Bullet />[`ActivityMentionNotification`](/types/objects/activity-mention-notification.mdx)  :badge[object]<Bullet />[`ActivityMessageNotification`](/types/objects/activity-message-notification.mdx)  :badge[object]<Bullet />[`ActivityReply`](/types/objects/activity-reply.mdx)  :badge[object]<Bullet />[`ActivityReplyLikeNotification`](/types/objects/activity-reply-like-notification.mdx)  :badge[object]<Bullet />[`ActivityReplyNotification`](/types/objects/activity-reply-notification.mdx)  :badge[object]<Bullet />[`ActivityReplySubscribedNotification`](/types/objects/activity-reply-subscribed-notification.mdx)  :badge[object]<Bullet />[`AiringNotification`](/types/objects/airing-notification.mdx)  :badge[object]<Bullet />[`AniChartHighlightInput`](/types/inputs/ani-chart-highlight-input.mdx)  :badge[input]<Bullet />[`Character`](/operations/queries/character.mdx)  :badge[query]<Bullet />[`Character`](/types/objects/character.mdx)  :badge[object]<Bullet />[`CharacterEdge`](/types/objects/character-edge.mdx)  :badge[object]<Bullet />[`CharacterImage`](/types/objects/character-image.mdx)  :badge[object]<Bullet />[`CharacterName`](/types/objects/character-name.mdx)  :badge[object]<Bullet />[`CharacterNameInput`](/types/inputs/character-name-input.mdx)  :badge[input]<Bullet />[`CharacterSubmission`](/types/objects/character-submission.mdx)  :badge[object]<Bullet />[`CharacterSubmissionUpdateNotification`](/types/objects/character-submission-update-notification.mdx)  :badge[object]<Bullet />[`DeleteCustomList`](/operations/mutations/delete-custom-list.mdx)  :badge[mutation]<Bullet />[`deprecated`](/types/directives/deprecated.mdx)  :badge[directive]<Bullet />[`FollowingNotification`](/types/objects/following-notification.mdx)  :badge[object]<Bullet />[`GenreStats`](/types/objects/genre-stats.mdx)  :badge[object]<Bullet />[`ListActivity`](/types/objects/list-activity.mdx)  :badge[object]<Bullet />[`Markdown`](/operations/queries/markdown.mdx)  :badge[query]<Bullet />[`Media`](/operations/queries/media.mdx)  :badge[query]<Bullet />[`Media`](/types/objects/media.mdx)  :badge[object]<Bullet />[`MediaCharacter`](/types/objects/media-character.mdx)  :badge[object]<Bullet />[`MediaCoverImage`](/types/objects/media-cover-image.mdx)  :badge[object]<Bullet />[`MediaDataChangeNotification`](/types/objects/media-data-change-notification.mdx)  :badge[object]<Bullet />[`MediaDeletionNotification`](/types/objects/media-deletion-notification.mdx)  :badge[object]<Bullet />[`MediaEdge`](/types/objects/media-edge.mdx)  :badge[object]<Bullet />[`MediaExternalLink`](/types/objects/media-external-link.mdx)  :badge[object]<Bullet />[`MediaExternalLinkInput`](/types/inputs/media-external-link-input.mdx)  :badge[input]<Bullet />[`MediaList`](/operations/queries/media-list.mdx)  :badge[query]<Bullet />[`MediaList`](/types/objects/media-list.mdx)  :badge[object]<Bullet />[`MediaListCollection`](/operations/queries/media-list-collection.mdx)  :badge[query]<Bullet />[`MediaListGroup`](/types/objects/media-list-group.mdx)  :badge[object]<Bullet />[`MediaListOptions`](/types/objects/media-list-options.mdx)  :badge[object]<Bullet />[`MediaListOptionsInput`](/types/inputs/media-list-options-input.mdx)  :badge[input]<Bullet />[`MediaListTypeOptions`](/types/objects/media-list-type-options.mdx)  :badge[object]<Bullet />[`MediaMergeNotification`](/types/objects/media-merge-notification.mdx)  :badge[object]<Bullet />[`MediaRank`](/types/objects/media-rank.mdx)  :badge[object]<Bullet />[`MediaStreamingEpisode`](/types/objects/media-streaming-episode.mdx)  :badge[object]<Bullet />[`MediaSubmission`](/types/objects/media-submission.mdx)  :badge[object]<Bullet />[`MediaSubmissionEdge`](/types/objects/media-submission-edge.mdx)  :badge[object]<Bullet />[`MediaSubmissionUpdateNotification`](/types/objects/media-submission-update-notification.mdx)  :badge[object]<Bullet />[`MediaTag`](/types/objects/media-tag.mdx)  :badge[object]<Bullet />[`MediaTitle`](/types/objects/media-title.mdx)  :badge[object]<Bullet />[`MediaTitleInput`](/types/inputs/media-title-input.mdx)  :badge[input]<Bullet />[`MediaTrailer`](/types/objects/media-trailer.mdx)  :badge[object]<Bullet />[`MessageActivity`](/types/objects/message-activity.mdx)  :badge[object]<Bullet />[`ModAction`](/types/objects/mod-action.mdx)  :badge[object]<Bullet />[`ParsedMarkdown`](/types/objects/parsed-markdown.mdx)  :badge[object]<Bullet />[`RelatedMediaAdditionNotification`](/types/objects/related-media-addition-notification.mdx)  :badge[object]<Bullet />[`Report`](/types/objects/report.mdx)  :badge[object]<Bullet />[`Review`](/types/objects/review.mdx)  :badge[object]<Bullet />[`SaveActivityReply`](/operations/mutations/save-activity-reply.mdx)  :badge[mutation]<Bullet />[`SaveMediaListEntry`](/operations/mutations/save-media-list-entry.mdx)  :badge[mutation]<Bullet />[`SaveMessageActivity`](/operations/mutations/save-message-activity.mdx)  :badge[mutation]<Bullet />[`SaveReview`](/operations/mutations/save-review.mdx)  :badge[mutation]<Bullet />[`SaveTextActivity`](/operations/mutations/save-text-activity.mdx)  :badge[mutation]<Bullet />[`SaveThread`](/operations/mutations/save-thread.mdx)  :badge[mutation]<Bullet />[`SaveThreadComment`](/operations/mutations/save-thread-comment.mdx)  :badge[mutation]<Bullet />[`Staff`](/operations/queries/staff.mdx)  :badge[query]<Bullet />[`Staff`](/types/objects/staff.mdx)  :badge[object]<Bullet />[`StaffEdge`](/types/objects/staff-edge.mdx)  :badge[object]<Bullet />[`StaffImage`](/types/objects/staff-image.mdx)  :badge[object]<Bullet />[`StaffName`](/types/objects/staff-name.mdx)  :badge[object]<Bullet />[`StaffNameInput`](/types/inputs/staff-name-input.mdx)  :badge[input]<Bullet />[`StaffRoleType`](/types/objects/staff-role-type.mdx)  :badge[object]<Bullet />[`StaffSubmission`](/types/objects/staff-submission.mdx)  :badge[object]<Bullet />[`StaffSubmissionUpdateNotification`](/types/objects/staff-submission-update-notification.mdx)  :badge[object]<Bullet />[`Studio`](/operations/queries/studio.mdx)  :badge[query]<Bullet />[`Studio`](/types/objects/studio.mdx)  :badge[object]<Bullet />[`TextActivity`](/types/objects/text-activity.mdx)  :badge[object]<Bullet />[`Thread`](/operations/queries/thread.mdx)  :badge[query]<Bullet />[`Thread`](/types/objects/thread.mdx)  :badge[object]<Bullet />[`ThreadCategory`](/types/objects/thread-category.mdx)  :badge[object]<Bullet />[`ThreadComment`](/types/objects/thread-comment.mdx)  :badge[object]<Bullet />[`ThreadCommentLikeNotification`](/types/objects/thread-comment-like-notification.mdx)  :badge[object]<Bullet />[`ThreadCommentMentionNotification`](/types/objects/thread-comment-mention-notification.mdx)  :badge[object]<Bullet />[`ThreadCommentReplyNotification`](/types/objects/thread-comment-reply-notification.mdx)  :badge[object]<Bullet />[`ThreadCommentSubscribedNotification`](/types/objects/thread-comment-subscribed-notification.mdx)  :badge[object]<Bullet />[`ThreadLikeNotification`](/types/objects/thread-like-notification.mdx)  :badge[object]<Bullet />[`UpdateAniChartSettings`](/operations/mutations/update-ani-chart-settings.mdx)  :badge[mutation]<Bullet />[`UpdateMediaListEntries`](/operations/mutations/update-media-list-entries.mdx)  :badge[mutation]<Bullet />[`UpdateUser`](/operations/mutations/update-user.mdx)  :badge[mutation]<Bullet />[`User`](/operations/queries/user.mdx)  :badge[query]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]<Bullet />[`UserAvatar`](/types/objects/user-avatar.mdx)  :badge[object]<Bullet />[`UserGenreStatistic`](/types/objects/user-genre-statistic.mdx)  :badge[object]<Bullet />[`UserLengthStatistic`](/types/objects/user-length-statistic.mdx)  :badge[object]<Bullet />[`UserModData`](/types/objects/user-mod-data.mdx)  :badge[object]<Bullet />[`UserOptions`](/types/objects/user-options.mdx)  :badge[object]<Bullet />[`UserPreviousName`](/types/objects/user-previous-name.mdx)  :badge[object]
 
 <!-- Source: /types/unions/activity-union -->
+
+# ActivityUnion
 
 Activity union type
 
@@ -14780,6 +15270,8 @@ User message activity
 [`ActivityLikeNotification`](/types/objects/activity-like-notification.mdx)  :badge[object]<Bullet />[`ActivityMentionNotification`](/types/objects/activity-mention-notification.mdx)  :badge[object]<Bullet />[`ActivityReplyLikeNotification`](/types/objects/activity-reply-like-notification.mdx)  :badge[object]<Bullet />[`ActivityReplyNotification`](/types/objects/activity-reply-notification.mdx)  :badge[object]<Bullet />[`ActivityReplySubscribedNotification`](/types/objects/activity-reply-subscribed-notification.mdx)  :badge[object]<Bullet />[`InternalPage`](/types/objects/internal-page.mdx)  :badge[object]<Bullet />[`Page`](/types/objects/page.mdx)  :badge[object]
 
 <!-- Source: /types/unions/likeable-union -->
+
+# LikeableUnion
 
 Likeable union type
 
@@ -14818,6 +15310,8 @@ Forum Thread Comment
 [`ToggleLikeV2`](/operations/mutations/toggle-like-v2.mdx)  :badge[mutation]
 
 <!-- Source: /types/unions/notification-union -->
+
+# NotificationUnion
 
 Notification union type
 

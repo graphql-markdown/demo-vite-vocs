@@ -1,3 +1,5 @@
+# FormatStats
+
 User's format statistics
 
 ```graphql

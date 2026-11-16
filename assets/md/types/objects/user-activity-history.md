@@ -1,3 +1,5 @@
+# UserActivityHistory
+
 A user's activity history stats for the previous 6 months. Refreshes only periodically
 
 ```graphql

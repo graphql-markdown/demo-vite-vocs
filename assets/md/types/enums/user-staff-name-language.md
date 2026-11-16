@@ -1,3 +1,5 @@
+# UserStaffNameLanguage
+
 The language the user wants to see staff and character names in
 
 ```graphql

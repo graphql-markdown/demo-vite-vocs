@@ -1,3 +1,5 @@
+# LikeableUnion
+
 Likeable union type
 
 ```graphql

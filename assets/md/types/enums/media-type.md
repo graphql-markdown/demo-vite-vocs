@@ -1,3 +1,5 @@
+# MediaType
+
 Media type enum, anime or manga.
 
 ```graphql

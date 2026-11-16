@@ -1,3 +1,5 @@
+# SiteTrend
+
 Daily site statistics
 
 ```graphql

@@ -1,3 +1,5 @@
+# Character
+
 A character that features in an anime or manga
 
 ```graphql

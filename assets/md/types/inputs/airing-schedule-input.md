@@ -1,3 +1,5 @@
+# AiringScheduleInput
+
 No description
 
 ```graphql

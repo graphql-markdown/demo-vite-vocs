@@ -1,3 +1,5 @@
+# Thread
+
 Thread query
 
 ```graphql

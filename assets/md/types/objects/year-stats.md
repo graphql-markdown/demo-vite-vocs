@@ -1,3 +1,5 @@
+# YearStats
+
 User's year statistics
 
 ```graphql

@@ -1,3 +1,5 @@
+# DeleteFollower
+
 Removes a follower
 
 ```graphql

@@ -1,3 +1,5 @@
+# SiteTrendEdge
+
 Site trend connection edge
 
 ```graphql

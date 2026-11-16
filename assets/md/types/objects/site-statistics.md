@@ -1,3 +1,5 @@
+# SiteStatistics
+
 No description
 
 ```graphql

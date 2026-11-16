@@ -1,3 +1,5 @@
+# MediaSubmissionUpdateNotification
+
 Notification for when a media submission is accepted, partially accepted, or rejected
 
 ```graphql

@@ -1,3 +1,5 @@
+# RecommendationEdge
+
 Recommendation connection edge
 
 ```graphql

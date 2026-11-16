@@ -1,3 +1,5 @@
+# SaveTextActivity
+
 Create or update text activity for the currently authenticated user
 
 ```graphql

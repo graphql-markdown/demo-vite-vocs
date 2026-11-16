@@ -1,3 +1,5 @@
+# CharacterSubmissionEdge
+
 CharacterSubmission connection edge
 
 ```graphql

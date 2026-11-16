@@ -1,3 +1,5 @@
+# UserStatisticsSort
+
 User statistics sort enum
 
 ```graphql

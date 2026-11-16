@@ -1,3 +1,5 @@
+# MediaStats
+
 A media's statistics
 
 ```graphql

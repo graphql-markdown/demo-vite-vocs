@@ -1,3 +1,5 @@
+# AiringSchedule
+
 Media Airing Schedule. NOTE: We only aim to guarantee that FUTURE airing data is present and accurate.
 
 ```graphql

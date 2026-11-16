@@ -1,3 +1,5 @@
+# DeleteReview
+
 Delete a review
 
 ```graphql

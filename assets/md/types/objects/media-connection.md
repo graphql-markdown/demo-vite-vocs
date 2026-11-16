@@ -1,3 +1,5 @@
+# MediaConnection
+
 No description
 
 ```graphql

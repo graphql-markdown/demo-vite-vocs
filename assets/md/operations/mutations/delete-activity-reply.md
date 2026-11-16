@@ -1,3 +1,5 @@
+# DeleteActivityReply
+
 Delete an activity reply of the authenticated users
 
 ```graphql

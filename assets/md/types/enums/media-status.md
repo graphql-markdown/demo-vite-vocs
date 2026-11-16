@@ -1,3 +1,5 @@
+# MediaStatus
+
 The current releasing status of the media
 
 ```graphql

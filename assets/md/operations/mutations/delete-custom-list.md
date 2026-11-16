@@ -1,3 +1,5 @@
+# DeleteCustomList
+
 Delete a custom list and remove the list entries from it
 
 ```graphql

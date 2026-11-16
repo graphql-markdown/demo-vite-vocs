@@ -1,3 +1,5 @@
+# TextActivity
+
 User text activity
 
 ```graphql

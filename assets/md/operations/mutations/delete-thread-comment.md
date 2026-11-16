@@ -1,3 +1,5 @@
+# DeleteThreadComment
+
 Delete a thread comment
 
 ```graphql

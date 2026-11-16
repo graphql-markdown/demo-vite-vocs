@@ -1,3 +1,5 @@
+# MediaTag
+
 A tag that describes a theme or element of the media
 
 ```graphql

@@ -1,3 +1,5 @@
+# CharacterNameInput
+
 The names of the character
 
 ```graphql

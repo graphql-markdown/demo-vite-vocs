@@ -1,3 +1,5 @@
+# Character
+
 Character query
 
 ```graphql

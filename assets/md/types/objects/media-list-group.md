@@ -1,3 +1,5 @@
+# MediaListGroup
+
 List group of anime or manga entries
 
 ```graphql

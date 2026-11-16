@@ -1,3 +1,5 @@
+# CharacterEdge
+
 Character connection edge
 
 ```graphql

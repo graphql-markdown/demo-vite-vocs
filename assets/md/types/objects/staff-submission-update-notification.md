@@ -1,3 +1,5 @@
+# StaffSubmissionUpdateNotification
+
 Notification for when a staff submission is accepted, partially accepted, or rejected
 
 ```graphql

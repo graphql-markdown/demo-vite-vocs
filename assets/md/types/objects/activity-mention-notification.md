@@ -1,3 +1,5 @@
+# ActivityMentionNotification
+
 Notification for when authenticated user is @ mentioned in activity or reply
 
 ```graphql

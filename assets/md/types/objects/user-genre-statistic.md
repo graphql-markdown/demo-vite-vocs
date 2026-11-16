@@ -1,3 +1,5 @@
+# UserGenreStatistic
+
 No description
 
 ```graphql

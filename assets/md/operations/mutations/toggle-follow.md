@@ -1,3 +1,5 @@
+# ToggleFollow
+
 Toggle the un/following of a user
 
 ```graphql

@@ -1,3 +1,5 @@
+# MediaListOptionsInput
+
 A user's list options for anime or manga lists
 
 ```graphql

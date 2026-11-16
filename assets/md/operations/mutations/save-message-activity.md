@@ -1,3 +1,5 @@
+# SaveMessageActivity
+
 Create or update message activity for the currently authenticated user
 
 ```graphql

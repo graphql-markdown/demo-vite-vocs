@@ -1,3 +1,5 @@
+# SiteStatistics
+
 Site statistics query
 
 ```graphql

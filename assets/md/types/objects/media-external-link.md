@@ -1,3 +1,5 @@
+# MediaExternalLink
+
 An external link to another site related to the media or staff member
 
 ```graphql

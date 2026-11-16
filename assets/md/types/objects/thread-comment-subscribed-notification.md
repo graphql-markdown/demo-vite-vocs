@@ -1,3 +1,5 @@
+# ThreadCommentSubscribedNotification
+
 Notification for when a user replies to a subscribed forum thread
 
 ```graphql

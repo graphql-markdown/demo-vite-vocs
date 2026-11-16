@@ -1,3 +1,5 @@
+# NotificationOptionInput
+
 Notification option input
 
 ```graphql

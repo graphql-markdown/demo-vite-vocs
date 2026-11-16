@@ -1,3 +1,5 @@
+# MediaTrendConnection
+
 No description
 
 ```graphql

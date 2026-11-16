@@ -1,3 +1,5 @@
+# ActivityMessageNotification
+
 Notification for when a user is send an activity message
 
 ```graphql

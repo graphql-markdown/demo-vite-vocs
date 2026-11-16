@@ -1,3 +1,5 @@
+# ActivityUnion
+
 Activity union type
 
 ```graphql

@@ -1,3 +1,5 @@
+# Thread
+
 Forum Thread
 
 ```graphql

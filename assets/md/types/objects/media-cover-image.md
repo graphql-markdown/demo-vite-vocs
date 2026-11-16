@@ -1,3 +1,5 @@
+# MediaCoverImage
+
 No description
 
 ```graphql

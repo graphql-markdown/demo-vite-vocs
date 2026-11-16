@@ -1,3 +1,5 @@
+# ScoreDistribution
+
 A user's list score distribution.
 
 ```graphql

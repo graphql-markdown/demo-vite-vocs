@@ -1,3 +1,5 @@
+# MediaTrailer
+
 Media trailer or advertisement
 
 ```graphql

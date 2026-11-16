@@ -1,3 +1,5 @@
+# StatusDistribution
+
 The distribution of the watching/reading status of media or a user's list
 
 ```graphql

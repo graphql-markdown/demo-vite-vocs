@@ -1,3 +1,5 @@
+# Studio
+
 Studio query
 
 ```graphql

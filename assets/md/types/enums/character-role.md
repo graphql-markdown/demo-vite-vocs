@@ -1,3 +1,5 @@
+# CharacterRole
+
 The role the character plays in the media
 
 ```graphql

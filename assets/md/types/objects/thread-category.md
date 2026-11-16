@@ -1,3 +1,5 @@
+# ThreadCategory
+
 A forum thread category
 
 ```graphql

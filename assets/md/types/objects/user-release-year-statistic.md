@@ -1,3 +1,5 @@
+# UserReleaseYearStatistic
+
 No description
 
 ```graphql

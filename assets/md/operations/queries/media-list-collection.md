@@ -1,3 +1,5 @@
+# MediaListCollection
+
 Media list collection query, provides list pre-grouped by status & custom lists. User ID and Media Type arguments required.
 
 ```graphql

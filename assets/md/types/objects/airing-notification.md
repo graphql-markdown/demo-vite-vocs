@@ -1,3 +1,5 @@
+# AiringNotification
+
 Notification for when an episode of anime airs
 
 ```graphql

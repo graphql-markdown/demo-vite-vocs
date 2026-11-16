@@ -1,3 +1,5 @@
+# Deleted
+
 Deleted data type
 
 ```graphql

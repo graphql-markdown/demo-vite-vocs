@@ -1,3 +1,5 @@
+# NotificationUnion
+
 Notification union type
 
 ```graphql

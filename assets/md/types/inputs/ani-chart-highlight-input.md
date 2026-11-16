@@ -1,3 +1,5 @@
+# AniChartHighlightInput
+
 No description
 
 ```graphql

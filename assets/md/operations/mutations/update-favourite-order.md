@@ -1,3 +1,5 @@
+# UpdateFavouriteOrder
+
 Update the order favourites are displayed in
 
 ```graphql

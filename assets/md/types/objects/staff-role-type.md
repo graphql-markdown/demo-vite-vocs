@@ -1,3 +1,5 @@
+# StaffRoleType
+
 Voice actor role for a character
 
 ```graphql

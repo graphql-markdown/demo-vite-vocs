@@ -1,3 +1,5 @@
+# Media
+
 Media query
 
 ```graphql

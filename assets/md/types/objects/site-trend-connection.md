@@ -1,3 +1,5 @@
+# SiteTrendConnection
+
 No description
 
 ```graphql

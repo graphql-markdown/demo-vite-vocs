@@ -1,3 +1,5 @@
+# MediaList
+
 List of anime or manga
 
 ```graphql

@@ -1,3 +1,5 @@
+# ThreadLikeNotification
+
 Notification for when a thread is liked
 
 ```graphql

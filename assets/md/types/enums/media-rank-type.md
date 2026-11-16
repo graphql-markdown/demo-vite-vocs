@@ -1,3 +1,5 @@
+# MediaRankType
+
 The type of ranking
 
 ```graphql

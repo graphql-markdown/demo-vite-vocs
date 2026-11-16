@@ -1,3 +1,5 @@
+# MediaTrendEdge
+
 Media trend connection edge
 
 ```graphql

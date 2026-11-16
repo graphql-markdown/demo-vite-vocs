@@ -1,3 +1,5 @@
+# AiringProgression
+
 Score & Watcher stats for airing anime by episode and mid-week
 
 ```graphql

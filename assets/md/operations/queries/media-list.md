@@ -1,3 +1,5 @@
+# MediaList
+
 Media list query
 
 ```graphql

@@ -1,3 +1,5 @@
+# UserStats
+
 A user's statistics
 
 ```graphql

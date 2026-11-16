@@ -1,3 +1,5 @@
+# Studio
+
 Animation or production company
 
 ```graphql

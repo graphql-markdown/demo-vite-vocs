@@ -1,3 +1,5 @@
+# MediaTagCollection
+
 Collection of all the possible media tags
 
 ```graphql

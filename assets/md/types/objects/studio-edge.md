@@ -1,3 +1,5 @@
+# StudioEdge
+
 Studio connection edge
 
 ```graphql

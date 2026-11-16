@@ -1,3 +1,5 @@
+# MutualFollower
+
 Mutual follower query
 
 ```graphql

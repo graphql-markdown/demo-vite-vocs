@@ -1,3 +1,5 @@
+# ThreadCommentMentionNotification
+
 Notification for when authenticated user is @ mentioned in a forum thread comment
 
 ```graphql

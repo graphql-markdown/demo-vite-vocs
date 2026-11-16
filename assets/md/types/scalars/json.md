@@ -1,3 +1,5 @@
+# Json
+
 ```graphql
 scalar Json
 ```

@@ -1,3 +1,5 @@
+# GenreStats
+
 User's genre statistics
 
 ```graphql

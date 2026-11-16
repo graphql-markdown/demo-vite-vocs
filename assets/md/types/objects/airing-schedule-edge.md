@@ -1,3 +1,5 @@
+# AiringScheduleEdge
+
 AiringSchedule connection edge
 
 ```graphql

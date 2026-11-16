@@ -1,3 +1,5 @@
+# FollowingNotification
+
 Notification for when the authenticated user is followed by another user
 
 ```graphql

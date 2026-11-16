@@ -1,3 +1,5 @@
+# SiteTrendSort
+
 Site trend sort enums
 
 ```graphql

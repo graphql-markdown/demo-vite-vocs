@@ -1,3 +1,5 @@
+# Markdown
+
 Provide AniList markdown to be converted to html (Requires auth)
 
 ```graphql

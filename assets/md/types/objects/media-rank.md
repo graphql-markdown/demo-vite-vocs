@@ -1,3 +1,5 @@
+# MediaRank
+
 The ranking of a media in a particular time span and format compared to other media
 
 ```graphql

@@ -1,3 +1,5 @@
+# RateReview
+
 Rate a review
 
 ```graphql

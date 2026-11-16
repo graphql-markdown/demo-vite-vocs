@@ -1,3 +1,5 @@
+# DeleteMediaListEntry
+
 Delete a media list entry
 
 ```graphql

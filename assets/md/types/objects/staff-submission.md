@@ -1,3 +1,5 @@
+# StaffSubmission
+
 A submission for a staff that features in an anime or manga
 
 ```graphql

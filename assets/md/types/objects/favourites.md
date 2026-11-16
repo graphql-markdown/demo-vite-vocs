@@ -1,3 +1,5 @@
+# Favourites
+
 User's favourite anime, manga, characters, staff & studios
 
 ```graphql

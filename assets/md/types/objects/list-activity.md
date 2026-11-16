@@ -1,3 +1,5 @@
+# ListActivity
+
 User list activity (anime & manga updates)
 
 ```graphql

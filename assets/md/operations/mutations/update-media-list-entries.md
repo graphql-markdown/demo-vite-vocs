@@ -1,3 +1,5 @@
+# UpdateMediaListEntries
+
 Update multiple media list entries to the same values
 
 ```graphql

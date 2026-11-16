@@ -1,3 +1,5 @@
+# MessageActivity
+
 User message activity
 
 ```graphql

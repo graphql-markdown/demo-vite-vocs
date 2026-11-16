@@ -1,3 +1,5 @@
+# UserAvatar
+
 A user's avatars
 
 ```graphql

@@ -1,3 +1,5 @@
+# CharacterConnection
+
 No description
 
 ```graphql

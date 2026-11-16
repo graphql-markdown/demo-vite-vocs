@@ -1,3 +1,5 @@
+# ActivityType
+
 Activity type enum.
 
 ```graphql
