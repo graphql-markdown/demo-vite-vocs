@@ -13,6 +13,6 @@ directive @skip(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">skip</code>.<code className="gqlmd-mdx-entity-name">if</code></span>](/operations/directives/skip)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean!</code></span>](/types/scalars/boolean.mdx) :badge[non-null] :badge[scalar]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">skip</code>.<code className="gqlmd-mdx-entity-name">if</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean!</code></span>](/types/scalars/boolean.mdx) :badge[non-null] :badge[scalar]
 
 Skipped when true.

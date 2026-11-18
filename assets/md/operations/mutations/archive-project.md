@@ -10,7 +10,7 @@ archiveProject(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">archiveProject</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](/operations/mutations/archive-project)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">archiveProject</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The unique identifier of the project to archive.
 

@@ -10,7 +10,7 @@ folderCreated(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folderCreated</code>.<code className="gqlmd-mdx-entity-name">parentId</code></span>](/operations/subscriptions/folder-created)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folderCreated</code>.<code className="gqlmd-mdx-entity-name">parentId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
 
 Limit events to folders created under this parent.
 

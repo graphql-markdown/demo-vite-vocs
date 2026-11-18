@@ -34,4 +34,4 @@
 - [Int](/types/scalars/int.md)
 - [String](/types/scalars/string.md)
 - [SearchResult](/types/unions/search-result.md)
-- [Schema Documentation](/index.md)
+- [GraphQL-Markdown Vocs Demo](/index.md): A generated GraphQL API reference for the workspace demo schema.

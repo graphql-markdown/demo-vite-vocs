@@ -12,15 +12,15 @@ enum ProjectEventType {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">CREATED</code></span>](/types/enums/project-event-type)
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">CREATED</code></span>
 
 The project was created.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">UPDATED</code></span>](/types/enums/project-event-type)
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">UPDATED</code></span>
 
 One or more project fields were updated.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">ARCHIVED</code></span>](/types/enums/project-event-type)
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">ARCHIVED</code></span>
 
 The project was archived.
 

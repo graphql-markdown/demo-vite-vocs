@@ -13,19 +13,19 @@ type ProjectEvent {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">type</code></span>](/types/objects/project-event)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectEventType!</code></span>](/types/enums/project-event-type.mdx) :badge[non-null] :badge[enum]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">type</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectEventType!</code></span>](/types/enums/project-event-type.mdx) :badge[non-null] :badge[enum]
 
 The kind of change that occurred.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">project</code></span>](/types/objects/project-event)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Project!</code></span>](/types/objects/project.mdx) :badge[non-null] :badge[object]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">project</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Project!</code></span>](/types/objects/project.mdx) :badge[non-null] :badge[object]
 
 The project in its state after the change.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">actor</code></span>](/types/objects/project-event)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">User</code></span>](/types/objects/user.mdx) :badge[object]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">actor</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">User</code></span>](/types/objects/user.mdx) :badge[object]
 
 The user who triggered the change, when known.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">occurredAt</code></span>](/types/objects/project-event)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">DateTime!</code></span>](/types/scalars/date-time.mdx) :badge[non-null] :badge[scalar]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">occurredAt</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">DateTime!</code></span>](/types/scalars/date-time.mdx) :badge[non-null] :badge[scalar]
 
 When the change occurred.
 

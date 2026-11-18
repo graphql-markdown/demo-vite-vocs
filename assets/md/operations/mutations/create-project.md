@@ -10,7 +10,7 @@ createProject(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">createProject</code>.<code className="gqlmd-mdx-entity-name">input</code></span>](/operations/mutations/create-project)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">CreateProjectInput!</code></span>](/types/inputs/create-project-input.mdx) :badge[non-null] :badge[input]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">createProject</code>.<code className="gqlmd-mdx-entity-name">input</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">CreateProjectInput!</code></span>](/types/inputs/create-project-input.mdx) :badge[non-null] :badge[input]
 
 The project attributes to create.
 

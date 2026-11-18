@@ -10,7 +10,7 @@ folder(
 
 ### Arguments
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folder</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](/operations/queries/folder)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folder</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The unique identifier of the folder to retrieve.
 

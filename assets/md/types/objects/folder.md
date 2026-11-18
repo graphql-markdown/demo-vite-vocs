@@ -13,19 +13,19 @@ type Folder implements Node {
 
 ### Fields
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">id</code></span>](/types/objects/folder)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The unique identifier of the folder.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">name</code></span>](/types/objects/folder)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The human-readable folder name.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">parent</code></span>](/types/objects/folder)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">parent</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The identifier of the parent folder, when nested.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">createdAt</code></span>](/types/objects/folder)<Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">DateTime!</code></span>](/types/scalars/date-time.mdx) :badge[non-null] :badge[scalar]
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">createdAt</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">DateTime!</code></span>](/types/scalars/date-time.mdx) :badge[non-null] :badge[scalar]
 
 When the folder was created.
 

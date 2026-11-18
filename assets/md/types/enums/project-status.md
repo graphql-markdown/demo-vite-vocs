@@ -12,15 +12,15 @@ enum ProjectStatus {
 
 ### Values
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">DRAFT</code></span>](/types/enums/project-status)
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">DRAFT</code></span>
 
 The project is being planned and is not yet active.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">ACTIVE</code></span>](/types/enums/project-status)
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">ACTIVE</code></span>
 
 The project is active and available to collaborators.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">ARCHIVED</code></span>](/types/enums/project-status)
+#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">ARCHIVED</code></span>
 
 The project is retained for history and no longer active.
 
