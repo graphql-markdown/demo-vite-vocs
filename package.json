@@ -8,7 +8,8 @@
     "build": "vocs build",
     "preview": "vocs preview",
     "doc": "gqlmd graphql-to-doc",
-    "gqlmd": "gqlmd"
+    "gqlmd": "gqlmd",
+    "test:visual": "playwright test"
   },
   "dependencies": {
     "@emotion/react": "latest",
@@ -21,7 +22,10 @@
     "waku": "1.0.0-rc.5"
   },
   "devDependencies": {
+    "@argos-ci/playwright": "^7.9.0",
+    "@playwright/test": "^1.65.1",
     "@types/react": "latest",
+    "serve": "^14.2.8",
     "typescript": "latest"
   }
 }
