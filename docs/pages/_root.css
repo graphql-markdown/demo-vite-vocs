@@ -264,3 +264,8 @@ article:has(> .gqlmd-home) {
     font-size: 0.85em;
   }
 }
+
+/* No prev/next page navigation: Vocs has no option for it, so hide it. */
+article [data-v-content-footer] > div:has(> [data-v-pagination]) {
+  display: none;
+}
