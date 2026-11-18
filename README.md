@@ -11,13 +11,19 @@ Inside your GraphQL-Markdown + [Vite](https://https://vite.dev/)/[Vocs](https://
 ```
 .
 ├── assets/
-│   └── index.mdx
+│   └── index.mdx            # landing page (copied to docs/pages/index.mdx)
 ├── docs/
-│   ├── pages/
-│   └── styles.css
+│   └── pages/
+│       ├── _root.css        # theme polish + landing page styles
+│       └── _slots.tsx       # footer slot
 ├── lib/
 │   ├── vocs-mdx.cjs
 │   └── sidebar.ts
+├── scripts/
+│   └── serve-visual.mjs     # serves the build under its base path for tests
+├── tests/visual/
+│   └── site.spec.ts         # Playwright + Argos screenshots
+├── playwright.config.ts
 ├── vocs.config.ts
 ├── graphql.config.mjs
 ├── package.json
@@ -34,7 +40,14 @@ All commands are run from the root of the project, from a terminal:
 | `npx gqlmd graphql-to-doc` | Generate documentation from GraphQL schema          |
 | `npm run doc`              | Alias of `npx gqlmd graphql-to-doc`                 |
 | `npm run dev`              | Starts local dev server at `localhost:5173`         |
-| `npm run build`            | Build your production site to `./docs/dist`         |
+| `npm run build`            | Build your production site to `./dist`              |
+| `npm run test:visual`      | Run Playwright + Argos visual tests (after a build) |
+
+## ✨ Features
+
+- Vocs default accent and polished reference pages (entity chips, pill badges, bordered code blocks, left-border callouts), light and dark.
+- Landing page with a schema preview card, call-to-action links and highlights.
+- Visual regression tests with [Playwright](https://playwright.dev/) and [Argos](https://argos-ci.com/): `npx playwright install chromium`, `npm run build`, then `npm run test:visual`. Screenshots are uploaded to Argos only in CI when `ARGOS_TOKEN` is set.
 
 ## 🏎️ Quick start
 
