@@ -45,7 +45,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## ✨ Features
 
-- Violet accent and polished reference pages (entity chips, pill badges, bordered code blocks, left-border callouts), light and dark.
+- Vocs default accent and polished reference pages (entity chips, pill badges, bordered code blocks, left-border callouts), light and dark.
 - Landing page with a schema preview card, call-to-action links and highlights.
 - Visual regression tests with [Playwright](https://playwright.dev/) and [Argos](https://argos-ci.com/): `npx playwright install chromium`, `npm run build`, then `npm run test:visual`. Screenshots are uploaded to Argos only in CI when `ARGOS_TOKEN` is set.
 

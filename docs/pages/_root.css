@@ -2,12 +2,12 @@
 
 /*
  * Polish for GraphQL-Markdown output and the landing page. Colours come from
- * Vocs theme variables; the accent is set to violet in vocs.config.ts.
+ * Vocs theme variables; the accent is the Vocs default.
  */
 :root {
-  --gqlmd-violet: light-dark(#6d28d9, #b9a4ff);
-  --gqlmd-badge-bg: color-mix(in oklch, var(--gqlmd-violet) 15%, transparent);
-  --gqlmd-badge-text: var(--gqlmd-violet);
+  --gqlmd-accent: var(--vocs-color-accent);
+  --gqlmd-badge-bg: color-mix(in oklch, var(--gqlmd-accent) 15%, transparent);
+  --gqlmd-badge-text: var(--gqlmd-accent);
   --gqlmd-chip-bg: light-dark(#f4f4f5, #242424);
   --gqlmd-chip-border: light-dark(#e4e4e7, #363636);
   --gqlmd-warning-bg: color-mix(in oklch, #eab308 20%, transparent);
@@ -41,7 +41,7 @@
   color: light-dark(#52525b, #a1a1aa);
 }
 .gqlmd-mdx-entity-name {
-  color: var(--gqlmd-violet);
+  color: var(--gqlmd-accent);
 }
 
 /* Field rows stay compact: bullet is a subtle separator */
@@ -114,7 +114,7 @@ article:has(> .gqlmd-home) {
   margin: 0 0 1.5rem;
   font-family: var(--gqlmd-mono);
   font-size: 0.875rem;
-  color: var(--gqlmd-violet);
+  color: var(--gqlmd-accent);
 }
 .gqlmd-title {
   max-width: 36rem;
@@ -142,12 +142,12 @@ article:has(> .gqlmd-home) {
   align-items: center;
   padding: 0.75rem 1.25rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--gqlmd-violet);
+  border: 1px solid var(--gqlmd-accent);
   font-weight: 500;
   text-decoration: none;
 }
 .gqlmd-cta-primary {
-  background: var(--gqlmd-violet);
+  background: var(--gqlmd-accent);
   color: light-dark(#fff, #18181b);
 }
 .gqlmd-cta-outline {
@@ -177,10 +177,11 @@ article:has(> .gqlmd-home) {
 .gqlmd-preview-chip {
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
-  background: color-mix(in oklch, #d8b4fe 10%, transparent);
+  /* The card stays dark in both modes, so the chip uses a fixed light tone. */
+  background: rgb(250 250 250 / 0.1);
   font-family: var(--gqlmd-mono);
   font-size: 0.75rem;
-  color: #d8b4fe;
+  color: #fafafa;
 }
 .gqlmd-preview-code {
   margin: 0;
@@ -214,7 +215,7 @@ article:has(> .gqlmd-home) {
   margin: 0;
   font-family: var(--gqlmd-mono);
   font-size: 0.75rem;
-  color: var(--gqlmd-violet);
+  color: var(--gqlmd-accent);
 }
 .gqlmd-highlight-title {
   margin: 0.75rem 0 0;
