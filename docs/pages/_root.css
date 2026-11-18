@@ -1,0 +1,266 @@
+@import "tailwindcss";
+
+/*
+ * Polish for GraphQL-Markdown output and the landing page. Colours come from
+ * Vocs theme variables; the accent is set to violet in vocs.config.ts.
+ */
+:root {
+  --gqlmd-violet: light-dark(#6d28d9, #b9a4ff);
+  --gqlmd-badge-bg: color-mix(in oklch, var(--gqlmd-violet) 15%, transparent);
+  --gqlmd-badge-text: var(--gqlmd-violet);
+  --gqlmd-chip-bg: light-dark(#f4f4f5, #242424);
+  --gqlmd-chip-border: light-dark(#e4e4e7, #363636);
+  --gqlmd-warning-bg: color-mix(in oklch, #eab308 20%, transparent);
+  --gqlmd-warning-text: light-dark(#a16207, #facc15);
+  --gqlmd-error: light-dark(#dc2626, #f87171);
+  --gqlmd-border: light-dark(#d4d4d8, #363636);
+}
+
+/* Entity chips: one box per chip, Vocs inline-code styles reset */
+.gqlmd-mdx-entity {
+  display: inline-flex;
+  align-items: baseline;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--gqlmd-chip-border);
+  border-radius: 0.375rem;
+  background: var(--gqlmd-chip-bg);
+  font-size: 14px;
+  line-height: 1.4;
+}
+.gqlmd-mdx-entity code,
+.gqlmd-mdx-entity span {
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  font-size: inherit !important;
+  font-weight: 500 !important;
+  line-height: inherit !important;
+}
+.gqlmd-mdx-entity-parent {
+  color: light-dark(#52525b, #a1a1aa);
+}
+.gqlmd-mdx-entity-name {
+  color: var(--gqlmd-violet);
+}
+
+/* Field rows stay compact: bullet is a subtle separator */
+.gqlmd-mdx-bullet {
+  opacity: 0.4;
+}
+article h4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 1rem;
+  margin-top: 1.75rem;
+}
+article h4 + p {
+  margin-top: 0.25rem;
+}
+
+/* Soft translucent pill badges */
+article [data-v-badge] {
+  border-radius: 999px;
+  padding: 0.05rem 0.55rem;
+  background-color: var(--gqlmd-badge-bg);
+  color: var(--gqlmd-badge-text);
+  font-size: 11.5px;
+  font-weight: 500;
+}
+article [data-v-badge]:is([data-v-context="warning"], [data-v-context="danger"]) {
+  background-color: var(--gqlmd-warning-bg);
+  color: var(--gqlmd-warning-text);
+}
+
+/* Bordered code blocks */
+article [data-v-code-container] pre,
+article pre.shiki {
+  border: 1px solid var(--gqlmd-border);
+  border-radius: 0.5rem;
+}
+
+/* Left-border admonitions; deprecation (warning) uses the error tint */
+article aside[data-v-callout] {
+  border-width: 0 0 0 3px;
+  border-radius: 0.375rem;
+}
+article aside[data-v-callout][data-v-context="warning"] {
+  background-color: color-mix(in oklch, var(--gqlmd-error) 10%, transparent);
+  border-color: var(--gqlmd-error);
+}
+
+/* Landing page */
+article:has(> .gqlmd-home) {
+  max-width: none;
+}
+.gqlmd-home {
+  --gqlmd-serif: Georgia, "Times New Roman", serif;
+  --gqlmd-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  width: 100%;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding-inline: 0;
+}
+.gqlmd-hero {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 3.5rem;
+  align-items: center;
+  padding: 6rem 1.5rem 6rem;
+}
+.gqlmd-headline {
+  margin: 0 0 1.5rem;
+  font-family: var(--gqlmd-mono);
+  font-size: 0.875rem;
+  color: var(--gqlmd-violet);
+}
+.gqlmd-title {
+  max-width: 36rem;
+  margin: 0;
+  font-family: var(--gqlmd-serif);
+  font-size: 3.25rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: normal;
+}
+.gqlmd-description {
+  max-width: 32rem;
+  margin: 1.75rem 0 0;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+.gqlmd-links {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+}
+.gqlmd-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--gqlmd-violet);
+  font-weight: 500;
+  text-decoration: none;
+}
+.gqlmd-cta-primary {
+  background: var(--gqlmd-violet);
+  color: light-dark(#fff, #18181b);
+}
+.gqlmd-cta-outline {
+  border-color: var(--gqlmd-border);
+  color: inherit;
+}
+.gqlmd-preview {
+  overflow-x: auto;
+  min-width: 0;
+  border: 1px solid var(--gqlmd-border);
+  border-radius: 0.5rem;
+  background: #1f1f1f;
+  box-shadow: 20px 20px 0 light-dark(#e4e4e7, #171717);
+}
+.gqlmd-preview-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid color-mix(in oklch, #3f3f46 80%, transparent);
+}
+.gqlmd-preview-file {
+  font-family: var(--gqlmd-mono);
+  font-size: 0.875rem;
+  color: #a1a1aa;
+}
+.gqlmd-preview-chip {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background: color-mix(in oklch, #d8b4fe 10%, transparent);
+  font-family: var(--gqlmd-mono);
+  font-size: 0.75rem;
+  color: #d8b4fe;
+}
+.gqlmd-preview-code {
+  margin: 0;
+  padding: 1.5rem;
+  overflow-x: auto;
+  border: 0;
+  background: transparent;
+  color: #e4e4e7;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  white-space: pre;
+}
+.gqlmd-cta { white-space: nowrap; }
+.gqlmd-preview-code code {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: inherit;
+}
+.tk-keyword { color: #d8b4fe; }
+.tk-type { color: #93c5fd; }
+.tk-field { color: #f0abfc; }
+.gqlmd-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 3rem 1.5rem;
+  border-block: 1px solid var(--gqlmd-border);
+}
+.gqlmd-highlight-label {
+  margin: 0;
+  font-family: var(--gqlmd-mono);
+  font-size: 0.75rem;
+  color: var(--gqlmd-violet);
+}
+.gqlmd-highlight-title {
+  margin: 0.75rem 0 0;
+  font-size: 1.125rem;
+}
+.gqlmd-intro {
+  padding: 3rem 1.5rem;
+}
+.gqlmd-intro h2 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.gqlmd-intro p,
+.gqlmd-intro ul {
+  margin: 0.5rem 0;
+}
+.gqlmd-intro ul {
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+@media (max-width: 768px) {
+  .gqlmd-hero {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    padding: 3rem 1rem 3rem;
+  }
+  .gqlmd-links {
+    flex-wrap: wrap;
+  }
+  .gqlmd-title {
+    font-size: 2.5rem;
+  }
+  .gqlmd-preview {
+    box-shadow: 10px 10px 0 light-dark(#e4e4e7, #171717);
+  }
+  .gqlmd-highlights {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+  .gqlmd-intro {
+    padding: 2rem 1rem;
+  }
+  .gqlmd-mdx-entity {
+    font-size: 0.85em;
+  }
+}
