@@ -221,22 +221,6 @@ article:has(> .gqlmd-home) {
   margin: 0.75rem 0 0;
   font-size: 1.125rem;
 }
-.gqlmd-intro {
-  padding: 3rem 1.5rem;
-}
-.gqlmd-intro h2 {
-  margin: 0 0 1rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.gqlmd-intro p,
-.gqlmd-intro ul {
-  margin: 0.5rem 0;
-}
-.gqlmd-intro ul {
-  padding-left: 1.25rem;
-  list-style: disc;
-}
 
 @media (max-width: 768px) {
   .gqlmd-hero {
@@ -256,9 +240,6 @@ article:has(> .gqlmd-home) {
   .gqlmd-highlights {
     grid-template-columns: 1fr;
     gap: 1.5rem;
-    padding: 2rem 1rem;
-  }
-  .gqlmd-intro {
     padding: 2rem 1rem;
   }
   .gqlmd-mdx-entity {
