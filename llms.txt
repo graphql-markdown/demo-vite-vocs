@@ -1,4 +1,4 @@
-# Docs
+# GraphQL-Markdown
 
 - [include](/operations/directives/include.md)
 - [skip](/operations/directives/skip.md)
