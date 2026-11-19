@@ -17,6 +17,7 @@ export default {
         docOptions: {
             frontMatter: {
                 showOutline: false,
+                showAskAi: false,
                 content: {
                     width: "100%"
                 }
