@@ -40,15 +40,4 @@
     <div><p className="gqlmd-highlight-label">MODELS</p><p className="gqlmd-highlight-title">Objects, inputs, unions, enums</p></div>
     <div><p className="gqlmd-highlight-label">EXAMPLES</p><p className="gqlmd-highlight-title">Schema-defined GraphQL samples</p></div>
   </section>
-
-  <section className="gqlmd-intro">
-    <h2>Schema Documentation</h2>
-    <p>This documentation has been automatically generated from the GraphQL schema.</p>
-    <p>Use the docs in the sidebar to find out how to use the schema:</p>
-
-    <ul>
-      <li><strong>Allowed operations</strong>: queries and mutations.</li>
-      <li><strong>Schema-defined types</strong>: scalars, objects, enums, interfaces, unions, and input objects.</li>
-    </ul>
-  </section>
 </div>
