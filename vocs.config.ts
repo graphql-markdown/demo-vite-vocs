@@ -3,7 +3,7 @@ import { generateSidebar } from './lib/sidebar.ts'
 import path from 'node:path'
 
 export default defineConfig({
-  title: 'Docs',
+  title: 'GraphQL-Markdown',
   basePath: '/demo-vite-vocs',
   srcDir: 'docs',
   renderStrategy: 'full-static',
