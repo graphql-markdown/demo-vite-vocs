@@ -1,6 +1,17 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
+function readLabel(file: string): string | undefined {
+  const match = /^---\r?\n([\s\S]*?)\r?\n---/.exec(fs.readFileSync(file, 'utf8'))
+  if (!match) return undefined
+  for (const key of ['sidebar_label', 'title']) {
+    const line = new RegExp(`^${key}:\\s*(.+?)\\s*$`, 'm').exec(match[1])
+    const value = line?.[1].replace(/^(["'])(.*)\1$/, '$2')
+    if (value) return value
+  }
+  return undefined
+}
+
 function formatText(name: string): string {
   return name
     .split('-')
@@ -47,7 +58,7 @@ function generateSidebarItems(dir: string, baseDir: string): any[] {
     const name = path.parse(file).name
     
     items.push({
-      text: formatText(name),
+      text: readLabel(fullPath) ?? name,
       link: `/${relativePath.replace(/\.mdx?$/, '')}`
     })
   }
