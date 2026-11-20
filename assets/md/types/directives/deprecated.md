@@ -13,8 +13,8 @@ directive @deprecated(
   | DIRECTIVE_DEFINITION
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">deprecated</code>.<code className="gqlmd-mdx-entity-name">reason</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">deprecated</code>.<code className="gqlmd-mdx-entity-name">reason</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 Explains why this element was deprecated, usually also including a suggestion for how to access supported similar data. Formatted using the Markdown syntax, as specified by [CommonMark](https://commonmark.org/).

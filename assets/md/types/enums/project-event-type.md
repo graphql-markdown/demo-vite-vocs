@@ -10,20 +10,20 @@ enum ProjectEventType {
 }
 ```
 
-### Values
+## Values
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">CREATED</code></span>
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">CREATED</code></span>
 
 The project was created.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">UPDATED</code></span>
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">UPDATED</code></span>
 
 One or more project fields were updated.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">ARCHIVED</code></span>
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">ARCHIVED</code></span>
 
 The project was archived.
 
-### Member Of
+## Member Of
 
 [`projectChanged`](/operations/subscriptions/project-changed.mdx)  :badge[subscription]<Bullet />[`ProjectEvent`](/types/objects/project-event.mdx)  :badge[object]

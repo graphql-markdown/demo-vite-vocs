@@ -6,6 +6,6 @@ The `Int` scalar type represents non-fractional signed whole numeric values. Int
 scalar Int
 ```
 
-### Member Of
+## Member Of
 
 [`folders`](/operations/queries/folders.mdx)  :badge[query]<Bullet />[`ProjectConnection`](/types/objects/project-connection.mdx)  :badge[object]<Bullet />[`projects`](/operations/queries/projects.mdx)  :badge[query]

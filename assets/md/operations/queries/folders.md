@@ -9,23 +9,23 @@ folders(
 ): [Folder!]!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folders</code>.<code className="gqlmd-mdx-entity-name">limit</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folders</code>.<code className="gqlmd-mdx-entity-name">limit</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Maximum number of folders to return.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folders</code>.<code className="gqlmd-mdx-entity-name">offset</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folders</code>.<code className="gqlmd-mdx-entity-name">offset</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Number of folders to skip before returning results.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
 
 A virtual folder used to organize workspace resources.
 
-### Example
+## Example
 
 ```graphql
 query ListFolders {

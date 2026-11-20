@@ -8,6 +8,6 @@ directive @deprecatedType(
 ) on OBJECT
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">deprecatedType</code>.<code className="gqlmd-mdx-entity-name">reason</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">deprecatedType</code>.<code className="gqlmd-mdx-entity-name">reason</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]

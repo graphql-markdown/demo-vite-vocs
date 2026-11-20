@@ -8,19 +8,19 @@ search(
 ): [SearchResult!]!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">search</code>.<code className="gqlmd-mdx-entity-name">query</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">search</code>.<code className="gqlmd-mdx-entity-name">query</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 Text matched against folder, project, and user names.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">SearchResult</code></span>](/types/unions/search-result.mdx) :badge[union]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">SearchResult</code></span>](/types/unions/search-result.mdx) :badge[union]
 
 A result returned from global workspace search.
 
-### Example
+## Example
 
 ```graphql
 query SearchWorkspace($query: String!) {

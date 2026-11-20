@@ -9,23 +9,23 @@ projectChanged(
 ): ProjectEvent!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projectChanged</code>.<code className="gqlmd-mdx-entity-name">projectId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projectChanged</code>.<code className="gqlmd-mdx-entity-name">projectId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
 
 Limit events to a single project.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projectChanged</code>.<code className="gqlmd-mdx-entity-name">types</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[ProjectEventType!\]</code></span>](/types/enums/project-event-type.mdx) :badge[list] :badge[enum]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projectChanged</code>.<code className="gqlmd-mdx-entity-name">types</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[ProjectEventType!\]</code></span>](/types/enums/project-event-type.mdx) :badge[list] :badge[enum]
 
 Limit events to these change kinds.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectEvent</code></span>](/types/objects/project-event.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectEvent</code></span>](/types/objects/project-event.mdx) :badge[object]
 
 A change delivered to subscribers watching a project.
 
-### Example
+## Example
 
 ```graphql
 subscription WatchProject($projectId: ID, $types: [ProjectEventType!]) {

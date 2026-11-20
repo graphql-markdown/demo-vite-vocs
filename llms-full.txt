@@ -54,9 +54,9 @@ directive @include(
   | INLINE_FRAGMENT
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">include</code>.<code className="gqlmd-mdx-entity-name">if</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean!</code></span>](/types/scalars/boolean.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">include</code>.<code className="gqlmd-mdx-entity-name">if</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean!</code></span>](/types/scalars/boolean.mdx) :badge[non-null] :badge[scalar]
 
 Included when true.
 
@@ -75,9 +75,9 @@ directive @skip(
   | INLINE_FRAGMENT
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">skip</code>.<code className="gqlmd-mdx-entity-name">if</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean!</code></span>](/types/scalars/boolean.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">skip</code>.<code className="gqlmd-mdx-entity-name">if</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean!</code></span>](/types/scalars/boolean.mdx) :badge[non-null] :badge[scalar]
 
 Skipped when true.
 
@@ -93,19 +93,19 @@ archiveProject(
 ): Project!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">archiveProject</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">archiveProject</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The unique identifier of the project to archive.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Project</code></span>](/types/objects/project.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Project</code></span>](/types/objects/project.mdx) :badge[object]
 
 A unit of work tracked in the workspace.
 
-### Example
+## Example
 
 ```graphql
 mutation ArchiveProject($id: ID!) {
@@ -131,23 +131,23 @@ createFolder(
 ): Folder!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">createFolder</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">createFolder</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The name of the new folder.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">createFolder</code>.<code className="gqlmd-mdx-entity-name">parentId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">createFolder</code>.<code className="gqlmd-mdx-entity-name">parentId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
 
 The optional parent folder identifier.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
 
 A virtual folder used to organize workspace resources.
 
-### Example
+## Example
 
 ```graphql
 mutation CreateFolder($name: String!, $parentId: ID) {
@@ -170,19 +170,19 @@ createProject(
 ): Project!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">createProject</code>.<code className="gqlmd-mdx-entity-name">input</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">CreateProjectInput!</code></span>](/types/inputs/create-project-input.mdx) :badge[non-null] :badge[input]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">createProject</code>.<code className="gqlmd-mdx-entity-name">input</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">CreateProjectInput!</code></span>](/types/inputs/create-project-input.mdx) :badge[non-null] :badge[input]
 
 The project attributes to create.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Project</code></span>](/types/objects/project.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Project</code></span>](/types/objects/project.mdx) :badge[object]
 
 A unit of work tracked in the workspace.
 
-### Example
+## Example
 
 ```graphql
 mutation CreateProject($input: CreateProjectInput!) {
@@ -210,19 +210,19 @@ folder(
 ): Folder
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folder</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folder</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The unique identifier of the folder to retrieve.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
 
 A virtual folder used to organize workspace resources.
 
-### Example
+## Example
 
 ```graphql
 query GetFolder($id: ID!) {
@@ -248,23 +248,23 @@ folders(
 ): [Folder!]!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folders</code>.<code className="gqlmd-mdx-entity-name">limit</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folders</code>.<code className="gqlmd-mdx-entity-name">limit</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Maximum number of folders to return.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folders</code>.<code className="gqlmd-mdx-entity-name">offset</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folders</code>.<code className="gqlmd-mdx-entity-name">offset</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Number of folders to skip before returning results.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
 
 A virtual folder used to organize workspace resources.
 
-### Example
+## Example
 
 ```graphql
 query ListFolders {
@@ -290,23 +290,23 @@ projects(
 ): ProjectConnection!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projects</code>.<code className="gqlmd-mdx-entity-name">status</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectStatus</code></span>](/types/enums/project-status.mdx) :badge[enum]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projects</code>.<code className="gqlmd-mdx-entity-name">status</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectStatus</code></span>](/types/enums/project-status.mdx) :badge[enum]
 
 Limit results to projects in this lifecycle stage.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projects</code>.<code className="gqlmd-mdx-entity-name">limit</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projects</code>.<code className="gqlmd-mdx-entity-name">limit</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Maximum number of projects to return. Defaults to 20.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectConnection</code></span>](/types/objects/project-connection.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectConnection</code></span>](/types/objects/project-connection.mdx) :badge[object]
 
 A paginated project result set.
 
-### Example
+## Example
 
 ```graphql
 query ListActiveProjects($status: ProjectStatus) {
@@ -336,19 +336,19 @@ search(
 ): [SearchResult!]!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">search</code>.<code className="gqlmd-mdx-entity-name">query</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">search</code>.<code className="gqlmd-mdx-entity-name">query</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 Text matched against folder, project, and user names.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">SearchResult</code></span>](/types/unions/search-result.mdx) :badge[union]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">SearchResult</code></span>](/types/unions/search-result.mdx) :badge[union]
 
 A result returned from global workspace search.
 
-### Example
+## Example
 
 ```graphql
 query SearchWorkspace($query: String!) {
@@ -384,19 +384,19 @@ folderCreated(
 ): Folder!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folderCreated</code>.<code className="gqlmd-mdx-entity-name">parentId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">folderCreated</code>.<code className="gqlmd-mdx-entity-name">parentId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
 
 Limit events to folders created under this parent.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
 
 A virtual folder used to organize workspace resources.
 
-### Example
+## Example
 
 ```graphql
 subscription WatchFolders($parentId: ID) {
@@ -422,23 +422,23 @@ projectChanged(
 ): ProjectEvent!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projectChanged</code>.<code className="gqlmd-mdx-entity-name">projectId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projectChanged</code>.<code className="gqlmd-mdx-entity-name">projectId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
 
 Limit events to a single project.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projectChanged</code>.<code className="gqlmd-mdx-entity-name">types</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[ProjectEventType!\]</code></span>](/types/enums/project-event-type.mdx) :badge[list] :badge[enum]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projectChanged</code>.<code className="gqlmd-mdx-entity-name">types</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[ProjectEventType!\]</code></span>](/types/enums/project-event-type.mdx) :badge[list] :badge[enum]
 
 Limit events to these change kinds.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectEvent</code></span>](/types/objects/project-event.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectEvent</code></span>](/types/objects/project-event.mdx) :badge[object]
 
 A change delivered to subscribers watching a project.
 
-### Example
+## Example
 
 ```graphql
 subscription WatchProject($projectId: ID, $types: [ProjectEventType!]) {
@@ -474,9 +474,9 @@ directive @deprecated(
   | DIRECTIVE_DEFINITION
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">deprecated</code>.<code className="gqlmd-mdx-entity-name">reason</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">deprecated</code>.<code className="gqlmd-mdx-entity-name">reason</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 Explains why this element was deprecated, usually also including a suggestion for how to access supported similar data. Formatted using the Markdown syntax, as specified by [CommonMark](https://commonmark.org/).
 
@@ -492,9 +492,9 @@ directive @deprecatedType(
 ) on OBJECT
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">deprecatedType</code>.<code className="gqlmd-mdx-entity-name">reason</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">deprecatedType</code>.<code className="gqlmd-mdx-entity-name">reason</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 <!-- Source: /types/directives/example -->
 
@@ -510,9 +510,9 @@ directive @example(
   | OBJECT
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">example</code>.<code className="gqlmd-mdx-entity-name">value</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">example</code>.<code className="gqlmd-mdx-entity-name">value</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 <!-- Source: /types/directives/example-response -->
 
@@ -527,9 +527,9 @@ directive @exampleResponse(
 ) on FIELD_DEFINITION
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">exampleResponse</code>.<code className="gqlmd-mdx-entity-name">value</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">exampleResponse</code>.<code className="gqlmd-mdx-entity-name">value</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 <!-- Source: /types/directives/example-variables -->
 
@@ -544,9 +544,9 @@ directive @exampleVariables(
 ) on FIELD_DEFINITION
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">exampleVariables</code>.<code className="gqlmd-mdx-entity-name">value</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">exampleVariables</code>.<code className="gqlmd-mdx-entity-name">value</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 <!-- Source: /types/directives/one-of -->
 
@@ -570,9 +570,9 @@ directive @specifiedBy(
 ) on SCALAR
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">specifiedBy</code>.<code className="gqlmd-mdx-entity-name">url</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">specifiedBy</code>.<code className="gqlmd-mdx-entity-name">url</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The URL that specifies the behavior of this scalar.
 
@@ -590,21 +590,21 @@ enum ProjectEventType {
 }
 ```
 
-### Values
+## Values
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">CREATED</code></span>
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">CREATED</code></span>
 
 The project was created.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">UPDATED</code></span>
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">UPDATED</code></span>
 
 One or more project fields were updated.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">ARCHIVED</code></span>
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEventType</code>.<code className="gqlmd-mdx-entity-name">ARCHIVED</code></span>
 
 The project was archived.
 
-### Member Of
+## Member Of
 
 [`projectChanged`](/operations/subscriptions/project-changed.mdx)  :badge[subscription]<Bullet />[`ProjectEvent`](/types/objects/project-event.mdx)  :badge[object]
 
@@ -622,21 +622,21 @@ enum ProjectStatus {
 }
 ```
 
-### Values
+## Values
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">DRAFT</code></span>
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">DRAFT</code></span>
 
 The project is being planned and is not yet active.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">ACTIVE</code></span>
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">ACTIVE</code></span>
 
 The project is active and available to collaborators.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">ARCHIVED</code></span>
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectStatus</code>.<code className="gqlmd-mdx-entity-name">ARCHIVED</code></span>
 
 The project is retained for history and no longer active.
 
-### Member Of
+## Member Of
 
 [`CreateProjectInput`](/types/inputs/create-project-input.mdx)  :badge[input]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`projects`](/operations/queries/projects.mdx)  :badge[query]
 
@@ -655,31 +655,31 @@ input CreateProjectInput {
 }
 ```
 
-### Fields
+## Fields
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CreateProjectInput</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CreateProjectInput</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The name for the new project.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CreateProjectInput</code>.<code className="gqlmd-mdx-entity-name">ownerId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CreateProjectInput</code>.<code className="gqlmd-mdx-entity-name">ownerId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The identifier of the user who will own the project.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CreateProjectInput</code>.<code className="gqlmd-mdx-entity-name">folderId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CreateProjectInput</code>.<code className="gqlmd-mdx-entity-name">folderId</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID</code></span>](/types/scalars/id.mdx) :badge[scalar]
 
 The optional folder that will contain the project.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CreateProjectInput</code>.<code className="gqlmd-mdx-entity-name">status</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectStatus</code></span>](/types/enums/project-status.mdx) :badge[enum]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">CreateProjectInput</code>.<code className="gqlmd-mdx-entity-name">status</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectStatus</code></span>](/types/enums/project-status.mdx) :badge[enum]
 
 The initial lifecycle stage for the project.
 
-### Example
+## Example
 
 ```graphql
 {}
 ```
 
-### Member Of
+## Member Of
 
 [`createProject`](/operations/mutations/create-project.mdx)  :badge[mutation]
 
@@ -695,19 +695,19 @@ interface Node {
 }
 ```
 
-### Fields
+## Fields
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Node</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Node</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The globally unique identifier for this resource.
 
-### Example
+## Example
 
 ```graphql
 {}
 ```
 
-### Implemented By
+## Implemented By
 
 [`Folder`](/types/objects/folder.mdx)  :badge[object]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]
 
@@ -726,31 +726,31 @@ type Folder implements Node {
 }
 ```
 
-### Fields
+## Fields
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The unique identifier of the folder.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The human-readable folder name.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">parent</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">parent</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[scalar]
 
 The identifier of the parent folder, when nested.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">createdAt</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">DateTime!</code></span>](/types/scalars/date-time.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Folder</code>.<code className="gqlmd-mdx-entity-name">createdAt</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">DateTime!</code></span>](/types/scalars/date-time.mdx) :badge[non-null] :badge[scalar]
 
 When the folder was created.
 
-### Interfaces
+## Interfaces
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Node</code></span>](/types/interfaces/node.mdx) :badge[interface]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Node</code></span>](/types/interfaces/node.mdx) :badge[interface]
 
 A globally unique entity identifier.
 
-### Example
+## Example
 
 ```graphql
 {
@@ -761,15 +761,15 @@ A globally unique entity identifier.
 }
 ```
 
-### Returned By
+## Returned By
 
 [`createFolder`](/operations/mutations/create-folder.mdx)  :badge[mutation]<Bullet />[`folder`](/operations/queries/folder.mdx)  :badge[query]<Bullet />[`folderCreated`](/operations/subscriptions/folder-created.mdx)  :badge[subscription]<Bullet />[`folders`](/operations/queries/folders.mdx)  :badge[query]
 
-### Member Of
+## Member Of
 
 [`Project`](/types/objects/project.mdx)  :badge[object]
 
-### Implemented By
+## Implemented By
 
 [`SearchResult`](/types/unions/search-result.mdx)  :badge[union]
 
@@ -786,17 +786,17 @@ type LegacyProject {
 }
 ```
 
-### Fields
+## Fields
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LegacyProject</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LegacyProject</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The unique identifier of the legacy project.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LegacyProject</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">LegacyProject</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The legacy project name.
 
-### Example
+## Example
 
 ```graphql
 {}
@@ -820,33 +820,33 @@ type Project implements Node {
 }
 ```
 
-### Fields
+## Fields
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The unique identifier of the project.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The project name shown to collaborators.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">status</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectStatus!</code></span>](/types/enums/project-status.mdx) :badge[non-null] :badge[enum]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">status</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectStatus!</code></span>](/types/enums/project-status.mdx) :badge[non-null] :badge[enum]
 
 The current lifecycle stage of the project.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">owner</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">User!</code></span>](/types/objects/user.mdx) :badge[non-null] :badge[object]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">owner</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">User!</code></span>](/types/objects/user.mdx) :badge[non-null] :badge[object]
 
 The user responsible for the project.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">folder</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">folder</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
 
 The folder containing this project, when assigned.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">updatedAt</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">DateTime!</code></span>](/types/scalars/date-time.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">updatedAt</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">DateTime!</code></span>](/types/scalars/date-time.mdx) :badge[non-null] :badge[scalar]
 
 When the project was last updated.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">state</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[deprecated]{warning} :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">state</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[deprecated]{warning} :badge[scalar]
 
 :::warning[DEPRECATED]
 Replaced by the `ProjectStatus` enum on status.
@@ -854,13 +854,13 @@ Replaced by the `ProjectStatus` enum on status.
 
 The project's lifecycle stage.
 
-### Interfaces
+## Interfaces
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Node</code></span>](/types/interfaces/node.mdx) :badge[interface]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Node</code></span>](/types/interfaces/node.mdx) :badge[interface]
 
 A globally unique entity identifier.
 
-### Example
+## Example
 
 ```graphql
 {
@@ -875,15 +875,15 @@ A globally unique entity identifier.
 }
 ```
 
-### Returned By
+## Returned By
 
 [`archiveProject`](/operations/mutations/archive-project.mdx)  :badge[mutation]<Bullet />[`createProject`](/operations/mutations/create-project.mdx)  :badge[mutation]
 
-### Member Of
+## Member Of
 
 [`ProjectConnection`](/types/objects/project-connection.mdx)  :badge[object]<Bullet />[`ProjectEvent`](/types/objects/project-event.mdx)  :badge[object]
 
-### Implemented By
+## Implemented By
 
 [`SearchResult`](/types/unions/search-result.mdx)  :badge[union]
 
@@ -900,17 +900,17 @@ type ProjectConnection {
 }
 ```
 
-### Fields
+## Fields
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectConnection</code>.<code className="gqlmd-mdx-entity-name">nodes</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Project!\]!</code></span>](/types/objects/project.mdx) :badge[non-null] :badge[object]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectConnection</code>.<code className="gqlmd-mdx-entity-name">nodes</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Project!\]!</code></span>](/types/objects/project.mdx) :badge[non-null] :badge[object]
 
 Projects in the current result page.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectConnection</code>.<code className="gqlmd-mdx-entity-name">totalCount</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectConnection</code>.<code className="gqlmd-mdx-entity-name">totalCount</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
 The total number of projects matching the query.
 
-### Example
+## Example
 
 ```graphql
 {
@@ -929,7 +929,7 @@ The total number of projects matching the query.
 }
 ```
 
-### Returned By
+## Returned By
 
 [`projects`](/operations/queries/projects.mdx)  :badge[query]
 
@@ -948,25 +948,25 @@ type ProjectEvent {
 }
 ```
 
-### Fields
+## Fields
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">type</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectEventType!</code></span>](/types/enums/project-event-type.mdx) :badge[non-null] :badge[enum]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">type</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectEventType!</code></span>](/types/enums/project-event-type.mdx) :badge[non-null] :badge[enum]
 
 The kind of change that occurred.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">project</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Project!</code></span>](/types/objects/project.mdx) :badge[non-null] :badge[object]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">project</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Project!</code></span>](/types/objects/project.mdx) :badge[non-null] :badge[object]
 
 The project in its state after the change.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">actor</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">User</code></span>](/types/objects/user.mdx) :badge[object]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">actor</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">User</code></span>](/types/objects/user.mdx) :badge[object]
 
 The user who triggered the change, when known.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">occurredAt</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">DateTime!</code></span>](/types/scalars/date-time.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectEvent</code>.<code className="gqlmd-mdx-entity-name">occurredAt</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">DateTime!</code></span>](/types/scalars/date-time.mdx) :badge[non-null] :badge[scalar]
 
 When the change occurred.
 
-### Example
+## Example
 
 ```graphql
 {
@@ -980,7 +980,7 @@ When the change occurred.
 }
 ```
 
-### Returned By
+## Returned By
 
 [`projectChanged`](/operations/subscriptions/project-changed.mdx)  :badge[subscription]
 
@@ -999,31 +999,31 @@ type User implements Node {
 }
 ```
 
-### Fields
+## Fields
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">User</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">User</code>.<code className="gqlmd-mdx-entity-name">id</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ID!</code></span>](/types/scalars/id.mdx) :badge[non-null] :badge[scalar]
 
 The unique identifier of the user.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">User</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">User</code>.<code className="gqlmd-mdx-entity-name">name</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The user's display name.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">User</code>.<code className="gqlmd-mdx-entity-name">email</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">User</code>.<code className="gqlmd-mdx-entity-name">email</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The user's primary email address.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">User</code>.<code className="gqlmd-mdx-entity-name">role</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">User</code>.<code className="gqlmd-mdx-entity-name">role</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The user's role in the workspace.
 
-### Interfaces
+## Interfaces
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Node</code></span>](/types/interfaces/node.mdx) :badge[interface]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Node</code></span>](/types/interfaces/node.mdx) :badge[interface]
 
 A globally unique entity identifier.
 
-### Example
+## Example
 
 ```graphql
 {
@@ -1034,11 +1034,11 @@ A globally unique entity identifier.
 }
 ```
 
-### Member Of
+## Member Of
 
 [`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`ProjectEvent`](/types/objects/project-event.mdx)  :badge[object]
 
-### Implemented By
+## Implemented By
 
 [`SearchResult`](/types/unions/search-result.mdx)  :badge[union]
 
@@ -1052,7 +1052,7 @@ The `Boolean` scalar type represents `true` or `false`.
 scalar Boolean
 ```
 
-### Member Of
+## Member Of
 
 [`include`](/operations/directives/include.mdx)  :badge[directive]<Bullet />[`skip`](/operations/directives/skip.mdx)  :badge[directive]
 
@@ -1066,7 +1066,7 @@ An ISO 8601 timestamp in UTC.
 scalar DateTime
 ```
 
-### Member Of
+## Member Of
 
 [`Folder`](/types/objects/folder.mdx)  :badge[object]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`ProjectEvent`](/types/objects/project-event.mdx)  :badge[object]
 
@@ -1080,7 +1080,7 @@ The `ID` scalar type represents a unique identifier, often used to refetch an ob
 scalar ID
 ```
 
-### Member Of
+## Member Of
 
 [`archiveProject`](/operations/mutations/archive-project.mdx)  :badge[mutation]<Bullet />[`createFolder`](/operations/mutations/create-folder.mdx)  :badge[mutation]<Bullet />[`CreateProjectInput`](/types/inputs/create-project-input.mdx)  :badge[input]<Bullet />[`folder`](/operations/queries/folder.mdx)  :badge[query]<Bullet />[`Folder`](/types/objects/folder.mdx)  :badge[object]<Bullet />[`folderCreated`](/operations/subscriptions/folder-created.mdx)  :badge[subscription]<Bullet />[`LegacyProject`](/types/objects/legacy-project.mdx)  :badge[object]<Bullet />[`Node`](/types/interfaces/node.mdx)  :badge[interface]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`projectChanged`](/operations/subscriptions/project-changed.mdx)  :badge[subscription]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]
 
@@ -1094,7 +1094,7 @@ The `Int` scalar type represents non-fractional signed whole numeric values. Int
 scalar Int
 ```
 
-### Member Of
+## Member Of
 
 [`folders`](/operations/queries/folders.mdx)  :badge[query]<Bullet />[`ProjectConnection`](/types/objects/project-connection.mdx)  :badge[object]<Bullet />[`projects`](/operations/queries/projects.mdx)  :badge[query]
 
@@ -1108,7 +1108,7 @@ The `String` scalar type represents textual data, represented as UTF-8 character
 scalar String
 ```
 
-### Member Of
+## Member Of
 
 [`createFolder`](/operations/mutations/create-folder.mdx)  :badge[mutation]<Bullet />[`CreateProjectInput`](/types/inputs/create-project-input.mdx)  :badge[input]<Bullet />[`deprecated`](/types/directives/deprecated.mdx)  :badge[directive]<Bullet />[`deprecatedType`](/types/directives/deprecated-type.mdx)  :badge[directive]<Bullet />[`example`](/types/directives/example.mdx)  :badge[directive]<Bullet />[`exampleResponse`](/types/directives/example-response.mdx)  :badge[directive]<Bullet />[`exampleVariables`](/types/directives/example-variables.mdx)  :badge[directive]<Bullet />[`Folder`](/types/objects/folder.mdx)  :badge[object]<Bullet />[`LegacyProject`](/types/objects/legacy-project.mdx)  :badge[object]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`search`](/operations/queries/search.mdx)  :badge[query]<Bullet />[`specifiedBy`](/types/directives/specified-by.mdx)  :badge[directive]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]
 
@@ -1122,21 +1122,21 @@ A result returned from global workspace search.
 union SearchResult = Folder | Project | User
 ```
 
-### Possible types
+## Possible types
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SearchResult</code>.<code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SearchResult</code>.<code className="gqlmd-mdx-entity-name">Folder</code></span>](/types/objects/folder.mdx) :badge[object]
 
 A virtual folder used to organize workspace resources.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SearchResult</code>.<code className="gqlmd-mdx-entity-name">Project</code></span>](/types/objects/project.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SearchResult</code>.<code className="gqlmd-mdx-entity-name">Project</code></span>](/types/objects/project.mdx) :badge[object]
 
 A unit of work tracked in the workspace.
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SearchResult</code>.<code className="gqlmd-mdx-entity-name">User</code></span>](/types/objects/user.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">SearchResult</code>.<code className="gqlmd-mdx-entity-name">User</code></span>](/types/objects/user.mdx) :badge[object]
 
 A workspace member who owns and collaborates on projects.
 
-### Returned By
+## Returned By
 
 [`search`](/operations/queries/search.mdx)  :badge[query]
 

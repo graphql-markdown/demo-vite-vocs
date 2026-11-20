@@ -9,17 +9,17 @@ type ProjectConnection {
 }
 ```
 
-### Fields
+## Fields
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectConnection</code>.<code className="gqlmd-mdx-entity-name">nodes</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Project!\]!</code></span>](/types/objects/project.mdx) :badge[non-null] :badge[object]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectConnection</code>.<code className="gqlmd-mdx-entity-name">nodes</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">\[Project!\]!</code></span>](/types/objects/project.mdx) :badge[non-null] :badge[object]
 
 Projects in the current result page.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectConnection</code>.<code className="gqlmd-mdx-entity-name">totalCount</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">ProjectConnection</code>.<code className="gqlmd-mdx-entity-name">totalCount</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int!</code></span>](/types/scalars/int.mdx) :badge[non-null] :badge[scalar]
 
 The total number of projects matching the query.
 
-### Example
+## Example
 
 ```graphql
 {
@@ -38,6 +38,6 @@ The total number of projects matching the query.
 }
 ```
 
-### Returned By
+## Returned By
 
 [`projects`](/operations/queries/projects.mdx)  :badge[query]

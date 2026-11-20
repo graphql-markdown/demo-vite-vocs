@@ -9,23 +9,23 @@ projects(
 ): ProjectConnection!
 ```
 
-### Arguments
+## Arguments
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projects</code>.<code className="gqlmd-mdx-entity-name">status</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectStatus</code></span>](/types/enums/project-status.mdx) :badge[enum]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projects</code>.<code className="gqlmd-mdx-entity-name">status</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectStatus</code></span>](/types/enums/project-status.mdx) :badge[enum]
 
 Limit results to projects in this lifecycle stage.
 
-#### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projects</code>.<code className="gqlmd-mdx-entity-name">limit</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
+### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">projects</code>.<code className="gqlmd-mdx-entity-name">limit</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Int</code></span>](/types/scalars/int.mdx) :badge[scalar]
 
 Maximum number of projects to return. Defaults to 20.
 
-### Type
+## Type
 
-#### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectConnection</code></span>](/types/objects/project-connection.mdx) :badge[object]
+### [<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">ProjectConnection</code></span>](/types/objects/project-connection.mdx) :badge[object]
 
 A paginated project result set.
 
-### Example
+## Example
 
 ```graphql
 query ListActiveProjects($status: ProjectStatus) {
