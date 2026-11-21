@@ -22,7 +22,7 @@
     "waku": "1.0.0-rc.5"
   },
   "devDependencies": {
-    "@argos-ci/playwright": "^7.9.0",
+    "@argos-ci/playwright": "^7.10.0",
     "@playwright/test": "^1.65.1",
     "@types/react": "latest",
     "serve": "^14.2.8",
