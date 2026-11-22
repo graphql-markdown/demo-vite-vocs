@@ -1,0 +1,1 @@
+var e=async()=>JSON.stringify(await(await fetch(`/demo-vite-vocs/assets/search-index-e1ee8eb39edc.json`)).json());export{e as getSearchIndex};
