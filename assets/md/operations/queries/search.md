@@ -43,3 +43,5 @@ query SearchWorkspace($query: String!) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/queries/search.md)

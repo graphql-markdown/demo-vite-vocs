@@ -32,3 +32,5 @@ subscription WatchFolders($parentId: ID) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/subscriptions/folder-created.md)

@@ -32,3 +32,5 @@ mutation ArchiveProject($id: ID!) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/mutations/archive-project.md)

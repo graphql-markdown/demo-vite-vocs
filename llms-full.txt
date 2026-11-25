@@ -60,6 +60,8 @@ directive @include(
 
 Included when true.
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/directives/include.md)
+
 <!-- Source: /operations/directives/skip -->
 
 # skip
@@ -80,6 +82,8 @@ directive @skip(
 ### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">skip</code>.<code className="gqlmd-mdx-entity-name">if</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean!</code></span>](/types/scalars/boolean.mdx) :badge[non-null] :badge[scalar]
 
 Skipped when true.
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/directives/skip.md)
 
 <!-- Source: /operations/mutations/archive-project -->
 
@@ -117,6 +121,8 @@ mutation ArchiveProject($id: ID!) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/mutations/archive-project.md)
 
 <!-- Source: /operations/mutations/create-folder -->
 
@@ -158,6 +164,8 @@ mutation CreateFolder($name: String!, $parentId: ID) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/mutations/create-folder.md)
+
 <!-- Source: /operations/mutations/create-project -->
 
 # createProject
@@ -198,6 +206,8 @@ mutation CreateProject($input: CreateProjectInput!) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/mutations/create-project.md)
+
 <!-- Source: /operations/queries/folder -->
 
 # folder
@@ -234,6 +244,8 @@ query GetFolder($id: ID!) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/queries/folder.md)
 
 <!-- Source: /operations/queries/folders -->
 
@@ -276,6 +288,8 @@ query ListFolders {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/queries/folders.md)
 
 <!-- Source: /operations/queries/projects -->
 
@@ -323,6 +337,8 @@ query ListActiveProjects($status: ProjectStatus) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/queries/projects.md)
 
 <!-- Source: /operations/queries/search -->
 
@@ -372,6 +388,8 @@ query SearchWorkspace($query: String!) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/queries/search.md)
+
 <!-- Source: /operations/subscriptions/folder-created -->
 
 # folderCreated
@@ -408,6 +426,8 @@ subscription WatchFolders($parentId: ID) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/subscriptions/folder-created.md)
 
 <!-- Source: /operations/subscriptions/project-changed -->
 
@@ -457,6 +477,8 @@ subscription WatchProject($projectId: ID, $types: [ProjectEventType!]) {
 }
 ```
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/subscriptions/project-changed.md)
+
 <!-- Source: /types/directives/deprecated -->
 
 # deprecated
@@ -480,6 +502,8 @@ directive @deprecated(
 
 Explains why this element was deprecated, usually also including a suggestion for how to access supported similar data. Formatted using the Markdown syntax, as specified by [CommonMark](https://commonmark.org/).
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/directives/deprecated.md)
+
 <!-- Source: /types/directives/deprecated-type -->
 
 # deprecatedType
@@ -495,6 +519,8 @@ directive @deprecatedType(
 ## Arguments
 
 ### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">deprecatedType</code>.<code className="gqlmd-mdx-entity-name">reason</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/directives/deprecated-type.md)
 
 <!-- Source: /types/directives/example -->
 
@@ -514,6 +540,8 @@ directive @example(
 
 ### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">example</code>.<code className="gqlmd-mdx-entity-name">value</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/directives/example.md)
+
 <!-- Source: /types/directives/example-response -->
 
 # exampleResponse
@@ -530,6 +558,8 @@ directive @exampleResponse(
 ## Arguments
 
 ### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">exampleResponse</code>.<code className="gqlmd-mdx-entity-name">value</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/directives/example-response.md)
 
 <!-- Source: /types/directives/example-variables -->
 
@@ -548,6 +578,8 @@ directive @exampleVariables(
 
 ### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">exampleVariables</code>.<code className="gqlmd-mdx-entity-name">value</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/directives/example-variables.md)
+
 <!-- Source: /types/directives/one-of -->
 
 # oneOf
@@ -557,6 +589,8 @@ Indicates exactly one field must be supplied and this field must not be `null`.
 ```graphql
 directive @oneOf on INPUT_OBJECT
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/directives/one-of.md)
 
 <!-- Source: /types/directives/specified-by -->
 
@@ -575,6 +609,8 @@ directive @specifiedBy(
 ### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">specifiedBy</code>.<code className="gqlmd-mdx-entity-name">url</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String!</code></span>](/types/scalars/string.mdx) :badge[non-null] :badge[scalar]
 
 The URL that specifies the behavior of this scalar.
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/directives/specified-by.md)
 
 <!-- Source: /types/enums/project-event-type -->
 
@@ -608,6 +644,8 @@ The project was archived.
 
 [`projectChanged`](/operations/subscriptions/project-changed.mdx)  :badge[subscription]<Bullet />[`ProjectEvent`](/types/objects/project-event.mdx)  :badge[object]
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/enums/project-event-type.md)
+
 <!-- Source: /types/enums/project-status -->
 
 # ProjectStatus
@@ -639,6 +677,8 @@ The project is retained for history and no longer active.
 ## Member Of
 
 [`CreateProjectInput`](/types/inputs/create-project-input.mdx)  :badge[input]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`projects`](/operations/queries/projects.mdx)  :badge[query]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/enums/project-status.md)
 
 <!-- Source: /types/inputs/create-project-input -->
 
@@ -683,6 +723,8 @@ The initial lifecycle stage for the project.
 
 [`createProject`](/operations/mutations/create-project.mdx)  :badge[mutation]
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/inputs/create-project-input.md)
+
 <!-- Source: /types/interfaces/node -->
 
 # Node
@@ -710,6 +752,8 @@ The globally unique identifier for this resource.
 ## Implemented By
 
 [`Folder`](/types/objects/folder.mdx)  :badge[object]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/interfaces/node.md)
 
 <!-- Source: /types/objects/folder -->
 
@@ -773,11 +817,19 @@ A globally unique entity identifier.
 
 [`SearchResult`](/types/unions/search-result.mdx)  :badge[union]
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/folder.md)
+
 <!-- Source: /types/objects/legacy-project -->
 
 # LegacyProject
 
+:badge[deprecated]
+
 Use Project instead for active workspace work.
+
+:::warning[Deprecated]
+Replaced by [`Project`](/types/objects/project.mdx) to support ownership and lifecycle status.
+:::
 
 ```graphql
 type LegacyProject {
@@ -801,6 +853,8 @@ The legacy project name.
 ```graphql
 {}
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/legacy-project.md)
 
 <!-- Source: /types/objects/project -->
 
@@ -849,7 +903,7 @@ When the project was last updated.
 ### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">state</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[deprecated]{warning} :badge[scalar]
 
 :::warning[DEPRECATED]
-Replaced by the `ProjectStatus` enum on status.
+Replaced by the [`ProjectStatus`](/types/enums/project-status.mdx) enum on status.
 :::
 
 The project's lifecycle stage.
@@ -886,6 +940,8 @@ A globally unique entity identifier.
 ## Implemented By
 
 [`SearchResult`](/types/unions/search-result.mdx)  :badge[union]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/project.md)
 
 <!-- Source: /types/objects/project-connection -->
 
@@ -932,6 +988,8 @@ The total number of projects matching the query.
 ## Returned By
 
 [`projects`](/operations/queries/projects.mdx)  :badge[query]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/project-connection.md)
 
 <!-- Source: /types/objects/project-event -->
 
@@ -983,6 +1041,8 @@ When the change occurred.
 ## Returned By
 
 [`projectChanged`](/operations/subscriptions/project-changed.mdx)  :badge[subscription]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/project-event.md)
 
 <!-- Source: /types/objects/user -->
 
@@ -1042,6 +1102,8 @@ A globally unique entity identifier.
 
 [`SearchResult`](/types/unions/search-result.mdx)  :badge[union]
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/user.md)
+
 <!-- Source: /types/scalars/boolean -->
 
 # Boolean
@@ -1055,6 +1117,8 @@ scalar Boolean
 ## Member Of
 
 [`include`](/operations/directives/include.mdx)  :badge[directive]<Bullet />[`skip`](/operations/directives/skip.mdx)  :badge[directive]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/scalars/boolean.md)
 
 <!-- Source: /types/scalars/date-time -->
 
@@ -1070,6 +1134,8 @@ scalar DateTime
 
 [`Folder`](/types/objects/folder.mdx)  :badge[object]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`ProjectEvent`](/types/objects/project-event.mdx)  :badge[object]
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/scalars/date-time.md)
+
 <!-- Source: /types/scalars/id -->
 
 # ID
@@ -1083,6 +1149,8 @@ scalar ID
 ## Member Of
 
 [`archiveProject`](/operations/mutations/archive-project.mdx)  :badge[mutation]<Bullet />[`createFolder`](/operations/mutations/create-folder.mdx)  :badge[mutation]<Bullet />[`CreateProjectInput`](/types/inputs/create-project-input.mdx)  :badge[input]<Bullet />[`folder`](/operations/queries/folder.mdx)  :badge[query]<Bullet />[`Folder`](/types/objects/folder.mdx)  :badge[object]<Bullet />[`folderCreated`](/operations/subscriptions/folder-created.mdx)  :badge[subscription]<Bullet />[`LegacyProject`](/types/objects/legacy-project.mdx)  :badge[object]<Bullet />[`Node`](/types/interfaces/node.mdx)  :badge[interface]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`projectChanged`](/operations/subscriptions/project-changed.mdx)  :badge[subscription]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/scalars/id.md)
 
 <!-- Source: /types/scalars/int -->
 
@@ -1098,6 +1166,8 @@ scalar Int
 
 [`folders`](/operations/queries/folders.mdx)  :badge[query]<Bullet />[`ProjectConnection`](/types/objects/project-connection.mdx)  :badge[object]<Bullet />[`projects`](/operations/queries/projects.mdx)  :badge[query]
 
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/scalars/int.md)
+
 <!-- Source: /types/scalars/string -->
 
 # String
@@ -1111,6 +1181,8 @@ scalar String
 ## Member Of
 
 [`createFolder`](/operations/mutations/create-folder.mdx)  :badge[mutation]<Bullet />[`CreateProjectInput`](/types/inputs/create-project-input.mdx)  :badge[input]<Bullet />[`deprecated`](/types/directives/deprecated.mdx)  :badge[directive]<Bullet />[`deprecatedType`](/types/directives/deprecated-type.mdx)  :badge[directive]<Bullet />[`example`](/types/directives/example.mdx)  :badge[directive]<Bullet />[`exampleResponse`](/types/directives/example-response.mdx)  :badge[directive]<Bullet />[`exampleVariables`](/types/directives/example-variables.mdx)  :badge[directive]<Bullet />[`Folder`](/types/objects/folder.mdx)  :badge[object]<Bullet />[`LegacyProject`](/types/objects/legacy-project.mdx)  :badge[object]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`search`](/operations/queries/search.mdx)  :badge[query]<Bullet />[`specifiedBy`](/types/directives/specified-by.mdx)  :badge[directive]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/scalars/string.md)
 
 <!-- Source: /types/unions/search-result -->
 
@@ -1139,6 +1211,8 @@ A workspace member who owns and collaborates on projects.
 ## Returned By
 
 [`search`](/operations/queries/search.mdx)  :badge[query]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/unions/search-result.md)
 
 <!-- Source: / -->
 

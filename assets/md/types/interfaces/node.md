@@ -23,3 +23,5 @@ The globally unique identifier for this resource.
 ## Implemented By
 
 [`Folder`](/types/objects/folder.mdx)  :badge[object]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`User`](/types/objects/user.mdx)  :badge[object]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/interfaces/node.md)

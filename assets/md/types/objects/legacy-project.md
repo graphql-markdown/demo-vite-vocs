@@ -1,6 +1,12 @@
 # LegacyProject
 
+:badge[deprecated]
+
 Use Project instead for active workspace work.
+
+:::warning[Deprecated]
+Replaced by [`Project`](/types/objects/project.mdx) to support ownership and lifecycle status.
+:::
 
 ```graphql
 type LegacyProject {
@@ -24,3 +30,5 @@ The legacy project name.
 ```graphql
 {}
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/legacy-project.md)

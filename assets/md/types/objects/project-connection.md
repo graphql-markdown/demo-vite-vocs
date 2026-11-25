@@ -41,3 +41,5 @@ The total number of projects matching the query.
 ## Returned By
 
 [`projects`](/operations/queries/projects.mdx)  :badge[query]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/project-connection.md)

@@ -57,3 +57,5 @@ A globally unique entity identifier.
 ## Implemented By
 
 [`SearchResult`](/types/unions/search-result.mdx)  :badge[union]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/folder.md)

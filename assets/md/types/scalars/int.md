@@ -9,3 +9,5 @@ scalar Int
 ## Member Of
 
 [`folders`](/operations/queries/folders.mdx)  :badge[query]<Bullet />[`ProjectConnection`](/types/objects/project-connection.mdx)  :badge[object]<Bullet />[`projects`](/operations/queries/projects.mdx)  :badge[query]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/scalars/int.md)

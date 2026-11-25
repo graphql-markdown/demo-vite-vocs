@@ -27,3 +27,5 @@ The project was archived.
 ## Member Of
 
 [`projectChanged`](/operations/subscriptions/project-changed.mdx)  :badge[subscription]<Bullet />[`ProjectEvent`](/types/objects/project-event.mdx)  :badge[object]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/enums/project-event-type.md)

@@ -35,3 +35,5 @@ mutation CreateProject($input: CreateProjectInput!) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/mutations/create-project.md)

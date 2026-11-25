@@ -27,3 +27,5 @@ The project is retained for history and no longer active.
 ## Member Of
 
 [`CreateProjectInput`](/types/inputs/create-project-input.mdx)  :badge[input]<Bullet />[`Project`](/types/objects/project.mdx)  :badge[object]<Bullet />[`projects`](/operations/queries/projects.mdx)  :badge[query]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/enums/project-status.md)

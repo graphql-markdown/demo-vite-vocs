@@ -43,7 +43,7 @@ When the project was last updated.
 ### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">Project</code>.<code className="gqlmd-mdx-entity-name">state</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">String</code></span>](/types/scalars/string.mdx) :badge[deprecated]{warning} :badge[scalar]
 
 :::warning[DEPRECATED]
-Replaced by the `ProjectStatus` enum on status.
+Replaced by the [`ProjectStatus`](/types/enums/project-status.mdx) enum on status.
 :::
 
 The project's lifecycle stage.
@@ -80,3 +80,5 @@ A globally unique entity identifier.
 ## Implemented By
 
 [`SearchResult`](/types/unions/search-result.mdx)  :badge[union]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/project.md)

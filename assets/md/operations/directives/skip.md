@@ -16,3 +16,5 @@ directive @skip(
 ### <span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-parent">skip</code>.<code className="gqlmd-mdx-entity-name">if</code></span><Bullet />[<span className="gqlmd-mdx-entity"><code className="gqlmd-mdx-entity-name">Boolean!</code></span>](/types/scalars/boolean.mdx) :badge[non-null] :badge[scalar]
 
 Skipped when true.
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/directives/skip.md)

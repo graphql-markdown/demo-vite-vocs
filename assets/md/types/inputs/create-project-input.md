@@ -38,3 +38,5 @@ The initial lifecycle stage for the project.
 ## Member Of
 
 [`createProject`](/operations/mutations/create-project.mdx)  :badge[mutation]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/inputs/create-project-input.md)

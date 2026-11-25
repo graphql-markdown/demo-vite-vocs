@@ -46,3 +46,5 @@ When the change occurred.
 ## Returned By
 
 [`projectChanged`](/operations/subscriptions/project-changed.mdx)  :badge[subscription]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/objects/project-event.md)

@@ -9,3 +9,5 @@ scalar Boolean
 ## Member Of
 
 [`include`](/operations/directives/include.mdx)  :badge[directive]<Bullet />[`skip`](/operations/directives/skip.mdx)  :badge[directive]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/scalars/boolean.md)

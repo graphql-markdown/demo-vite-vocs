@@ -35,3 +35,5 @@ mutation CreateFolder($name: String!, $parentId: ID) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/mutations/create-folder.md)

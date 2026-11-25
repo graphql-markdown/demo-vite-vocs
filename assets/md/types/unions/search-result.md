@@ -23,3 +23,5 @@ A workspace member who owns and collaborates on projects.
 ## Returned By
 
 [`search`](/operations/queries/search.mdx)  :badge[query]
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/types/unions/search-result.md)

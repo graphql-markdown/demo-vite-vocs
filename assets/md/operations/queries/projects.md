@@ -42,3 +42,5 @@ query ListActiveProjects($status: ProjectStatus) {
   }
 }
 ```
+
+[View as Markdown](https://graphql-markdown.dev/demo-vite-vocs/operations/queries/projects.md)
