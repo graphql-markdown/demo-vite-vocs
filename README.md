@@ -61,6 +61,11 @@ npm run dev
 
 > 🧑‍🚀 **Edit `graphql.config.msj` to try with your own GraphQL schema.**
 
+## 📄 Markdown copies and deprecation links
+
+- `npm run doc` also generates a plain Markdown copy of every page into `.markdown-copies/` (the `markdown` project of `graphql.config.mjs`, using `lib/markdown-copy.mjs`). `npm run build` copies them into `dist/public`, so each page has a `.md` next to it, e.g. `/demo-vite-vocs/types/objects/project.md`. Each page links to its copy with a "View as Markdown" link added by `lib/formatter.mjs`.
+- `lib/formatter.mjs` also links the type names written as inline code in deprecation reasons to their pages, following the [deprecation links recipe](https://graphql-markdown.dev/docs/customize/hooks#link-entities-in-deprecation-reasons).
+
 ## 👀 Want to learn more?
 
 Check out [GraphQL-Markdown's docs](https://graphql-markdown.dev/).
