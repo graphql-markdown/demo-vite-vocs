@@ -1,3 +1,8 @@
+import {
+  directiveOccurrence,
+  hasDirectiveNamed,
+} from "@graphql-markdown/graphql";
+
 const SCHEMA =
   "https://raw.githubusercontent.com/graphql-markdown/graphql-markdown/main/tests/e2e/__data__/demo_schema.graphql";
 const local = (path) => new URL(path, import.meta.url).href;
@@ -9,6 +14,32 @@ const loaders = {
 };
 const printTypeOptions = {
   typeBadges: true,
+};
+const decorators = {
+  // Mirrors the built-in `@deprecated` treatment (badge + callout) for the
+  // type-level `@deprecatedType` directive, which the spec doesn't allow
+  // `@deprecated` to target.
+  deprecatedTypeTag: {
+    predicate: hasDirectiveNamed("deprecatedType"),
+    position: { into: "tags" },
+    render: (_values, options) =>
+      options.formatMDXBadge({ text: "deprecated" }),
+  },
+  deprecatedTypeNotice: {
+    predicate: hasDirectiveNamed("deprecatedType"),
+    position: { into: "description" },
+    resolve: directiveOccurrence("deprecatedType"),
+    render: ([value], options) =>
+      options.formatMDXAdmonition(
+        // Vocs directives (`:::warning`) need blank lines around their content.
+        {
+          text: `\n\n${value.reason}\n\n`,
+          title: "Deprecated",
+          type: "warning",
+        },
+        options.meta,
+      ),
+  },
 };
 
 export default {
@@ -22,6 +53,7 @@ export default {
           linkRoot: "/",
           loaders,
           printTypeOptions,
+          decorators,
           docOptions: {
             frontMatter: {
               showOutline: false,
@@ -45,6 +77,7 @@ export default {
           // Same content settings as the pages
           loaders,
           printTypeOptions,
+          decorators,
           // A folder used only for the copies
           rootPath: "./.markdown-copies",
           // Same as the pages, so a copy has the path of its page

@@ -65,6 +65,7 @@ npm run dev
 
 - `npm run doc` also generates a plain Markdown copy of every page into `.markdown-copies/` (the `markdown` project of `graphql.config.mjs`, using `lib/markdown-copy.mjs`). `npm run build` copies them into `dist/public`, so each page has a `.md` next to it, e.g. `/demo-vite-vocs/types/objects/project.md`. Each page links to its copy with a "View as Markdown" link added by `lib/formatter.mjs`.
 - `lib/formatter.mjs` also links the type names written as inline code in deprecation reasons to their pages, following the [deprecation links recipe](https://graphql-markdown.dev/docs/customize/hooks#link-entities-in-deprecation-reasons).
+- The type-level `@deprecatedType` directive on `LegacyProject` renders a "Deprecated" badge and notice on its page and in its Markdown copy, through the `deprecatedTypeTag` and `deprecatedTypeNotice` decorators in `graphql.config.mjs`.
 
 ## 👀 Want to learn more?
 
